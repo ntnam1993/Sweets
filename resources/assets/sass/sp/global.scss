@@ -1,0 +1,373 @@
+.menu-li-overflow {
+  li {
+    a {
+      white-space: nowrap;
+      padding-right: 30px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.error404, .error500 {
+  h3 a.showMenu {
+    margin-bottom: 10px;
+    margin-right: -2px;
+  }
+
+  .logout-header .pad-15 a.login-menu {
+    top: -8px;
+    right: -5px;
+  }
+}
+
+
+#coupon_wrap header {
+    padding: 0;
+    height: auto;
+    background: none;
+    border-bottom: 0;
+    h1 {
+      text-align: left;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+}
+
+.mar-top-57 {
+  margin-top: 57px;
+}
+.mar-left-0 {
+  margin-left: 0 !important;
+}
+.red-message {
+  color: #FF0000;
+}
+
+.top-page-sp .header-sp {
+  .hdr_nav .coupon a{
+    background: url("../images/img/coupon.png") no-repeat top 4px center;
+    background-size: 70%;
+    padding: 34px 2% 0 0;
+    color: #cb141a;
+    font-size: 0.64em;
+  }
+
+  .hdr_nav .login a {
+    background: url("../images/img/login.png") no-repeat top right 75%;
+    background-size: 63%;
+    padding: 29px 0px 0;
+    margin-right:2%;
+    color:#cb141a;
+    font-size: 0.64em;
+  }
+
+ .hdr_nav .sMenu a{
+    background: url("../images/img/menu.png") no-repeat top 4px center;
+    background-size: 65%;
+    padding: 28px 0 0;
+    color: #cb141a;
+    font-size: 0.64em;
+  }
+     #epark_common_header .epark_common_header_menu-cart {
+       background-image: url(../images/img/btn_cart.png);
+       position: relative;
+   }
+  #epark_common_header .epark_common_nav-registry .epark_common_nav-registry-link a{
+    background:url(../images/point.png) left center no-repeat;
+    background-size:3px 5px;
+    padding-left:10px;
+    text-decoration:underline;
+    color:#333;
+  }
+  #badge-container_1 {
+    position: absolute;
+    top: -3px;
+    left: 28px;
+    width: 10px;
+    height: 10px;
+    letter-spacing: normal;
+  }
+  #epark_common_header .epark_common_header_menu-login {
+  background-image: url(../images/img/btn_login.png);
+  }
+
+  #epark_common_header .epark_common_header_menu-history {
+    background-image: url(../images/img/btn_history.png)
+  }
+
+  #epark_common_header .epark_common_header_menu-coupon {
+    background-image: url(../images/img/btn_coupon.png);
+  }
+
+  #epark_common_header .epark_common_header_menu-mymenu {
+    background-image: url(../images/img/btn_menu.png);
+    letter-spacing:-.2em!important;
+  }
+
+  #epark_common_groupheader {
+    width: 100%;
+    color: #fff;
+    font-size: 0.6em;
+    padding: 5px 24px 5px 5px;
+    box-sizing: border-box;
+    background: url(../images/img/icons-expand-arrow_close.png) right 5px center no-repeat #444;
+    background-size: 13px 7px;
+  }
+
+  #epark_common_groupheader:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #epark_common_groupheader.active {
+    z-index: 99999;
+    position: fixed;
+    background: url(../images/img/icons-expand-arrow_open.png) right 5px center no-repeat #444;
+    background-size: 13px 7px;
+  }
+}
+
+.top-page-sp .footer-common .epark_common_footer_pagetop a{
+  color:#333;
+  background-image:url("../images/img/common_footer_expand-arrow.png");
+  background-repeat:no-repeat;
+  background-size:17px 9px;
+  background-position:center 0;
+  display:block;
+  padding:15px 0 0;
+}
+
+
+.header-sp header .h_back a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: 21%;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #916a41;
+  border-right: 2px solid #916a41;
+  transform: rotate(-135deg);
+}
+
+div.header-sp + .red-bar, div.header-sp + .banner-after-header {
+  position: relative;
+}
+
+div.header-sp + .form-h1-entry {
+  margin-top: -19px !important;
+  position: relative;
+}
+
+.coupon-SP {
+  .contents.after-header {
+    margin-top: -19px;
+    position: relative;
+  }
+  .content {
+    margin-top: -19px;
+    position: relative;
+  }
+}
+.errors-sp .after-header {
+  margin-top: -19px !important;
+  position: relative;
+}
+.reservation-sp {
+  .reviewBtn {
+    clear: both;
+    text-align: right;
+    padding-top: 8px;
+  }
+
+  .reviewBtn a {
+  display: inline-block;
+  background: #cb141a url('../mobile/images/img/review_w.png') no-repeat center left 10px;
+  background-size: 18px;
+  color: #fff;
+  padding: 10px 10px 10px 35px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  }
+  .mar-bot-10p-x {
+    margin-bottom: 0;
+  }
+  .red_title span {
+    padding-left: 0.5em;
+  }
+  p.ch-name-2 {
+    padding: 11px 0 3px 2.5em;
+  }
+  div.div-wp-cont {
+    margin-top: 0;
+    border: 1px solid #af9274;
+    padding: 15px;
+  }
+}
+
+.shop-summary.css-new {
+  .info .request_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #f7f6f2;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .info .request_btn a{
+    display: block;
+    background: #916a41;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: 4px 0 10px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 5px;
+  }
+
+  .info .request_btn a span.req_img{
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../../../../assets/mobile/images/request_w.png) no-repeat;
+    background-size: 20px;
+    position: relative;
+    top: 6px;
+    right: 6px;
+  }
+
+
+  .info .request_btn a span.count{
+    display: inline-block;
+    color: #cb141a;
+    background: #fff;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 1px 5px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 1px;
+    left: 6px;
+  }
+
+  .info .request_btn p{
+      font-size: 0.85em;
+      text-align: left;
+  }
+
+  .info .request_btn.settled a{
+    background:#dfd7cc;
+  }
+}
+
+.top-page-sp {
+  .content-display-sp #slider {
+    top: 100px;
+  }
+  .sp-container {
+    top: 110px;
+  }
+  .content-display-sp .bg-opacity {
+    top: 233px;
+  }
+}
+
+.top-page-sp.is-login .red-bar {
+  margin-top: 0px!important;
+}
+
+.top-page-sp.is-login .content-display-sp #slider {
+  top:148px;
+}
+
+.top-page-sp.is-login .sp-container {
+  top:155px;
+}
+
+.top-page-sp.is-login .content-display-sp .bg-opacity {
+  top:280px;
+}
+
+.top-page-sp.is-login .footer-common {
+  margin-top: 155px;
+}
+
+span.nearest-station span:after {
+  content: ' \/ ';
+}
+
+span.nearest-station span:last-child:after {
+  content: '';
+}
+
+.epark_common_header_menu-coupon.menu-badge {
+  #badge-container .badge-bg.oval {
+    height: 14px;
+    background-color: #D91E18;
+    border: solid #D91E18;
+    top: -3px;
+    left: 6px;
+  }
+}
+
+.sp-container .shop-summary {
+  .cashpo_kessai{
+    display:flex;
+      color: #916a41;
+      font-size: 0.9em;
+    margin:10px 0;
+  }
+  .cashpo_icon{
+    background: #dfd7cc;
+      border-radius: 3px;
+      padding: 3px 6px;
+    margin-right:5px;
+  }
+  .kessai_icon{
+    background: #dfd7cc;
+      border-radius: 3px;
+      padding: 3px 6px;
+  }
+}
+.slick-dots li button:focus:before, .slick-dots li button:hover:before{
+  opacity: 0.3;
+}
+.slick-dots li.slick-active button:before, .slick-dots li.slick-active button:hover:before{
+  opacity: 0.75;
+}
+.ul-lists-category{
+  max-height: 48px;
+  overflow: hidden;
+  padding: 5px 13px!important;
+}
+.okiniiri_sp_02 {
+  text-align: right;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  width: 200px;
+  float: left;
+}
+a.okiniiri_btn_sp_02_off {
+  width: 121px;
+  height: 40px;
+  padding: 8px 17px;
+  border: 2px solid #916a41;
+  color: #916a41 !important;
+  border-radius: 5px;
+}
+a.okiniiri_btn_sp_02 {
+  width: 121px;
+  height: 40px;
+  padding: 8px 10px;
+  background: #916a41 !important;
+  border: 2px solid #916a41;
+  color: #fff !important;
+  border-radius: 5px;
+}

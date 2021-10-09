@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* =================== 共通 =================== */
+
+/*ヘッダーPC*/
+.common_header{
+    max-width: 960px;
+    margin: 0 auto;
+	  position: relative;
+    padding: 30px 0 5px;
+    text-align: left;
+
+}
+
+.common_header .h_logo{
+    display: inline-block;
+
+}
+
+.common_header .h_logo .to_top{
+	display: inline-block;
+}
+
+.common_header .coment{
+    vertical-align: top;
+    margin-left: 13px;
+    width: 55%;
+    height: auto;
+}
+
+.common_header .to_ecsite {
+    display: inline-block;
+    border: solid 1px #d0d0d0;
+    border-radius: 5px;
+    padding: 6px 10px 6px 14px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+		font-size: 14px;
+    color: #333;
+    line-height: 1;
+}
+
+.common_header .to_ecsite::after {
+    content: "";
+    display: inline-block;
+    background: url(../images/cakesearch_arrow.png) no-repeat;
+    background-size: 100%;
+    width: 6px;
+    height: 9px;
+    margin-left: 10px;
+}
+
+.common_header .menu_list{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.common_header .menu_list li{
+	display: inline-block;
+	border-right: solid 1px #d8d8d8;
+	padding: 0 20px;
+    position: relative;
+}
+
+.common_header .menu_list li.mobile{
+	display: none;
+}
+
+
+.common_header .menu_list li:last-child{
+	border-right: none;
+	padding-right: 0;
+}
+
+.common_header .menu_list li a{
+	background: 0 0;
+    padding: 0;
+    font-size: 15px;
+    color: #cb141a;
+    font-weight: 700;
+	  text-decoration: none;
+	  display: inline-block;
+}
+.common_header .menu_list li a p {
+  color: #333;
+}
+.common_header .menu_list li .coupon-list-btn span{
+    left: 100% !important;
+    font-weight: bold;
+    top: -8px!important;
+    line-height: 1;
+    word-break: normal;
+}
+.common_header .menu_list li .innerCart{
+    position: absolute;
+    left: 87px;
+    background-color: #D91E18;
+    color: #fff;
+    font-size: 10px;
+    padding: 1px 3px;
+    border-radius: 50%;
+    top: -8px;
+    line-height: 1;
+}
+.common_header .menu_list li .innercampaign{
+    position: absolute;
+    left: 32px;
+    background-color: #D91E18;
+    color: #fff;
+    padding: 1px 4px;
+    font-size: 10px;
+    border-radius: 10px;
+    top: -8px;
+    line-height: 1;
+}
+
+.common_header {
+  .modal_point {
+    background: url(../images/cpcapf_sprite.png) no-repeat;
+    background-size: 70px auto;
+    background-position: 1px 0px;
+    height: 17px;
+    padding-left: 19px;
+    position: absolute;
+    top: 15px;
+    right: 139px;
+    color: #878787;
+    font-weight: bold;
+    font-size: 15px;
+
+    span {
+      color: #107cae;
+      font-weight: bold;
+      border-bottom: 1px solid #107cae;
+      cursor: pointer;
+      margin-left: 3px;
+    }
+  }
+
+  .point_only {
+    z-index: 99;
+    display: none;
+    width: 337px;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    top: 67%;
+    border-radius: 5px;
+    position: absolute;
+    right: -570px;
+    border: 2px solid #eee;
+    left: 0px;
+    text-align: left;
+
+    .review_notice {
+      dd {
+        line-height: 25px;
+        font-size: 14px;
+        padding: 15px;
+        font-weight: bold;
+        color: #787878;
+        border-bottom: 1px solid #787878;
+
+        &:last-child {
+          margin-bottom: 0;
+          border-bottom: none;
+        }
+
+        p {
+          font-weight: bold;
+          color: #787878;
+
+          &.modal_cashpo {
+            background: url(../images/cpcapf_sprite.png) no-repeat;
+            background-size: 70px auto;
+            list-style: none;
+            background-position: 5px 5px;
+            padding-left: 28px;
+            width: 93%;
+
+            span {
+              position: relative;
+              right: -40px;
+
+              a {
+                color: #787878;
+              }
+            }
+          }
+
+          &.point_log {
+            text-align: right;
+
+            a {
+              border-bottom: 1px solid #107cae;
+              color: #107cae;
+            }
+          }
+          &.epoint_get {
+            border: 2px solid #eee;
+            width: 100%;
+            margin: 0 auto;
+            background: url(../images/ex_icon.png) no-repeat;
+            background-size: 15px auto;
+            text-align: center;
+            border-radius: 5px;
+            background-position: 49px 6px;
+            margin-top: 7px;
+
+            a {
+              display: block;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .point_only2 {
+      color: #333;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      line-height: 1rem;
+      left: 100%;
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      border-radius: 5px;
+      text-align: center;
+    }
+  }
+}
+
+
+@media screen and (max-width: 960px){
+
+	.common_header{
+width: 98%;
+}
+}
+
+@media screen and (max-width: 580px){
+
+	.common_header{
+	    padding: 10px 5px 0;
+	}
+
+	.h_logo .coment{
+		display: none;
+	}
+
+	.common_header .menu_list {
+    display: inline-block;
+    float: right;
+    position: initial;
+    right: initial;
+    bottom: initial;
+}
+
+	.common_header .menu_list li{
+		border-right: none;
+		padding: 0 3px;
+		    position: relative;
+	}
+
+	.common_header .menu_list li img.mobile{
+		width: 25px;
+		height: auto;
+		    margin: 0 auto;
+	}
+
+	.common_header .menu_list li.mobile{
+	display: inline-block;
+}
+
+	.common_header .menu_list li.pc{
+	display: none;
+}
+
+	.common_header .menu_list li a {
+    background: 0 0;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+		    color: #888;
+}
+
+	.common_header .menu_list li .innerCart{
+    position: absolute;
+		top: -6px;
+    right: 0;
+		left: initial;
+	}
+}
+
+#epark-global-footer-box a{
+	    color: #936945;
+}

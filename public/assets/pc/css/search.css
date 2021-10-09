@@ -1,0 +1,719 @@
+@charset "utf-8";
+@media all and (-ms-high-contrast: none) {
+  .product-detail .grayout, .productsearch .grayout, .shop-index .grayout, .shopsearch .grayout{
+    opacity: 0.3;
+  }
+}
+
+/* 20180118 shop検索一覧で住所を表示・駅追加 */
+
+
+.shopsearch .shop-data ul li.shop-address {
+  background: url(../images/icon_map.png) top 1px left 3px no-repeat #fff;
+  background-size: 2.4%;
+}
+
+.shopsearch .shop-data ul li.shop-access {
+  background: url(../images/img/train_r.png) top 1px left 3px no-repeat #fff;
+  background-size: 2.4%;
+}
+.productsearch .shop-menu .favorite-button, .productsearch .shop-menu .reserve-button {
+  min-width: 155px !important;
+  max-width: 155px !important;
+}
+.productsearch .shop-menu .favorite-button{
+  padding: 8px 16px 8px 33px;
+  background: url(https://sweetsguide.jp/docs/assets/img/heart_02.png) top 11px left 18px no-repeat #fff;
+  background-size: 10%;
+  border:#916a41 2px solid;
+}
+.productsearch .shop-menu .favorite-button{
+  display: inline-block;
+  position: relative;
+  min-width: 155px;
+  max-width: 155px;
+  border-radius: 4px;
+  color: #916a41;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.productsearch .shop-menu .completed{
+  display: inline-block;
+  position: relative;
+  min-width: 155px;
+  max-width: 155px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.productsearch .shop-menu .completed {
+  padding: 8px 16px 8px 33px;
+  background: url(https://sweetsguide.jp/docs/assets/img/heart.png) top 11px left 18px no-repeat #916a41;
+  background-size: 10%;
+}
+.shopsearch .shoplist-item .shop-menu .request_btn_after {
+  position: relative;
+  min-width: 168px;
+  max-width: 168px;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+}
+.shopsearch .shoplist-item .shop-menu .request_btn_after {
+  padding: 10px 16px 10px 33px;
+  background: url(../images/img/request_w.png) top 12px left 13px no-repeat #916a41;
+  background-size: 9%;
+}
+.shop-menu .request_btn_after a {
+  color: #fff;
+}
+.shopsearch .shoplist-item .shop-menu .request_btn_after span {
+  display: inline-block;
+  background: #fff;
+  color: #cb141a;
+  padding: 2px 3px;
+  border-radius: 4px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+/*20181214 検索ページ修正*/
+
+h2.border_none{
+  border-top:none;
+  padding:0;
+  background: none;
+}
+h3 {
+  margin-top:0 !important;
+  border-bottom:none !important;
+}
+div.t-h3 {
+  font-size: 18px;
+  color: #916a41;
+  text-align: left;
+  display: block;
+  border-bottom: 3px solid #e0dbcc;
+  padding-bottom: 10px;
+  background: 0 0;
+  border-top: 0;
+  position: relative;
+}
+.shopsearch .shoplist-item .shop-name h2.name {
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  padding: 14px 0;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.shopsearch .list-current h1 {
+  line-height: 18px;
+  padding: 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  height: auto;
+  margin-bottom:0;
+}
+/*新ヘッダーデザインコーディング 20190201*/
+.header-pc .menu_icon li{
+  padding: 0 10px 0 10px !important;
+  border-right: 1px solid #d8d8d8;
+}
+.header-pc .menu_icon li:last-child{
+  border-right:none;
+}
+.header-pc #cart-unread-count{
+  z-index: 1;
+  width: 17px;
+  height: 17px;
+}
+.header-pc .common_header .menu_list li a{
+  color: #333!important;
+}
+a.coupon-list-btn span{
+  font-size: 10px !important;
+  letter-spacing: normal !important;
+  left: 3px !important;
+  padding: 1px 2px 3px !important;
+  position: relative !important;
+  top: -3px !important;
+  pointer-events: none !important;
+  line-height: 1.5 !important;
+  text-align: center !important;
+}
+.header-pc .menu_icon {
+  display: inline-block;
+  list-style: none;
+  width: 420px;
+  height: 20px;
+  float: right;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 15px;
+}
+.header-pc .ec_link {
+  width: 330px;
+  height: 20px;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 627px;
+  top: -4px;
+}
+.header-pc .ec_link a {
+  border: 1px solid #d0d0d0;
+  padding: 6px 22px 6px 14px;
+  border-radius: 5px;
+  color: #000;
+  background: url(../images/arrow.png) no-repeat;
+  background-position: 104px 10px;
+}
+.header-pc .menu_icon li.cart a,.header-pc .menu_icon .rireki a,
+.header-pc .menu_icon .coupon a,.header-pc .menu_icon .mypage a{
+  background:none;
+  padding: 0;
+  font-size: 15px;
+  color: #cb141a;
+  font-weight:bold;
+}
+
+
+/*====================  20190821追記（ネット予約可能）  ====================*/
+
+.shopsearch #search-form .net_reservation{
+  padding-left: 20px;
+  background: url(../images/calendar.png) left center no-repeat;
+  border-bottom: solid 1px #dfd7cc!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.reservation_box{
+  position:relative;
+  margin-bottom: 25px;
+}
+
+.reservation_box label{
+  margin-left: 0;
+}
+
+.reservation_box label span{
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.reservation_box .checkbox01-input{
+  display: none;
+}
+.checkbox01-parts{
+  padding-left: 30px;
+  position:relative;
+  margin-right: 20px;
+}
+.reservation_box .checkbox01-parts::before{
+  width: 18px;
+  height: 18px;
+  content: '';
+  background: #ccc;
+  border-radius: 3px;
+  display: block;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+
+.reservation_box .checkbox01-input:checked + .checkbox01-parts::after{
+  content: "";
+  background: url(../images/contactactive.png) no-repeat;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 6px;
+  width: 18px;
+  height: 18px;
+}
+/*20191108商品店舗アイコン*/
+
+.icon_box{
+  display: flex;
+  width: 333px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.icon_box .cashpo_icon,
+.icon_box .point_icon,
+.icon_box .card_icon,
+.icon_box .shop_icon,
+.modal_text .cashpo_icon,
+.modal_text .point_icon,
+.modal_text .card_icon,
+.modal_text .shop_icon{
+  border-radius: 5px;
+  padding:2px 5px;
+  color:#fff;
+  font-size:12px;
+  font-weight:bold;
+}
+.icon_box .cashpo_icon,
+.modal_text .cashpo_icon
+{
+  background: #90bf36;
+  padding-left: 23px;
+  position: relative;
+}
+.icon_box .cashpo_icon:after,
+.modal_text .cashpo_icon:after{
+  content: '';
+  background: url(../images/img/cashpo_icon.png) no-repeat;
+  background-size: 14px;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+}
+.icon_box .point_icon,
+.modal_text .point_icon{
+  background: #fca204;
+  padding-left: 19px;
+  position: relative;
+}
+.icon_box .point_icon:after,
+.modal_text .point_icon:after{
+  content: '';
+  background: url(../images/img/point_icon.png) no-repeat;
+  background-size: 13px;
+  display: inline-block;
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  width: 13px;
+  height: 13px;
+}
+.grayout{
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -ms-filter:grayscale(100%)!important;
+  filter:grayscale(100%)!important;
+}
+.icon_box .card_icon,
+.modal_text .card_icon{
+  background:#ce9b01;
+  line-height: 1.5 !important;
+  text-align: center !important;
+}
+.header-pc .menu_icon {
+  display: inline-block;
+  list-style: none;
+  width: 420px;
+  height: 20px;
+  float: right;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 15px;
+}
+.header-pc .ec_link {
+  width: 330px;
+  height: 20px;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 627px;
+  top: -4px;
+}
+.header-pc .ec_link a {
+  border: 1px solid #d0d0d0;
+  padding: 6px 22px 6px 14px;
+  border-radius: 5px;
+  color: #000;
+  background: url(../images/arrow.png) no-repeat;
+  background-position: 104px 10px;
+}
+.header-pc .menu_icon li.cart a,.header-pc .menu_icon .rireki a,
+.header-pc .menu_icon .coupon a,.header-pc .menu_icon .mypage a{
+  background:none;
+  padding: 0;
+  font-size: 15px;
+  color: #cb141a;
+  font-weight:bold;
+}
+
+
+/*====================  20190821追記（ネット予約可能）  ====================*/
+
+.shopsearch #search-form .net_reservation{
+  padding-left: 20px;
+  background: url(../images/calendar.png) left center no-repeat;
+  border-bottom: solid 1px #dfd7cc!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.reservation_box{
+  position:relative;
+  margin-bottom: 25px;
+}
+
+.reservation_box label{
+  margin-left: 0;
+}
+
+.reservation_box label span{
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.reservation_box .checkbox01-input{
+  display: none;
+}
+.checkbox01-parts{
+  padding-left: 30px;
+  position:relative;
+  margin-right: 20px;
+}
+.reservation_box .checkbox01-parts::before{
+  width: 18px;
+  height: 18px;
+  content: '';
+  background: #ccc;
+  border-radius: 3px;
+  display: block;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+
+.reservation_box .checkbox01-input:checked + .checkbox01-parts::after{
+  content: "";
+  background: url(../images/contactactive.png) no-repeat;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 6px;
+  width: 18px;
+  height: 18px;
+}
+/*20191108商品店舗アイコン*/
+
+.icon_box{
+  display: flex;
+  width: 333px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.icon_box .cashpo_icon,
+.icon_box .point_icon,
+.icon_box .card_icon,
+.icon_box .shop_icon,
+.modal_text .cashpo_icon,
+.modal_text .point_icon,
+.modal_text .card_icon,
+.modal_text .shop_icon{
+  border-radius: 5px;
+  padding:2px 5px;
+  color:#fff;
+  font-size:12px;
+  font-weight:bold;
+}
+.icon_box .cashpo_icon,
+.modal_text .cashpo_icon
+{
+  background: #90bf36;
+  padding-left: 23px;
+  position: relative;
+}
+.icon_box .cashpo_icon:after,
+.modal_text .cashpo_icon:after{
+  content: '';
+  background: url(../images/img/cashpo_icon.png) no-repeat;
+  background-size: 14px;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+}
+.icon_box .point_icon,
+.modal_text .point_icon{
+  background: #fca204;
+  padding-left: 19px;
+  position: relative;
+}
+.icon_box .point_icon:after,
+.modal_text .point_icon:after{
+  content: '';
+  background: url(../images/img/point_icon.png) no-repeat;
+  background-size: 13px;
+  display: inline-block;
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  width: 13px;
+  height: 13px;
+}
+.grayout{
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -ms-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.icon_box .card_icon,
+.modal_text .card_icon{
+  background:#ce9b01;
+  display: inline-table;
+}
+.icon_box .shop_icon,
+.modal_text .shop_icon{
+  background:#69bbfb;
+}
+
+
+/*====20191108モーダル====*/
+#modal_detail:hover{
+  cursor:pointer;
+}
+.modal_box{
+.icon_box .shop_icon,
+.modal_text .shop_icon{
+  background:#69bbfb;
+}
+
+
+
+
+/*====20191209検索リニューアル====*/
+
+/*共通*/
+
+h2 {
+  border-top:none;
+}
+h4{
+  margin-top:20px;
+}
+.pad-10-6 {
+  padding: 5px 6px!important;
+}
+.shopsearch #search-form .p-tt-s-2 {
+  padding-left: 20px;
+  background: url(../images/cake_icon.png) left center no-repeat;
+}
+.shopsearch #search-form .p-tt-s {
+  font-weight: 700;
+}
+.a-area, .p-tt-date, .p-tt-s {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+.productsearch .div-rel {
+  position: relative;
+  cursor: pointer;
+}
+.searchbox_area{
+  border:1px solid #c0b7a8;
+  border-top:none;
+}
+
+.shopsearch #search-form {
+  border-radius: 5px;
+  padding: 15px 10px;
+  border:none;
+
+}
+
+.shopsearch #search-form .a-area {
+  background: url(https://sweetsguide.jp/build/assets/pc/images/bl.png) right 10px center no-repeat #ffecd7;
+  color: #916a41;
+  padding: 3px 5px;
+  height:auto;
+}
+.shopsearch #search-form {
+  padding:0;
+}
+.shopsearch #search-form .a-area {
+  margin: 0 auto;
+}
+.h-input-freeword {
+  width: 100%;
+}
+.shopsearch #search-form h3.p-tt-s-3 {
+  border-bottom: 1px solid #c7af97 !important;
+}
+.search_btn{
+  margin-bottom:10px;
+}
+.search_btn a{
+  width:95%;
+  margin:0 auto;
+}
+.shopsearch .reservation_box {
+  width: 95%;
+  margin: 0 auto;
+}
+.shopsearch #search-form .search_btn .a-link-submit {
+  background: url(https://sweetsguide.jp/build/assets/pc/images/bl.png) right 10px center no-repeat #916a41;
+  color: #fff;
+}
+.shopsearch #search-form .p-tt-s-4.joken {
+  padding-left: 20px;
+  background: url(../images/joken_icon.png) left center no-repeat !important;
+  border-bottom: none!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.shopsearch #search-form .p-tt-s-4.free_word {
+  padding-left: 20px;
+  background: url(../images/search_icon.png) left center no-repeat !important;
+  border-bottom: none!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.productsearch #search-form h3.p-tt-s-3 {
+  border-bottom: 1px solid #000 !important;
+}
+.productsearch .reservation_box {
+  width: 95%;
+  margin: 0 auto;
+}
+.productsearch #search-form .search_btn .a-link-submit {
+  background: url(https://sweetsguide.jp/build/assets/pc/images/bl.png) right 10px center no-repeat #916a41;
+  color: #fff;
+}
+.productsearch #search-form .p-tt-s-4.joken {
+  padding-left: 20px;
+  background: url(../images/joken_icon.png) left center no-repeat !important;
+  border-bottom: none!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.productsearch #search-form .p-tt-s-4.free_word {
+  padding-left: 20px;
+  background: url(../images/search_icon.png) left center no-repeat !important;
+  border-bottom: none!important;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.modal_change {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.modal_change .step_flow_contents,
+.modal_change .q_and_a_contents {
+  cursor: pointer;
+  color: #c0b7a8;
+  font-size: 14px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+  border:1px solid #c0b7a8;
+  border-top: 4px solid #c0b7a8;
+  padding: 10px 0px 25px;
+
+}
+.modal_change .step_flow_contents{
+  border-left:none;
+}
+.modal_change .q_and_a_contents{
+  border-right:none;
+}
+.modal_change .step_flow_contents{
+  padding-left: 20px;
+  background: url(../images/shop_btn_icon_off.png) left center no-repeat;
+  background-position: 29px 11px;
+  position: relative;
+}
+.modal_change .q_and_a_contents{
+  padding-left: 20px;
+  background: url(../images/item_btn_icon_off.png) left center no-repeat;
+  background-position: 15px 11px;
+  position:relative;
+}
+.modal_change .step_flow_contents:before,
+.modal_change .q_and_a_contents:before{
+  content: '';
+  background: url(../images/arrow_off.png) left center no-repeat;
+  display: block;
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  top: 21px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.modal_change .step_flow_contents.active{
+  color:#000;
+  background: url(../images/shop_btn_icon.png) left center no-repeat;
+  background-position: 29px 11px;
+  border:none;
+  border-top:4px solid #cb141a;
+}
+.modal_change .q_and_a_contents.active{
+
+  color:#000;
+  background: url(../images/item_btn_icon.png) left center no-repeat;
+  background-position: 15px 11px;
+  border:none;
+  border-top:4px solid #cb141a;
+}
+.modal_change .step_flow_contents.active:before,
+.modal_change .q_and_a_contents.active:before{
+.t-li1 table tr:nth-child(11), .t-li2 table.table-li2 tr:nth-child(11) {
+  border-bottom:none;
+}
+.t-li1 table tr td a, .t-li2 table.table-li2 tr td a {
+  display: inline-block;
+  color: #4fa9fa;
+  text-decoration: underline;
+  font-size: 12px;
+  margin: 0 9px 4px;
+}
+
+/*20200129*/
+.clear_both{
+  clear: both;
+}
+.cake_chack {
+  font-size: 14px;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  border-radius: 5px;
+  margin: 11px auto;
+}
+.cake_chack a{
+  display: block;
+  padding: 10px 0;
+  color: #77471b;
+}
+@media all and (-ms-high-contrast: none) {
+  .product-detail .grayout, .productsearch .grayout, .shop-index .grayout, .shopsearch .grayout{
+    opacity: 0.3!important;
+  }
+}

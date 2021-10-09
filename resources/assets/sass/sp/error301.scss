@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p-button.p-button-whiteback a{
+	color: #826444!important;
+}
+
+.end_error_sentence{
+	margin: 200px auto;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ddd;
+
+}
+
+.end_error_sentence img{
+	padding: 0 10px 10px;
+}
+
+@media screen and (max-width:414px) {
+.end_error{
+	padding: 50px 10px;
+	text-align: center;
+}
+.end_error .end_error_sentence{
+	color: #ddd;
+	font-weight:bold;
+	font-size: 15px;
+	margin: 0 auto;
+    padding-top: 10px;
+}
+}

@@ -1,0 +1,24 @@
+/var/www/html/sweets/shared/storage/logs/exception.log
+/var/www/html/sweets/shared/storage/logs/laravel.log
+/var/www/html/sweets/shared/storage/logs/reservation.log {
+    weekly
+    missingok
+    rotate 24
+    compress
+    notifempty
+    create 777 neolab apache
+    postrotate
+	/sbin/service httpd reload > /dev/null 2>/dev/null || true
+    endscript
+}
+/var/www/html/sweets/shared/storage/logs/call_api.log {
+    weekly
+    missingok
+    rotate 5
+    compress
+    notifempty
+    create 777 neolab apache
+    postrotate
+	/sbin/service httpd reload > /dev/null 2>/dev/null || true
+    endscript
+}

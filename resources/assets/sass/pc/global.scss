@@ -1,0 +1,130 @@
+header {
+  border-bottom: none;
+  padding: 1px 10px;
+}
+body {
+  border-top: none !important;
+}
+
+/* coupon */
+#coupon_wrap header {
+    position: relative;
+    min-width: 590px;
+    background: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+#coupon_wrap header div.cancel {
+    padding: 13px 10px 10px !important;
+    width: 90px !important;
+  top: 5px !important;
+  }
+
+#coupon_wrap header div.cancel .text_cancel{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    position: relative;
+    bottom: 1px;
+}
+
+iframe#coupon_frame{
+    height: 360px !important;
+}
+header{
+  height: 90px!important;
+}
+
+.reservation-pc {
+  div.summary .reviewBtn a {
+    display: inline-block;
+    background: #cb141a url('../pc/images/img/review_w.png') no-repeat center left 15px;
+    background-size: 18px;
+    color: #fff;
+    padding: 10px 15px 10px 40px;
+    border-radius: 4px;
+    font-size: 13px;
+    position: absolute;
+    top: 1px;
+    right: 0;
+  }
+
+  div.summary {
+    position: relative;
+    padding-bottom: 0;
+    border-bottom: 0;
+    overflow: hidden;
+  }
+
+  div.review-footer {
+    position: relative;
+    right: 0;
+    margin-top: 5px;
+  }
+  div.reviews {
+    padding: 0;
+  }
+
+  div.item-detil h3.reservation_title {
+    background: url('../pc/images/img/reserve.png') no-repeat top 3px left;
+    background-size: 22px;
+  }
+  div.item-detil h3 {
+    color: #cb141a;
+    font-size: 16px;
+    overflow: hidden;
+    margin: 0 0 15px 0 !important;
+    padding: 5px 0 10px 27px;
+  }
+  div.item-detil {
+    overflow: visible;
+    margin-bottom: 25px;
+    margin-top: -20px;
+  }
+  div.item-detil h3.reservation_title span {
+    color: #000000;
+    font-size: 14px;
+  }
+  div.item-detil ul li {
+    height: 39px;
+  }
+  div.pc-content {
+    overflow: visible;
+  }
+  div.pc-container {
+    display: block;
+    margin-top: 0;
+  }
+  div.pc-container .col_left {
+    display: inline-block;
+  }
+  div.pc-container .col_right {
+    display: inline-block;
+    width: 77%;
+  }
+}
+
+.header-pc header {
+  height: 92px !important;
+}
+
+span.nearest-station span:after {
+  content: ' \/ ';
+}
+
+span.nearest-station span:last-child:after {
+  content: '';
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+}
+.ul-lists-category{
+  max-height: 50px;
+  overflow: hidden;
+  padding: 6px 15px!important;
+}

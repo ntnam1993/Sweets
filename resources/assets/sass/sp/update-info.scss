@@ -1,0 +1,522 @@
+@charset "utf-8";
+/* CSS Document */
+.mar-bot-10 {
+  margin-bottom: 0!important;
+}
+
+.ch-name-2 {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  background: #ffffff url(../img/user.png) no-repeat top 11px left 0.7em;
+  background-size: 6%;
+  margin: 0;
+  text-align: left;
+  padding: 11px 0 11px 2.5em;
+  font-size: 1.2em;
+  color: #916a41;
+}
+
+.mar-bot-10p-x {
+  margin-bottom: 0;
+}
+
+.pageTitle p{
+  display: block;
+  width: 100%;
+  background: #dfd7cc;
+  padding: 13px 0 13px 2em;
+  font-weight: bold;
+  color: #404040;
+}
+
+.ch-list-item-mp-01:first-child{
+  margin-top:15px;
+}
+
+/* それぞれのtitle */
+.red_title {
+  padding: 15px 3.1em;
+  text-align: left;
+  font-size: 1em;
+}
+
+.red_title span{
+  padding-left: 0.5em;
+}
+
+.red_title.reserve_title{
+  background: #ca1419 url(../img/reserve_w.png) no-repeat top 50% left 1.1em;
+  background-size: 5.6%;
+}
+
+.red_title.reading_title{
+  background: #ca1419 url(../img/history_w.png) no-repeat top 50% left 1.1em;
+  background-size: 5%;
+}
+
+.red_title.favorite_title{
+  background: #ca1419 url(../img/favorite_w.png) no-repeat top 50% left 1.1em;
+  background-size: 5%;
+}
+
+.red_title.review_title{
+  background: #ca1419 url(../img/review_w.png) no-repeat top 50% left 1.1em;
+  background-size: 5%;
+}
+
+.red_title.info_title{
+  background: #ca1419 url(../img/user_w.png) no-repeat top 50% left 1.1em;
+  background-size: 5%;
+}
+
+.red_title.delivery_title{
+  background: #ca1419 url(../img/delivery_w.png) no-repeat top 50% left 1em;
+  background-size: 5.8%;
+}
+
+.red_title.purchase_title{
+  background: #ca1419 url(../img/cart_w.png) no-repeat top 50% left 1em;
+  background-size: 5.5%;
+}
+
+
+/* paging */
+.paging {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.paging .controls {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* footer共通ナビ */
+.foot_nav{
+  background:#dcdcdc;
+  margin-top: 30px;
+}
+
+.foot_nav a {
+  display: block;
+  position: relative;
+  padding: 13px 0 13px 0;
+  color: #000000;
+  text-decoration: none;
+}
+
+.foot_nav a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 4.6875%;
+  top: 45%;
+  width: 15px;
+  height: 15px;
+  margin-top: -4px;
+  border-top: 4px solid #916a41;
+  border-right: 4px solid #916a41;
+  transform: rotate(45deg);
+}
+
+.foot_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot_nav li {
+  border-top: 1px solid #916a41;
+  background: #dfd7cc;
+}
+
+
+.foot_nav li:last-child{
+  border-bottom: 1px solid #916a41;
+}
+
+.foot_nav > ul > li > a {
+  color: #916a41;
+  font-weight: bold;
+  padding-left: 4em;
+}
+
+.foot_nav > ul > li.fn_reserve{
+  background: #dfd7cc url(../img/reserve_b.png) no-repeat top 50% left 5.5%;
+  background-size: 6.5%;
+}
+.foot_nav > ul > li.fn_reserve.current{
+  background: #cb141a url(../img/reserve_w.png) no-repeat top 50% left 5.5%;
+  background-size: 6.5%;
+}
+.foot_nav > ul > li.fn_reserve.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_reserve.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_reading{
+  background: #dfd7cc url(../img/history_b.png) no-repeat top 50% left 5%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_reading.current{
+  background: #cb141a url(../img/history_w.png) no-repeat top 50% left 5%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_reading.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_reading.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_favorite{
+  background: #dfd7cc url(../img/favorite_b.png) no-repeat top 50% left 5.5%;
+  background-size: 5.3%;
+}
+.foot_nav > ul > li.fn_favorite.current{
+  background: #cb141a url(../img/favorite_w.png) no-repeat top 50% left 5.5%;
+  background-size: 5.3%;
+}
+.foot_nav > ul > li.fn_favorite.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_favorite.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_review{
+  background: #dfd7cc url(../img/review_b.png) no-repeat top 50% left 5.8%;
+  background-size: 5.3%;
+}
+.foot_nav > ul > li.fn_review.current{
+  background: #cb141a url(../img/review_w.png) no-repeat top 50% left 5.8%;
+  background-size: 5.3%;
+}
+.foot_nav > ul > li.fn_review.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_review.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_coupon{
+  background: #dfd7cc url(../img/coupon_b.png) no-repeat top 50% left 5%;
+  background-size: 6.5%;
+}
+.foot_nav > ul > li.fn_coupon.current{
+  background: #cb141a url(../img/coupon_w.png) no-repeat top 50% left 5%;
+  background-size: 6.5%;
+}
+.foot_nav > ul > li.fn_coupon.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_coupon.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_purchase{
+  background: #dfd7cc url(../img/cart_b.png) no-repeat top 50% left 5.2%;
+  background-size: 5.7%;
+}
+.foot_nav > ul > li.fn_purchase.current{
+  background: #cb141a url(../img/cart_w.png) no-repeat top 50% left 5.2%;
+  background-size: 5.7%;
+}
+.foot_nav > ul > li.fn_purchase.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_purchase.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_delivery{
+  background: #dfd7cc url(../img/delivery_b.png) no-repeat top 50% left 5%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_delivery.current{
+  background: #cb141a url(../img/delivery_w.png) no-repeat top 50% left 5%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_delivery.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_delivery.current a:after{
+  border:0;
+}
+
+
+.foot_nav > ul > li.fn_family{
+  background: #dfd7cc url(../img/family.png) no-repeat top 50% left 5.4%;
+  background-size: 6%;
+}
+
+
+.foot_nav > ul > li.fn_info{
+  background: #dfd7cc url(../img/user.png) no-repeat top 50% left 5.4%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_info.current{
+  background: #cb141a url(../img/user_w.png) no-repeat top 50% left 5.4%;
+  background-size: 6%;
+}
+.foot_nav > ul > li.fn_info.current a{
+  color:#ffffff;
+}
+.foot_nav > ul > li.fn_info.current a:after{
+  border:0;
+}
+
+
+/* 登録情報 */
+
+h3.pad-r0{
+  border: 0;
+  margin-top:0 !important;
+  background: #dfd7cc;
+  color: #916a41 !important;
+  width: 100%;
+  padding: 15px;
+  text-align: left !important;
+}
+
+.sp-infomation {
+  width: 100%;
+  padding: 0;
+  display: block;
+  min-height: calc(100vh - 350px);
+}
+
+.sp-infomation .profileTitle,
+.sp-container .profileTitle{
+  font-weight: bold;
+  color: #916a41;
+  padding: 0 0 1% 1em;
+  max-width: 640px;
+  margin: 2% 0 0 !important;
+}
+
+.sp-infomation p:first-child {
+  margin: 0 !important;
+}
+
+
+.sp-infomation .profileDetail {
+  padding: 0 0 1em 1em;
+  max-width: 640px;
+  border-bottom: 1px solid #dfd7cc !important;
+}
+
+.info-button {
+  background: #916a41;
+  color: #ffffff !important;
+  width: 90%;
+  margin: 30px auto 8px;
+  display: block;
+}
+
+.button-area {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.info-button.stop-button {
+  display: inline-block;
+  width: 49%;
+  background: #f3efe9;
+  color: #916a41 !important;
+  margin: 0 auto;
+  border: 3px solid #e4dbce!important;
+}
+
+.info-button.stop-button:nth-child(2){
+  float:right;
+}
+
+
+.sp-container .info-attention{
+  color:#cb141a;
+  font-size: 0.83em;
+}
+
+.sp-container .profileTitle{
+  padding: 0 0 1% 0;
+  margin: 2% 0 0 !important;
+}
+
+.sp-container .attention-mark:after{
+  content:"※";
+  color:#cb141a;
+}
+
+.sp-container td.profileTitle{
+  font-size: 0.85em;
+}
+
+.sp-container div.birth-form {
+  overflow: hidden;
+}
+
+.sp-container div.birth-form div{
+  display: inline-block;
+  width: 50%;
+}
+
+.sp-container div.birth-form select {
+  width: 85%;
+  padding: 15px;
+  border: 1px solid #a8a8a8;
+  border-radius: 3px;
+  background: #ffffff url(../mobile/images/form_sp.png) no-repeat right top;
+  background-size: contain;
+  font-size: 14px;
+  margin-right: 2%;
+}
+
+.sp-container div.birth-form div.birth-year {
+  width: 100%;
+}
+
+.sp-container div.birth-form div.birth-year select{
+  width: 93%;
+  margin-bottom: 3%;
+}
+
+.sp-container div.birth-form div.birth-day {
+  float: right;
+  padding-left: 2%;
+}
+
+
+
+.info-attention-under{
+  display: inline-block;
+  width: 100%;
+  color: #cb141a;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.83em;
+}
+
+.sp-container .info-button {
+  margin: 0 auto !important;
+  border:0;
+  width: 100%;
+}
+
+.sp-container .info-button.new-back {
+  color: #916a41 !important;
+  background: #f3efe9;
+  margin: 10px auto !important;
+  border: 3px solid #e4dbce!important;
+}
+
+/* 閲覧履歴 */
+.ch-list-item-mp-01 .reservation-btn .wp-r{
+  margin-bottom: 10px;
+}
+
+.text-center{
+  clear: both;
+}
+
+/* 口コミ */
+.mp2-datetime:first-child {
+  margin-top: 10px;
+}
+
+/* お届け先 */
+.add_new_delivery {
+  margin-top: 5%;
+}
+
+.return_onlineShop a {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  border-radius: 5px;
+  color: #916a41 !important;
+  background: #f3efe9;
+  border: 3px solid #e4dbce!important;
+}
+
+
+/* お届け先編集 */
+
+
+
+.spDynamicInputPage{
+  width: 100%;
+  padding: 15px 15px 0;
+}
+
+.spBsContentsPaddingBox dl{
+  width:100%;
+}
+
+.spBsContentsPaddingBox dt,
+.spBsContentsPaddingBox dd{
+  width:100%;
+}
+
+.input-right{
+  width: 49%;
+  float: right;
+  display: list-item;
+  list-style: none;
+
+}
+
+.spHeadlineName,
+.font_small{
+  font-weight: bold;
+  color: #916a41;
+  clear: both;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.spPostcode input{
+  width:30%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.spPostcode span {
+  font-size: 2em;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+
+.spPostcode .a-contact-btn {
+  display: inline-block;
+  width: 23%;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+.spButtonAlignment .info-button {
+  margin: 10px auto 30px;
+}
+
+.spButtonAlignment .p-button.new-back {
+  margin: 30px auto 0px!important;
+  color: #916a41 !important;
+  background: #f3efe9;
+  border: 3px solid #e4dbce!important;
+}

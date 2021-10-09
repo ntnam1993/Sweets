@@ -1,0 +1,1317 @@
+@charset "utf-8";
+
+/* 20180125 header調整 */
+
+.header-pc .header-500-center {
+  margin: 0 auto;
+  border: none;
+}
+
+
+/* =====20180125～ top改修===== */
+
+
+/* カラム-サイズ調整 */
+
+.t-block-left {
+  width: 692px;
+  margin-top: 0;
+  margin-right: 18px;
+}
+
+.aside {
+  width: 248px;
+}
+
+
+/* ========== 共通-見出し ========== */
+
+h3.t-h3 {
+  font-size: 15px;
+  color: #916a41;
+  border-bottom: 1px solid #dfd7cc;
+  margin-bottom: 15px;
+}
+
+.t-block-left h3.t-h3 {
+  background: url("../images/edge.png") no-repeat top left;
+  padding-left: 20px;
+}
+
+.aside h3.t-h3 {
+  background: #f3efe9;
+  padding: 15px 20px;
+}
+
+
+/* ========== 共通-枠 ========== */
+
+.content_frame {
+  border: 1px solid #dfd7cc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.content_noframe {
+  padding: 20px 0 0;
+}
+
+
+/* ========== 共通-リンク ========== */
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+/* ========== カルーセルエリア ========== */
+
+.t-carousel {
+  display: block;
+  max-width: 965px;
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  top: -5px;
+}
+
+
+/* ========== カルーセル下　検索フォーム ========== */
+
+.t-conten .ht-form {
+  width: 480px;
+  padding: 0;
+  background: none;
+  margin: 0 auto 20px;
+}
+
+.t-conten .ht-form form {
+  width: 480px;
+  position: relative;
+}
+
+.t-conten .ht-form form div.div-w-form {
+  width: 480px;
+  height: 50px;
+  margin: 0;
+  border: 1px solid #dfd7cc;
+  border-radius: 3px;
+  float: none;
+}
+
+.t-conten .ht-form form div fieldset {
+  width: 420px !important;
+  height: 48px;
+  line-height: 1.2em;
+}
+
+.t-conten .ht-form form div fieldset [type=text] {
+  height: 48px !important;
+  padding-left: 4em;
+  text-align: center;
+}
+
+.t-conten .ht-form form #ht-submit {
+  width: 58px;
+  height: 48px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background: #fff url("../images/search.png") no-repeat center center;
+}
+
+
+/* ========== 左カラム　エリア検索 ========== */
+
+.t-find-sweets-2-new .find-region {
+  width: 100%;
+  float: none;
+}
+
+.t-find-sweets-2-new .find-region .t-show-ul {
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+  min-height: auto;
+}
+
+.t-find-sweets-2-new .find-region .map-region {
+  padding-top: 0;
+  background: none;
+  min-height: auto;
+}
+.t-find-sweets-2-new .find-region .map-region .title-session-map-region {
+  color: #916a41;
+  text-align: left;
+  margin-left: 27px;
+  margin-top: 15px;
+
+}
+
+.t-find-sweets-2-new .find-region .map-region .area {
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+  background: none;
+  justify-content: center;
+  width: 130px;
+}
+.t-find-sweets-2-new .find-region .map-region>li {
+  border-bottom: dashed 1px #dfd7cc;
+  padding-bottom: 20px;
+}
+.t-find-sweets-2-new .find-region .map-region>li>ul>li {
+  position: relative;
+  border: solid 1px #916a41;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.t-find-sweets-2-new .find-region .map-region>li>ul>li a {
+  border: none;
+  font-weight: 400;
+  color: #000;
+  font-size: 14px;
+  padding: 8px 10px 10px;
+  width: 70px;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1;
+  background: none;
+}
+.t-find-sweets-2-new .find-region .border .map-region>li>ul>li a {
+  border: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 1px 7px;
+  text-decoration : underline;
+  width: auto;
+}
+
+.t-find-sweets-2-new .find-region .border {
+  border: 1px solid #dbd7d4;
+  margin-bottom: 20px;
+  .map-region>li {
+    margin-bottom: none;
+    border-bottom: none;
+    >ul {
+      width: 100%;
+      li {
+        border: none;
+      }
+    }
+  }
+}
+.t-find-sweets-2-new .find-region .border .map-region .show-all-region{
+  color: #916a41;
+  font-size: 11px;
+  float: right;
+  border: 1px solid #dfd7cc;
+  background: #f3efe9;
+  display: block;
+  width: 125px;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.t-find-sweets-2-new .find-region .border .map-region>li>ul>li:after {
+  position: absolute;
+  top: -1px;
+  right: -9px;
+  content: none;
+}
+
+.t-find-sweets-2-new .find-region .map-region>li>ul>li:after {
+  content: "";
+  border-bottom: solid 2px #d2d2d2;
+  position: absolute;
+  display: inline-block;
+  bottom: 2px;
+  width: 100%;
+  left: 0;
+}
+
+.t-find-sweets-2-new .find-region .map-region>li>ul>li:last-child a:after {
+  content: none;
+}
+
+.t-find-sweets-2-new .find-region .map-region>li>ul>li a:hover {
+  opacity: .8;
+}
+
+
+/* ========== 左カラム　ニュース ========== */
+
+.t-news .newsBox {
+  width: 600px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 13px;
+  /*margin: 0 auto;*/
+}
+
+.t-news .newsBox .news_l {
+  display: inline-block;
+  width: 300px;
+  float: left;
+  padding: 0 10px;
+  vertical-align: top;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.t-news .newsBox .news_r {
+  display: inline-block;
+  width: 300px;
+  float: right;
+  padding: 0 10px;
+  vertical-align: top;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.t-news .newsBox a {
+  color: #333;
+  display: block;
+}
+
+.t-news .newsBox img {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  float: left;
+}
+
+.t-news .newsBox img:hover {
+  opacity: 0.8;
+}
+
+.t-news .newsBox p {
+  width: 160px;
+  float: right;
+}
+
+
+/* ========== 左カラム　スイーツガイドとは ========== */
+
+.whats-sg {
+  background: url("../images/whats_sg.jpg") no-repeat top right;
+  background-size: cover;
+  text-align: left;
+  padding: 40px;
+  border: 1px solid #dfd7cc;
+  margin: 20px 0 0;
+}
+
+.whats-sg h3.whats_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cb141a;
+  margin-bottom: 15px;
+}
+
+.whats-sg ul li {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 0 8px 32px;
+  position: relative;
+}
+
+.whats-sg ul li:before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url("../images/checkbox.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.whats-sg p a {
+  color: #cb141a;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.whats-sg p a:before {
+  content: "▼";
+  position: absolute;
+  bottom: -1px;
+  left: 2px;
+  transform: rotate(-90deg);
+}
+
+.whats-sg p a:hover {
+  text-decoration: underline;
+}
+
+
+/* ========== 左カラム　おすすめ特集 ========== */
+
+.t-pickup {
+  overflow: hidden;
+}
+
+.t-ul-list-kb1 li {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.t-ul-list-kb1 li a {
+  display: block;
+}
+
+.t-ul-list-kb1 li a:hover {
+  opacity: 0.8;
+}
+
+.t-ul-list-kb1 img {
+  max-width: 120px;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.t-ul-list-kb1 .tpick_box {
+  display: inline-block;
+  width: 460px;
+  float: right;
+  vertical-align: top;
+  height: 120px;
+  border-bottom: 1px solid #dfd7cc;
+  overflow: hidden;
+}
+
+.t-ul-list-kb1 p {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.t-ul-list-kb1 p.tpick_date {
+  color: #916a41;
+  margin-bottom: 2px;
+}
+
+.t-ul-list-kb1 p.tpick_title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.t-ul-list-kb1 p.tpick_area {
+  display: inline-block;
+  color: #916a41;
+  background: #dfd7cc;
+  padding: 2px 6px;
+  margin-bottom: 2px;
+  float: left;
+}
+
+.t-ul-list-kb1 p.tpick_narrow {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.p-href {
+  margin: 0;
+  background: none;
+  position: relative;
+  display: inline-block;
+  width: 270px;
+  float: right;
+}
+
+.p-href a {
+  color: #cb141a;
+  border: none;
+  font-weight: normal;
+}
+
+.p-href a:hover {
+  text-decoration: underline;
+}
+
+.p-href:after {
+  content: "▼";
+  position: absolute;
+  bottom: -1px;
+  left: -5px;
+  transform: rotate(-90deg);
+  color: #cb141a;
+}
+
+
+/* ========== 右カラム　前回の予約履歴 ========== */
+
+.aside .t-reserveHistory {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/* ログアウト */
+
+.aside .t-reserveHistory p.login_member {
+  margin-bottom: 10px;
+}
+
+.aside .t-reserveHistory p.login_member a {
+  color: #000;
+}
+
+.aside .t-reserveHistory p.historyBtn a {
+  display: block;
+  width: 280px;
+  height: 35px;
+  background: #cb141a;
+  color: #fff;
+  border-radius: 5px;
+  line-height: 35px;
+  margin: 0 auto 10px;
+  position: relative;
+  padding-right: 1em;
+}
+
+.aside .t-reserveHistory p.historyBtn a:after {
+  content: ">";
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+
+.aside .t-reserveHistory p.more_link a {
+  color: #cb141a;
+  position: relative;
+  padding-left: 15px;
+}
+
+.aside .t-reserveHistory p.more_link a:before {
+  content: "▼";
+  position: absolute;
+  bottom: -1px;
+  left: -5px;
+  transform: rotate(-90deg);
+}
+
+
+/* ログイン-履歴なし */
+
+.aside .t-reserveHistory p.no_history {
+  background: #f3efe9;
+  width: 280px;
+  margin: 30px auto 10px;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+
+/* ログイン-履歴あり */
+
+.aside .t-reserveHistory .history_box {
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.aside .t-reserveHistory .history_box a {
+  display: block;
+  color: #000;
+}
+
+.aside .t-reserveHistory .history_box img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+.aside .t-reserveHistory .history_box .history_item {
+  display: inline-block;
+  width: 170px;
+  float: right;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.aside .t-reserveHistory .history_box .history_item dl dt {
+  font-weight: bold;
+}
+
+.aside .t-reserveHistory .history_box .history_item dl dt:after {
+  content: ":";
+  position: relative;
+  bottom: 1px;
+  left: 3px;
+}
+
+.aside .t-reserveHistory .history_box .history_item dl.his_tel {
+  margin-bottom: 15px;
+}
+
+.aside .t-reserveHistory .history_box .history_item dl.his_tel dt,
+.aside .t-reserveHistory .history_box .history_item dl.his_tel dd {
+  display: inline-block;
+}
+
+
+/* ========== 右カラム　ケーキジャンル検索 ========== */
+
+.t-find-sweets-2-new .find-genre {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.t-find-sweets-2-new .find-genre .genre {
+  padding: 0 20px;
+}
+
+.t-find-sweets-2-new .find-genre .genre li {
+  height: 57px;
+  padding: 0;
+  margin-bottom: 10px;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+.t-find-sweets-2-new .find-genre .genre li:last-child {
+  margin-bottom: 0;
+}
+
+.t-find-sweets-2-new .find-genre .genre li:hover {
+  opacity: 0.8;
+}
+
+.t-find-sweets-2-new .find-genre .genre li img {
+  width: 55px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+
+.t-find-sweets-2-new .find-genre .genre li p {
+  display: inline-block;
+  width: 130px;
+  vertical-align: middle;
+  font-size: 12px;
+  padding: 18px 10px;
+  border-bottom: 1px solid #f3efe9;
+}
+
+.t-find-sweets-2-new .find-genre .genre li p:hover {
+  color: #cb141a;
+}
+
+.t-find-sweets-2-new .find-genre .genre li:after {
+  right: 13px;
+}
+
+
+/* ========== 右カラム　プリントケーキバナー ========== */
+
+.banner-pc img:hover {
+  opacity: 0.8;
+}
+
+
+/* ========== 右カラム　Facebook ========== */
+
+.facebook-banner {
+  margin-bottom: 20px;
+}
+
+.facebook-banner h3.t-h3 {
+  margin-bottom: 0;
+  border-bottom: none;
+  border: 1px solid #dfd7cc;
+}
+
+
+/* ========== 右カラム　バナー＆トピックス ========== */
+
+.t-bnr {
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+}
+
+.t-bnr img {
+  width: 100%;
+  height: auto;
+}
+
+.t-bnr img:hover {
+  opacity: 0.8;
+}
+
+.t-topics {
+  margin-bottom: 50px;
+}
+
+.t-topics h3.t-h3 {
+  margin-top: 20px;
+}
+
+.t-topics .topics_bnr {
+  display: inline-block;
+  width: 280px;
+  height: 88px;
+  overflow: hidden;
+  float: left;
+  margin: 0 10px 20px;
+}
+
+.t-topics .topics_bnr img {
+  width: 100%;
+  height: auto;
+}
+.lead_topcautionText {
+  text-align: left;
+  color: red;
+}
+.lead_topcautionText a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#cpcapf-topPC1, #cpcapf-topPC2, #cpcapf-topPC3 {
+  a {
+    display: block;
+    img {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+.kv {
+  width: 960px;
+    margin: 0 auto 20px;
+    position: relative;
+  .news {
+    display: block;
+    padding: 10px;
+    background: #cb141a;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 50px;
+    background: #cb141a url("../images/kv_news.png") no-repeat 10px center;
+    text-align: left;
+  }
+}
+section.kv form {
+	position: relative;
+	background: #c7000b;
+	padding: 15px 10px 10px;
+	width: 89%;
+	border-radius: 10px;
+	margin: -20px auto 0;
+}
+section.kv form input {
+	display: block;
+	width: 91%;
+	border: 2px solid #d5d2d2;
+	text-align: left;
+	padding-left: 5px;
+	height: 35px;
+	border-radius: 5px;
+	background: #fff;
+}
+section.kv form button {
+	width: 38px;
+	clear: both;
+	margin: 0;
+	background: none;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 33px;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 3%;
+}
+section.kv form button span {
+	background: url('../images/search02.png') center center no-repeat;
+	background-size: 100%;
+	padding-left: 27px;
+	height: 47px;
+	cursor: pointer;
+	display: inline-block;
+}
+section.kv form .freeword {
+	font-size: 13px;
+	margin-top: 7px;
+  text-align: left;
+}
+section.kv form .freeword p {
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	min-width: 54px;
+}
+section.kv form .freeword ul {
+	display: inline-block;
+	margin-bottom: -3px;
+}
+section.kv form .freeword ul li {
+	margin-bottom: 3px;
+	display: inline-block;
+	word-break: break-all;
+	color: #fff;
+}
+section.kv form .freeword ul li:first-child::before {
+	content: "";
+	display: inline-block;
+	background: url('../images/search03.png') no-repeat;
+	background-size: 100%;
+	width: 6px;
+	height: 9px;
+	margin-right: 4px;
+}
+section.kv form .freeword ul li a {
+	color: #fff;
+	text-decoration: none;
+  &:hover {
+    opacity: .8;
+  }
+}
+section.kv form .freeword ul li::after {
+	content: "｜";
+	display: inline-block;
+}
+section.kv form .freeword ul li:last-child::after {
+	content: "";
+}
+
+.information {
+	margin-bottom: 40px;
+}
+.information dl {
+	font-size: 0;
+  text-align: left;
+  position: relative;
+  margin-top: 15px;
+}
+.information dt {
+	font-weight: bold;
+	border-left: 5px solid #6d8e09;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  padding-left: 20px;
+  top: 0;
+  bottom: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  top: -14px;
+}
+.information dd {
+	font-size: 14px;
+  display: block;
+  width: 100%;
+  padding-left: 100px;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+.information dd a {
+	color: #000000;
+}
+.canpaign {
+	margin-bottom: 0;
+}
+.canpaign h2{
+    border-bottom: 2px solid #916a41;
+    padding: 0 0 10px;
+	  position:relative;
+    font-size: 18px;
+    background: none;
+    border-top: none;
+    color: #333;
+    margin: 0 0 25px;
+}
+.canpaign h2 span{
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    color: #916a41;
+    bottom: 10px;
+}
+.canpaign h2 span a{
+    color: #916a41;
+}
+.canpaign ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.canpaign ul li {
+  flex: 0 32%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.canpaign ul li a{
+	display:block;
+	width:100%;
+}
+.canpaign ul li img{
+	display:block;
+	width:100%;
+	vertical-align: middle;
+}
+.canpaign ul li:nth-child(3n){
+	margin-right:0;
+}
+.shop_search {
+	margin-bottom: 70px;
+  h2 {
+    position: relative;
+    font-weight: bold;
+    display: block;
+    padding: 0px 0 0px 40px;
+    margin: 0 0 25px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #333;
+    &::before {
+    	background: url(../images/title_image_search.png) no-repeat;
+    	width: 30px;
+    	height: 33px;
+    	background-size: 100%;
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: -7px;
+    }
+    &::after {
+    	background: url(../images/title_text_cakeshop.png) no-repeat;
+    	width: 92px;
+    	height: 16px;
+    	background-size: 100%;
+      content: "";
+      display: inline-block;
+      margin-top: 3px;
+      margin: 0 0 0 20px;
+      vertical-align: middle;
+    }
+  }
+}
+.genre_search {
+  margin-top: 40px;
+}
+.genre_search, .recommend_search, .cake_search, .recommend_search {
+	margin-bottom: 40px;
+  h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  h4 {
+    color: #666;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
+.genre_search ul {
+	display: flex;
+	justify-content: space-around;
+}
+.genre_search ul li {
+	border: solid 5px #f3efe9;
+	width: calc(94%/6);
+	position: relative;
+	box-sizing: border-box;
+}
+.genre_search ul li a {
+	color: #333;
+	display: inline-block;
+	padding: 55px 10px 15px 10px;
+	font-size: 11px;
+	width: 100%;
+	box-sizing: border-box;
+  &:hover {
+    opacity: .8;
+  }
+}
+.genre_search ul li::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.genre_search ul li.genre01::before {
+	background: url(../images/shopsearch_icon01.png) no-repeat;
+	background-size: 100%;
+	width: 41px;
+	height: 37px;
+	top: 28px;
+}
+.genre_search ul li.genre02::before {
+	background: url(../images/shopsearch_icon02.png) no-repeat;
+	background-size: 100%;
+	width: 37px;
+	height: 40px;
+	top: 28px;
+}
+.genre_search ul li.genre03::before {
+	background: url(../images/shopsearch_icon03.png) no-repeat;
+	background-size: 100%;
+	width: 37px;
+	height: 34px;
+	top: 28px;
+}
+.genre_search ul li.genre04::before {
+	background: url(../images/shopsearch_icon04.png) no-repeat;
+	background-size: 100%;
+	width: 34px;
+	height: 37px;
+	top: 28px;
+}
+.genre_search ul li.genre05::before {
+	background: url(../images/shopsearch_icon05.png) no-repeat;
+	background-size: 100%;
+	width: 37px;
+	height: 29px;
+	top: 28px;
+}
+.genre_search ul li.genre06::before {
+	background: url(../images/shopsearch_icon06.png) no-repeat;
+	background-size: 100%;
+	width: 44px;
+	height: 43px;
+	top: 28px;
+}
+.genre_search ul li img {
+	display: block;
+	margin: 0 auto 10px;
+}
+.genre_search ul li p {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.slide_hotel, .slide_wadai, .slide_famous {
+  .slick-slide {
+    margin: 0 10px;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    li {
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}
+.cake_search {
+	margin-bottom: 50px;
+  h2 {
+    position: relative;
+    font-weight: bold;
+    display: block;
+    padding: 0px 0 0px 40px;
+    margin: 0 0 25px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #333;
+  }
+}
+.cake_search h2::before {
+	background: url(../images/title_image_search.png) no-repeat;
+	width: 30px;
+	height: 33px;
+	background-size: 100%;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: -7px;
+}
+.cake_search h2::after {
+	background: url(../images/title_text_cake.png) no-repeat;
+	width: 120px;
+	height: 16px;
+	background-size: 100%;
+  content: "";
+  display: inline-block;
+  margin-top: 3px;
+  margin: 0 0 0 20px;
+  vertical-align: middle;
+}
+.popular_cakesearch {
+	margin-bottom: 60px;
+}
+.popular_cakesearch ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.popular_cakesearch ul li {
+	width: calc(100%/3);
+	position: relative;
+}
+.popular_cakesearch ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+  color: #333;
+  &:hover {
+    opacity: .8;
+  }
+}
+.popular_cakesearch ul li img {
+	width: 75%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.popular_cakesearch ul li p {
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	position: absolute;
+	bottom: -25px;
+	left: 44%;
+	transform: translate(-50%, -50%);
+}
+.size_cakesearch ul {
+	display: flex;
+	justify-content: space-around;
+	border: solid 1px #a0a0a0;
+}
+.size_cakesearch ul li {
+	border-right: solid 1px #a0a0a0;
+	display: inline-block;
+	width: calc(100%/4);
+}
+.size_cakesearch ul li:last-child {
+	border-right: none;
+}
+.size_cakesearch ul li a {
+	font-size: 16px;
+	color: #333;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	position: relative;
+	font-weight: bold;
+}
+.size_cakesearch ul li a::after {
+	content: "";
+	background: url(../images/size_arrow.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	right: 15px;
+	width: 16px;
+	height: 17px;
+	top: 16px;
+}
+.size_cakesearch ul li a span {
+	font-size: 10px;
+	font-weight: normal;
+}
+.recommend_search {
+  h2 {
+    position: relative;
+    font-weight: bold;
+    display: block;
+    padding: 0px 0 0px 40px;
+    margin: 0 0 25px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #333;
+    &::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: -7px;
+      background: url(../images/title_image_cake.png) no-repeat;
+      width: 30px;
+      height: 33px;
+      background-size: 100%;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      margin-top: 3px;
+      margin: 0 0 0 20px;
+      vertical-align: middle;
+      background: url(../images/title_text_recommended.png) no-repeat;
+      width: 95px;
+      height: 16px;
+      background-size: 100%;
+    }
+  }
+}
+.recommend_search .site_link {
+	position: relative;
+}
+.recommend_search .site_link a {
+  background: #f75757;
+  color: #fff;
+  width: 180px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 7px 15px;
+  position: absolute;
+  left: 30%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  bottom: 29px;
+}
+.clm_right img {
+	width: 100%;
+	height: auto;
+}
+.order_container {
+	margin-bottom: 30px;
+}
+p.right_title {
+    border-bottom: 2px solid #916a41;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.order_container a {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+  color: #333;
+  &:hover {
+    opacity: .8;
+  }
+}
+.order_container .order_img {
+	display: block;
+	margin: 0 auto 10px;
+	width: auto;
+	height: auto;
+}
+.order_container .order_title {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.order_container .sub_title {
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	margin: 0 auto 10px;
+	text-align: center;
+	line-height: 1.3rem;
+}
+.order_container .order_detail {
+	padding: 0 10px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	line-height: 1rem;
+}
+
+.cambanner_list{
+	margin-bottom: 20px;
+  li {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.topics_container .banner {
+	margin-bottom: 10px;
+}
+
+.topics_title {
+	margin-bottom: 5px;
+	font-weight: bold;
+  position: relative;
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+  border: none;
+  background: 0 0;
+  color: #333;
+}
+.topics_title::before {
+	content: "";
+	background: url(../images/title_image_topics.png) no-repeat;
+	width: 26px;
+	height: 19px;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+.topics_title::after {
+	content: "";
+	background: url(../images/title_image_topics.png) no-repeat;
+	width: 27px;
+	height: 19px;
+	background-size: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.topics_title::after {
+	background: url(../images/title_text_topics.png) no-repeat;
+	width: 32px;
+	height: 16px;
+	margin-left: 5px;
+	background-size: 100%;
+}

@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* header */
+
+header {
+    background: #ffffff;
+    padding: 20px 0 0 0;
+    text-align: left;
+    border-bottom: 0;
+  height: 80px;
+}
+
+header h1 {
+    display: block;
+    background: #f3efe9;
+    width: 100%;
+    color: #916a41;
+    font-size: 0.7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+header h1.noCaption {
+    background: #ffffff;
+}
+
+header .h_back {
+    display: inline-block;
+    width: 33%;
+  padding-left: 8%;
+}
+
+header .h_back a{
+    color: #916a41;
+  position: relative;
+  display: inline-block;
+  padding: 8px 0 10px;
+}
+
+header .h_back a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 33%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #916a41;
+    border-right: 2px solid #916a41;
+    transform: rotate(-135deg);
+}
+
+header .h_logo {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 8px;
+    padding: 0 2%;
+}
+
+header .h_logo a {
+    display: block;
+}
+
+header .h_logo img{
+    width: 100%;
+  height:auto;
+}
+header .h_logo.nonePage{
+  width: 0!important;
+}
+
+header .h_logo.topPage {
+    width: 40%;
+    padding: 0 6%;
+}
+
+/* icon */
+
+
+.hdr_nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.0rem;
+  position: relative;
+    bottom: 31px;
+    left: 5px;
+  }
+
+.bg-sp-wh {
+    background: #fff;
+    height: 72px;
+    display: block;
+    width: 100%;
+}
+
+.new-header-top .logo img {
+    max-width: 161px;
+    height: auto;
+    width: 70%;
+    margin-left: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+.hdr_nav .coupon {
+    margin-right: 1%;
+  top: 2px;
+  width: 15%;
+}
+
+
+ .hdr_nav .coupon a{
+background: url("../mobile/images/img/coupon.png") no-repeat top 4px center;
+    background-size: 70%;
+    padding: 34px 2% 0 0;
+    color: #cb141a;
+    font-size: 0.64em;
+  }
+
+.hdr_nav .login {
+  padding-top: 5px;
+    margin-right: 1%;
+  width: 15%;
+  }
+
+.hdr_nav .login a {
+    background: url("../mobile/images/img/login.png") no-repeat top right 75%;
+    background-size: 63%;
+    padding: 29px 0px 0;
+  margin-right:2%;
+  color:#cb141a;
+  font-size: 0.64em;
+  }
+
+ .hdr_nav .sMenu{
+    padding-top: 7px;
+  position: relative;
+    bottom: 1px;
+  width: 15%;
+}
+ .hdr_nav .sMenu a{
+    background: url("../mobile/images/img/menu.png") no-repeat top 4px center;
+    background-size: 65%;
+    padding: 28px 0 0;
+    color: #cb141a;
+    font-size: 0.64em;
+  }
+
+#badge-container{
+    /*display: block !important;*/
+    left: 15px !important;
+  top: -25px !important;
+}
+
+#badge-container .badge-bg {
+    height: 15px !important;
+    width: 15px !important;
+  top: 2px !important;
+    left: 10px !important;
+  z-index: 10;
+}
+
+#badge-container .badge-bg.oval{
+  width: 26px !important;
+  left: -12px !important;
+}
+
+#coupon_wrap header {
+    padding: 0;
+    height: auto;
+    background: none;
+    border-bottom: 0;
+}

@@ -1,0 +1,44 @@
+/* pager */
+.paging ul li a.active, .paging ul li a:hover {
+  background: #cb141a;
+}
+
+.paging .prev,
+.paging .next{
+  position: relative;
+  top: 13px;
+  display: inline-block;
+  padding: 10px 0;
+  background: #eee7df;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  margin: 0px 5px;
+}
+
+.paging .prev::before,
+.paging .next::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px #916a41;
+  border-right: solid 2px #916a41;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  margin-top: -5px;
+}
+
+.paging .prev::before{
+  transform: rotate(-135deg);
+  left: 40%;
+}

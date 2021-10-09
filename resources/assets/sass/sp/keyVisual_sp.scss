@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slider-wrapper,
+#slider,
+.sp {
+    height: 215px;
+}
+
+@media screen and (max-width:320px) { 
+#slider-wrapper,
+#slider,
+.sp {
+    height: 185px;
+}
+}
+
+.bg-top-1 {
+    background: url(../images/kv01_sp.jpg) right top no-repeat;
+    background-size:100%;
+}
+
+.bg-top-2 {
+    background: url(../images/kv02_sp.jpg) right top no-repeat;
+    background-size: 100%;
+}
+
+.bg-top-3 {
+    background: url(../images/kv03_sp.jpg) right top no-repeat;
+    background-size: 100%;
+}
+
+.p-new-tit {
+    margin-top: 0;
+    position: relative;
+    bottom: 85%;
+}
+
+.p-new-tit-2 {
+    position: relative;
+    bottom: 85%;
+}
+
+
+.bg-opacity {
+    background: none;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.inp-s-shop {
+    display: inline-block;
+    width: 78%;
+    padding: 0 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: #000;
+    background: #fff;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+}
+
+
+.btn-ser-new {
+    display: inline-block;
+    width: 20%;
+    clear: both;
+    margin: 0;
+    background: #cb141a;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 41px;
+    color: #fff;
+    position: relative;
+    top: 2px;
+}
+
+.btn-ser-new span {
+    background-size: 20px;
+    padding: 10px 12px;
+    height: auto;
+    display: inline-block;
+}
+

@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*20191108商品店舗アイコン*/
+
+.icon_box{
+  display: flex;
+  width: 333px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.icon_box .cashpo_icon,
+.icon_box .point_icon,
+.icon_box .card_icon,
+.icon_box .shop_icon,
+.modal_text .cashpo_icon,
+.modal_text .point_icon,
+.modal_text .card_icon,
+.modal_text .shop_icon{
+  border-radius: 5px;
+  padding:2px 5px;
+  color:#fff;
+  font-size:12px;
+  font-weight:bold;
+}
+.icon_box .cashpo_icon,
+.modal_text .cashpo_icon
+{
+  background: #90bf36;
+  padding-left: 23px;
+  position: relative;
+}
+.icon_box .cashpo_icon:after,
+.modal_text .cashpo_icon:after{
+  content: '';
+  background: url(../images/img/cashpo_icon.png) no-repeat;
+  background-size: 14px;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+}
+.icon_box .point_icon,
+.modal_text .point_icon{
+  background: #fca204;
+  padding-left: 19px;
+  position: relative;
+}
+.icon_box .point_icon:after,
+.modal_text .point_icon:after{
+  content: '';
+  background: url(../images/img/point_icon.png) no-repeat;
+  background-size: 13px;
+  display: inline-block;
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  width: 13px;
+  height: 13px;
+}
+.grayout{
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  -ms-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+.icon_box .card_icon,
+.modal_text .card_icon{
+  background:#ce9b01;
+  display: inline-table;
+}
+.icon_box .shop_icon,
+.modal_text .shop_icon{
+  background:#69bbfb;
+}
+
+
+/*====20191108モーダル====*/
+#modal_detail:hover{
+  cursor:pointer;
+}
+.modal_box{
+  height: 100vh;
+  position:absolute;
+  top: 0;
+  width: 100%;
+}
+.modalBox span,.modalBox p,.modalBox a{
+  color:#000;
+}
+.modalBox{
+  z-index: 99;
+  display: block;
+  width: 530px;
+  height: 160px;
+  height: auto;
+  background: rgb(249, 249, 249);
+  margin: auto;
+  top: 248px;
+  border-radius: 5px;
+  position: absolute;
+  right: -481px;
+  border: 2px solid #eee;
+  left: 0px;
+  text-align: left;
+  padding: 10px;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.7);
+}
+.modalBox.itembox{
+  top: 283px;
+}
+.modalBox:before{
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #eee;
+  border-right: 2px solid #eee;
+  position: absolute;
+  top: -15px;
+  left: 91%;
+  transform: rotate( -45deg );
+  background: rgb(249, 249, 249);
+}
+.modalBox.point_only:before{
+  background:#fff;
+}
+.modal_text{
+  display:flex;
+  margin-bottom:7px;
+}
+.modal_text:last-child{
+  margin-bottom:0;
+}
+.modal_text p{
+  padding-left:10px;
+  font-size:13px;
+}
+.modal_text .cashpo_icon,
+.modal_text .point_icon,
+.modal_text .card_icon,
+.modal_text .shop_icon{
+  width:88px;
+  text-align:center;
+}
+.modal_text .point_icon:after {
+  left: 9px;
+}
+.modal__bg{
+  background: rgba(255,255,255,0);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+.modalBox p.redcolor{
+  color:#cb141a;
+  font-size:13px;
+  font-weight:bold;
+}
+/*20200131*/
+.shop-index .pc-content .reserveList .reserve_tel {
+  width: 343px !important;
+  padding-left: 8px!important;
+}
+.shop-index .pc-content .reserveList .reserve_tel p {
+  padding: 9px;
+  background-position: top 50% right 83%!important;
+}
+.product-detail .reserve_tel-fix {
+  width: 338px!important;
+}
+.product-detail .reserveBox .reserve_tel p {
+  background-position:top 50% right 82% !important;
+}
+@media all and (-ms-high-contrast: none) {
+  .product-detail .grayout, .productsearch .grayout, .shop-index .grayout, .shopsearch .grayout{
+    opacity: 0.3;
+  }
+}

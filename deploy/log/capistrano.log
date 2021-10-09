@@ -1,0 +1,71 @@
+# Logfile created on 2020-03-20 08:17:14 +0000 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:17:14 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [71c4d0b7] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [71c4d0b7] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:19:03 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [573c2626] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [573c2626] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:20:46 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a8cb4e7d] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [a8cb4e7d] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:24:31 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [92ee288e] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [92ee288e] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:26:53 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2d45e99d] Running if test ! -d /sweets/shared; then echo "Directory does not exist '/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [2d45e99d] Command: if test ! -d /sweets/shared; then echo "Directory does not exist '/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:28:17 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9dafa8d3] Running if test ! -d /sweets/shared; then echo "Directory does not exist '/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [9dafa8d3] Command: if test ! -d /sweets/shared; then echo "Directory does not exist '/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:29:13 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [47fbeacd] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [47fbeacd] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:30:22 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [07ef8fd2] Running if test ! -d /Library/WebServer/Documents/sweet-project/sweets_server/shared; then echo "Directory does not exist '/Library/WebServer/Documents/sweet-project/sweets_server/shared'" 1>&2; false; fi on 
+ DEBUG [07ef8fd2] Command: if test ! -d /Library/WebServer/Documents/sweet-project/sweets_server/shared; then echo "Directory does not exist '/Library/WebServer/Documents/sweet-project/sweets_server/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:31:54 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b4551069] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [b4551069] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:32:25 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2db6ba57] Running if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi on 
+ DEBUG [2db6ba57] Command: if test ! -d /var/www/html/sweets/shared; then echo "Directory does not exist '/var/www/html/sweets/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:33:11 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [aa043081] Running if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi on 
+ DEBUG [aa043081] Command: if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:33:28 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0b36c359] Running if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi on 
+ DEBUG [0b36c359] Command: if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:34:29 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9f536fc0] Running if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi on 
+ DEBUG [9f536fc0] Command: if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-20 08:36:07 +0000 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ff0fbbac] Running if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi on 
+ DEBUG [ff0fbbac] Command: if test ! -d /var/www/html/sweets_server/shared; then echo "Directory does not exist '/var/www/html/sweets_server/shared'" 1>&2; false; fi

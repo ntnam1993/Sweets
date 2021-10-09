@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 予約ステップ　生年月日フォーム */
+
+.reservation-form div.birth-form label {
+    margin-right: 5px;
+}
+
+.reservation-form div.birth-form select {
+  width: 116px;
+    padding: 6px;
+    border: 1px solid #c2ada5;
+    border-radius: 3px;
+    background: #ffffff url(../pc/images/img/form.png) no-repeat right top;
+    background-size: contain;
+    font-size: 14px;
+    margin-right: 3px;
+}

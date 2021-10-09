@@ -1,0 +1,144 @@
+#epark_common_groupheader {
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 62.5%;
+  word-wrap: break-word;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+#epark_common_groupheader a {
+  color: #00a2e9;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#epark_common_groupheader div,
+#epark_common_groupheader span,
+object,
+#epark_common_groupheader iframe,
+#epark_common_groupheader h1,
+#epark_common_groupheader h2,
+#epark_common_groupheader h3,
+#epark_common_groupheader h4,
+#epark_common_groupheader h5,
+#epark_common_groupheader h6,
+#epark_common_groupheader p,
+#epark_common_groupheader dl,
+#epark_common_groupheader dt,
+#epark_common_groupheader dd,
+#epark_common_groupheader ol,
+#epark_common_groupheader ul,
+#epark_common_groupheader li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/*------------------------------------------ ヘッダー -------------------------------------------*/
+
+#epark_common_groupheader {
+  width: 100%;
+  color: #fff;
+  font-size: 0.6em;
+  padding: 5px 24px 5px 5px;
+  box-sizing: border-box;
+  background: url(../mobile/images/img/icons-expand-arrow_close.png) right 5px center no-repeat #444;
+  background-size: 13px 7px;
+}
+
+#epark_common_groupheader:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#epark_common_groupheader.active {
+  z-index: 999999;
+  position: fixed;
+  background: url(../mobile/images/img/icons-expand-arrow_open.png) right 5px center no-repeat #444;
+  background-size: 13px 7px;
+}
+
+#epark_common_groupheader p:first-child {
+  float: left;
+}
+
+#epark_common_groupheader p:last-child {
+  float: right;
+}
+
+
+/*------------------------------------------ modal -------------------------------------------*/
+
+#epark_common_groupmodal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  min-height: 100%;
+  padding-top: 25px;
+  background-color: #fff;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  z-index: 99990;
+}
+
+#epark_common_groupmodal iframe {
+  width: 100%;
+  border: none;
+}
+
+.epark_common_groupheader_close {
+  display: block;
+  border-radius: 4px;
+  border: solid 1px;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 100%;
+  cursor: pointer;
+  height: auto;
+  box-sizing: border-box;
+  border-color: #666;
+  background-color: #fff!important;
+  color: #666;
+  margin: 20px auto;
+  width: 80%;
+}
+.top-page-sp-new .epark_common_groupheader_close {
+  padding: 15px;
+  margin: 20px auto;
+}
+
+.epark_common_groupheader_close {
+  background: #efefef;
+}
+
+#epark_common_groupmodal iframe {
+  height: 2000px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.top-page-sp {
+  #epark_common_groupheader {
+    background-image: url(../images/icons-expand-arrow_close.png);
+
+    &.active {
+      background-image: url(../images/icons-expand-arrow_open.png);
+    }
+  }
+}

@@ -1,0 +1,1188 @@
+@charset "utf-8";
+/* 共通 */
+header{
+  margin:0 auto;
+  border-bottom: none;
+}
+
+.contents{
+  color:#3f3f3f;
+}
+
+.contents a{
+  color: #ea4855;
+  text-decoration: underline;
+}
+
+.login_caption{
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 15px !important;
+  text-align: center !important;
+}
+
+.login_btn a {
+  display: block;
+  width: 364px;
+  padding: 17px;
+  font-size: 17px;
+  margin: 20px auto;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  background: #cb141a;
+  text-decoration: none;
+}
+
+.login_btn a:hover {
+  opacity:0.9;
+}
+
+.menu_icon{
+  margin-top:0;
+}
+
+/* キービジュアル */
+
+.kv_area{
+  width:100%;
+  background:#fee1e1;
+}
+
+.kv_area.kv_couponP{
+  height:75px;
+  background: #ffffff;
+}
+
+.kv_area h1{
+  margin-bottom: 0;
+}
+
+/* 概要 */
+
+.description_area{
+  width:100%;
+  background:#fff296;
+  padding: 50px 0;
+}
+
+.description_area .attention p {
+  width: 960px;
+  margin: 0 auto 50px;
+  background: #ffffff url("../img/attention.png") no-repeat center left 20px;
+  border-radius: 10px;
+  border: 1px solid #ea4855;
+  padding: 20px 20px 20px 100px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.description_area .attention p span{
+  color: #cb141a;
+  font-size: 26px;
+  padding-left: 5px;
+}
+
+.description_area h2 {
+  display: inline-block;
+  border-top: none;
+  padding: 0 0 5px;
+  margin-bottom: 50px;
+}
+
+.description_area .description{
+  width: 960px;
+  margin: 0 auto 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.description_area .description p{
+  padding-bottom: 20px;
+}
+
+.description_area .description p:last-of-type{
+  padding-bottom: 0;
+}
+.description_area .description > ul{
+  border-bottom: 4px dotted #3f3f3f;
+  padding:40px 10px;
+  display: table;
+  width: 100%;
+}
+
+.description_area .description > ul:first-child{
+  padding:40px 10px 20px;
+}
+
+.description_area .description > ul:last-child{
+  border-bottom: none;
+}
+
+.description_area .description > ul .description_l{
+  display: table-cell;
+  width: 19%;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.description_area .description > ul .description_r{
+  display: table-cell;
+  width: 81%;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.description_area .description > ul .description_r ul li{
+  padding-bottom: 5px;
+}
+
+.description_area .description > ul .description_r ul li:last-child{
+  padding-bottom: 0;
+}
+
+.description_area .description > ul .description_r ul li::before {
+  content: "●";
+  display: block;
+  float: left;
+  width: 1em;
+  text-align: center;
+  font-size: 13px;
+}
+
+.contents a.mail_setting{
+  padding-left: 1em;
+}
+
+.description_area .description > ul .description_r a.more_btn{
+  display: inline-block;
+  background: #cb141a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 35px;
+  border-radius: 4px;
+  float: right;
+  margin-top: 10px;
+}
+
+
+/* キャンペーンの流れ */
+.campaign_area{
+  width:100%;
+  background:#fee1e1;
+  padding: 50px 0;
+}
+
+.campaign_area .campaign{
+  width:960px;
+  margin:0 auto;
+  font-weight: bold;
+}
+
+.campaign_area .campaign h2{
+  font-size: 32px;
+  text-align: center;
+  display: inline-block;
+  border-top: none;
+  padding: 0 0 5px;
+  margin-bottom: 50px;
+}
+
+.campaign_area p{
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.campaign_area .campaign .entry_step {
+  background: #ffffff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 90px 75px;
+  margin-bottom: 50px;
+}
+
+.campaign_area .campaign .entry_img{
+  border: 5px solid #eeeeee;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+.campaign_area .campaign .entry_img + p{
+  text-align: center;
+}
+
+.campaign_area .campaign .entry_step ul {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.8em;
+  font-weight: bold;
+}
+
+.campaign_area .campaign .entry_step ul li:before{
+  content: "●";
+  display: block;
+  float: left;
+  width: 1em;
+  text-align: center;
+  font-size: 13px;
+}
+
+.campaign .campaign_step {
+  background: #ffffff;
+  display: table;
+  width: 100%;
+  padding: 50px 40px 50px 0;
+  margin-bottom: 30px;
+}
+
+.campaign .campaign_step .step_img{
+  display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.campaign .campaign_step .step_method{
+  display: table-cell;
+  width: 70%;
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.campaign .campaign_step .step_method h3{
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  position:relative;
+}
+
+.campaign .campaign_step .step_method h3 em{
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 37px;
+  position: relative;
+  top: 5px;
+}
+
+.campaign .campaign_caption {
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  margin: 50px auto;
+  text-align: left;
+  font-weight: normal;
+}
+
+footer {
+  margin-top: 0;
+}
+
+
+/* 登録情報(入力あり)*/
+.registrationInfo {
+  width: 960px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 50px 50px 40px;
+  overflow: hidden;
+}
+
+.registrationInfo h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.familyInfo_box{
+  overflow: hidden;
+}
+
+
+.familyInfo_title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.familyInfo {
+  display: table;
+  width: 100%;
+  border: 1px solid #b5b5b5;
+  margin-bottom: 30px;
+}
+
+.familyInfo dl {
+  display: table-row;
+  font-size: 15px;
+  text-align: left;
+}
+
+.familyInfo dl dt {
+  display: table-cell;
+  width: 30%;
+  background: #eeeeee;
+  border-bottom: 2px solid #ffffff;
+  font-weight: bold;
+  padding: 25px 30px;
+}
+
+.familyInfo dl dd {
+  display: table-cell;
+  width: 70%;
+  border-bottom: 2px solid #eeeeee;
+  padding: 25px 30px;
+}
+
+dl.familyInfo_last dt,
+dl.familyInfo_last dd{
+  border-width:0px;
+}
+
+.familyInfo dl dd.blank {
+  color: #cb141a;
+}
+
+.registrationInfo_btn {
+  display: block;
+  margin: -10px 0 20px;
+  float: right;
+}
+
+.registrationInfo_btn > div{
+  display: inline-block;
+}
+
+.registrationInfo_btn > div a{
+  display: block;
+  background: #cb141a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 30px;
+  border-radius: 4px;
+}
+
+.registrationInfo_btn > div a:hover{
+  opacity:0.8;
+}
+
+.registrationInfo ol {
+  margin: 45px 0 0px;
+  padding-left: 18px;
+}
+
+.registrationInfo ol li{
+  color: #3f3f3f;
+  padding-left: 0;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* 登録情報(入力なし)*/
+.familyInfo.nothing {
+  margin-bottom: -20px;
+}
+
+.familyInfo.nothing dl dt{
+  width: 70%;
+  border-bottom: 0;
+  background: #ffffff url("../img/attention.png") no-repeat center left 20px;
+  padding: 50px 100px;
+}
+
+.familyInfo.nothing dl dd{
+  width: 30%;
+  float: none;
+  margin-top: 0;
+  border-bottom: 0;
+}
+
+
+/* 登録フォーム */
+
+.entryForm_area{
+  width:100%;
+  background:#fff296;
+  padding: 50px 0;
+}
+
+.entryForm_area h2 {
+  display: inline-block;
+  border-top: none;
+  padding: 0 0 5px;
+  margin-bottom: 30px;
+}
+
+.entryForm_area .entryForm{
+  width: 960px;
+  margin: 0 auto 30px;
+  background: #ffffff;
+  padding: 40px 30px;
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.entryForm_area .entryForm > p{
+  margin-bottom: 20px;
+}
+
+.entryForm .entry_box {
+  background: #eeeeee;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.entryForm .entry_box h3.entryFamily {
+  display: block;
+  background: #d0cfcf;
+  padding: 10px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+
+.entryForm .entry_box > div {
+  margin-bottom: 15px;
+}
+
+.entryForm .entry_box > div:last-of-type {
+  margin-bottom: 0px;
+}
+
+
+.entry_box .familyName p,
+.entry_box .familyKana p{
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  color: #000;
+}
+
+.entry_box .familyName dl,
+.entry_box .familyKana dl{
+  display: inline-block;
+  width: 44%;
+}
+
+.entry_box dl dt{
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.entry_box .familyName dl dd input,
+.entry_box .familyKana dl dd input{
+  border: 0;
+  padding: 12px;
+  width: 365px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+.entry_box .familyRelationship dl dd select {
+  width: 220px;
+  padding: 12px;
+  border: 0;
+  border-radius: 3px;
+  background:#ffffff url("../img/formArrow.png") no-repeat right top;
+  font-size: 15px;
+}
+
+.entry_box .familyBirthday dl dd select {
+  width: 160px;
+  padding: 12px;
+  border: 0;
+  border-radius: 3px;
+  background:#ffffff url("../img/formArrow.png") no-repeat right top;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.entry_box .familyGender label {
+  position: relative;
+  padding: 0 10px;
+}
+
+.entry_box .familyGender label:before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  position: relative;
+  top: 4px;
+  right: 10px;
+}
+.entry_box .familyGender input:checked + .radio-icon:after {
+  content: "";
+  display: inline-block;
+  background: #fff296;
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  position: absolute;
+  left: 3px;
+  bottom: 4px;
+}
+
+.entry_box .familyTarget {
+  font-size: 13px;
+  display: inline-block;
+  width: 650px;
+}
+
+.entry_box .familyAdd_btn {
+  display: inline-block;
+}
+
+.entry_box .familyAdd_btn a{
+  display: block;
+  background: #cb141a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+
+.entry_box .familyAdd_btn a:hover{
+  opacity:0.8;
+  cursor: pointer;
+}
+
+.entry_box .familyDelete_btn{
+  overflow: hidden;
+}
+
+.entry_box .familyDelete_btn a{
+  display: block;
+  background: #cb141a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  width: 204px;
+  text-align: center;
+  float:right;
+}
+
+.entry_box .familyDelete_btn a:hover{
+  opacity:0.8;
+  cursor: pointer;
+}
+
+.entry_box02{
+  display: none;
+}
+
+.entry_box.entryAdd{
+  display: block;
+}
+
+.entryForm .mail_set {
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.entryForm .mail_set span{
+  color:#0483e5;
+}
+
+.entryForm .privateInfo {
+  display: block;
+  width: 670px;
+  height: 220px;
+  margin: 0 auto 60px;
+  border: 1px solid #a0a0a0;
+  padding: 30px;
+  overflow-y: scroll;
+  font-size: 12px;
+  line-height: 1.8em !important;
+}
+
+.entryForm .privateInfo h2 {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.entryForm .privateInfo p.pI_right {
+  text-align: right;
+}
+
+.entryForm .privateInfo .pI_box {
+  margin-bottom: 50px;
+}
+
+.entryForm .privateInfo .pI_box:last-child {
+  margin-bottom: 0;
+}
+
+.entryForm .privateInfo .pI_box h3{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.entryForm .privateInfo .pI_box h4{
+  font-weight: bold;
+  font-size: 13px;
+  margin: 20px 0 5px;
+  background: none;
+  padding: 0;
+  border: 0;
+  color: #3f3f3f;
+}
+
+.entryForm .privateInfo .pI_box ol li{
+  margin-bottom: 5px;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.entryForm .privateInfo .pI_box ul li{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.entryForm .privateInfo .pI_box dl dt{
+  display: inline-block;
+}
+
+.entryForm .privateInfo .pI_box dl dt.office{
+  font-weight: bold;
+  margin: 15px 0 3px;
+  font-size: 13px;
+}
+
+.entryForm .privateInfo .pI_box dl dd.colon{
+  display: inline-block;
+}
+
+.entryForm .privateInfo .pI_box dl dd.colon:before{
+  content:":";
+  padding-right: 4px;
+}
+
+.entryForm .privateInfo .pI_box p.margin_t{
+  margin-top: 15px;
+}
+
+.entryForm .privateInfo .pI_box dl + p.margin_t{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.entryForm .add-entry {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.entryForm .add-entry label{
+  display: block;
+  width: 400px;
+  margin: 0 auto 15px;
+  text-align: center;
+  background: #fff296;
+  padding: 5px 0 5px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  position: relative;
+}
+
+.entryForm .add-entry label:before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #a0a0a0;
+  position: relative;
+  top: 5px;
+  right: 2px;
+}
+.entryForm .add-entry input:checked + .radio-icon:after {
+  content: "";
+  display: inline-block;
+  background: #ffffff url(../img/check_w.png) no-repeat;
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 18px;
+  bottom: 8.5px;
+}
+
+.entryForm .add-entry button{
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background: #cb141a;
+  border: 0;
+  padding: 15px 140px;
+  border-radius: 30px;
+}
+
+.entryForm .add-entry button:hover{
+  opacity:0.8;
+}
+
+.entryForm .encryption {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.entryForm .encryption img{
+  width: 112px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.entryForm .encryption p{
+  display: inline-block;
+  background: #eeeeee;
+  padding: 12px 15px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/*       必須項目        */
+.required {
+  font-size:13px;
+  color:#fff;
+  background-color:#cb141a;
+  border-radius:3px;
+  margin-left:10px;
+  padding:2px 3px;
+}
+.required_2nd {
+  font-size:13px;
+  color:#fff;
+  background-color:#cb141a;
+  border-radius:3px;
+  margin-left:10px;
+  padding:2px 3px;
+}
+
+
+/*   クーポンページ    */
+.coupon_area{
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 120px;
+}
+
+.coupon_area h2{
+  border-top: 0;
+  border-left: 10px solid #916a41;
+  padding: 0px 7px;
+  background: none;
+  font-size: 20px;
+  color: #3f3f3f;
+  margin-bottom: 15px;
+}
+
+.coupon_area .coupon_box{
+  border: 4px solid #dfd7cc;
+  width: 960px;
+  margin: 0 auto 81px;
+  padding: 20px 30px;
+}
+
+.coupon_box .cpn_image {
+  display: inline-block;
+  width: 200px;
+  height:200px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.coupon_box .cpn_image img{
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.coupon_box .coupon_detail {
+  display: inline-block;
+  vertical-align: top;
+  width: 77%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.coupon_box .coupon_detail .cpn_title {
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #dfd7cc;
+  padding-bottom: 10px;
+}
+
+.coupon_box .coupon_detail .cpn_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*
+.coupon_box .coupon_detail dl.cpn_term {
+  display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+
+.coupon_box .coupon_detail dl.cpn_term dt,
+.coupon_box .coupon_detail dl.cpn_term dd{
+    display: inline-block;
+}
+
+.coupon_box .coupon_detail dl.cpn_term dd:before {
+  content:":";
+  padding-right: 2px;
+}*/
+
+.coupon_box .coupon_detail .cpn_off {
+  font-weight: bold;
+  font-size: 26px;
+  color: #cb141a;
+  margin-bottom: 10px;
+}
+
+.coupon_box .coupon_btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  margin-top: 30px;
+}
+
+
+.coupon_box .coupon_btn a{
+  display: block;
+  background: #cb141a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 35px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.coupon_box .coupon_btn a:hover{
+  opacity:0.8;
+}
+
+.coupon_box dl.cpn_term {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px dashed #dfd7cc;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.coupon_box dl.cpn_term:last-child {
+  border-bottom:0;
+  padding-bottom: 0;
+}
+
+.coupon_box dl.cpn_term dt{
+  display: inline-block;
+  width: 110px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.coupon_box dl.cpn_term dd{
+  display: inline-block;
+  width: 541px;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+/* エラー表示 */
+
+.coupon_area .coupon_error {
+  width: 210px;
+  margin: 0px auto 40px;
+  text-align: right;
+  background:url("../img/mark_p.png") no-repeat center left;
+  padding: 20px 7px;
+}
+
+.coupon_area .coupon_error p {
+  color: #cb141a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.coupon_box .coupon_detail .error_note {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.coupon_box .coupon_btn.cpn_complete a{
+  background: #cb141a;
+}
+
+.coupon_box .coupon_btn.error_btn {
+  display: block;
+  margin: 30px auto 0;
+  width: 220px;
+}
+
+.coupon_box .coupon_btn.error_btn a{
+  margin-bottom: 0;
+  background: #888888;
+}
+
+/* クーポン利用 */
+.coupon_box .coupon_detail .coupon_get {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  background: url(../images/check_r.png) no-repeat center left;
+  background-size: 30px;
+  padding: 5px 7px 5px 40px;
+}
+
+.coupon_area .coupon_get p {
+  color: #cb141a;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/* クーポン期限切れ */
+.coupon_box .coupon_detail.expired {
+  width: 72%;
+}
+
+/* ログアウト中 */
+
+.coupon_box .coupon_btn.logout_btn {
+  width: 45%;
+}
+
+.coupon_box .coupon_btn.logout_btn a{
+  background: #8fbe36;
+  margin-bottom: 5px;
+}
+
+.coupon_box .coupon_btn.logout_btn + p{
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.couponBox .couponDetail a{
+    text-decoration:none;
+}
+.couponBox {
+    border: 4px solid #dfd7cc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 30px 0;
+}
+.couponBox .couponBtn a{
+    text-decoration:none;
+}
+.couponBox .couponDetail {
+    display: inline-block;
+    width: 79%;
+    vertical-align: middle;
+    text-align: left;
+    overflow: hidden;
+    padding-right: 15px;
+}
+.couponBox .logout_Detail {
+    width: 66%;
+}
+.couponBox .couponBtn {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.couponBox .logout_btn {
+    width: 33%;
+}
+.couponBox .logout_btn span {
+    font-size:12px;
+}
+.couponBox .couponDetail a {
+    display: block;
+    color: #000 !important;
+    text-decoration: none;
+}
+.couponDetail a img {
+    display: inline-block;
+    width: 96px;
+    vertical-align: top;
+}
+.couponDetail a img + div.withImg {
+    display: inline-block;
+    padding-left: 15px !important;
+    width: 76.8%;
+}
+.couponDetail a h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.couponDetail a dl {
+    font-size: 11px;
+}
+.couponDetail a dl dt {
+    font-weight: bold;
+}
+.couponDetail a dl dt, .couponDetail a dl dd {
+    display: inline-block;
+    position: relative;
+}
+.couponDetail a dl dd:before {
+    content: ":";
+    position: relative;
+    bottom: 1px;
+    margin-right: 3px;
+}
+.couponBox .couponBtn a {
+    display: block;
+    background: #cb141a;
+    color: #fff !important;
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.couponBox .logout_btn a {
+    background: #8fbe36;
+}
+dl.cpn_publish{
+    margin-bottom:5px;
+}
+.coupon_syosai{
+    width:100%;
+    border:2px solid #cccaca;
+    position:relative;
+}
+.coupon_syosai hr{
+    width: 100%;
+    margin: 15px auto;
+    border-top: 2px solid #cccaca;
+}
+.coupon_syosai p.title{
+    font-size:18px;
+    font-weight:bold;
+    color:#757575;
+    text-align: center;
+}
+.accordionbox{
+	width: 100%;
+	margin: 10px auto;
+	padding: 10px;
+}
+.accordionlist dt{
+    display:block;
+    background: #fff;
+    border-top: 1px solid #DFDFDF;
+    position:relative;
+}
+.accordionlist dt:first-child{
+    border-top: none !important;
+}
+.accordionlist dt .title p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #6d6d6d;
+    cursor : pointer;
+}
+.accordionlist dd{
+    display:none;
+    background: #fff;
+    text-align: left;
+}
+.accordionlist dd span{
+    font-weight:bold;
+}
+.accordion_icon,
+.accordion_icon span {
+	display: inline-block;
+	transition: all .4s;
+	box-sizing: border-box;
+}
+.accordion_icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    right: 359px;
+    background: #c3c3c3;
+    border-radius: 30px;
+    cursor : pointer;
+}
+.after_ver{
+    right: 344px;
+}
+.accordion_icon span {
+	position: absolute;
+    left: 5px;
+    width: 50%;
+	height: 2px;
+    background-color: #fff;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.accordion_icon span:nth-of-type(1) {
+    top: 8px;
+	transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+.accordion_icon span:nth-of-type(2) {
+    top: 8px;
+	transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+/*＋、－切り替え*/
+.accordion_icon.active span:nth-of-type(1) {
+	display:none;
+}
+.accordion_icon.active span:nth-of-type(2) {
+	top: 8px;
+	transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}

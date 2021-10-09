@@ -1,0 +1,114 @@
+/* tel popup */
+
+#dialog{
+  width:90%;
+  height:310px;
+  padding:17px 0;
+  text-align: center;
+  background:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.4);
+  position:fixed;
+  left:0;
+  right:0;
+  margin:0 auto;
+  top:100px;
+  z-index: 10000;
+  border-radius:5px;
+}
+#mask{
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background: rgba(0, 0, 0,.5);
+}
+
+.tel_out {
+  width:auto;
+  padding:10px;
+  box-sizing:border-box;
+  margin:0 auto;
+}
+.close{
+  position:absolute;
+  color:#353535;
+  right:3px;
+  top:0;
+  font-size:1.5rem;
+  line-height:1;
+  cursor:pointer;
+  text-shadow: none;
+  opacity: 1;
+  font-size: 25px;
+}
+
+.tel_ppc {
+  width:48%;
+  float:left;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+  margin-right:3px;
+}
+
+.tel_ppc .tel_reserve a{
+  display: block;
+  background: #cb141a url("../mobile/images/tel_w_phone.png") no-repeat top 70% center;
+  background-size: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 1.1em;
+}
+
+.tel_info {
+  width:48%;
+  float:right;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+}
+
+.tel_info .tel_inquiry a{
+  display: block;
+  background: #916a41 url("../mobile/images/tel_w_phone.png") no-repeat top 70% center;
+  background-size: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 1em;
+}
+
+.tel_ppc p,
+.tel_info p{
+  font-size: 0.73em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tel_attention{
+  clear: both;
+  display: block;
+  padding: 10px 0 0;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+
+.tel_attention p{
+  margin-bottom: 3px;
+}
+
+.tel_attention p.unmatched{
+  color: #cb141a;
+}

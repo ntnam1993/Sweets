@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* アイコン付きヘッダー */
+.header_d01 {
+    height: auto;
+  }
+
+.g_hdr .hdr_logo {
+    display: inline-block;
+  padding: 25px 0 25px;
+}
+
+.menu_icon{
+    display: inline-block;
+    list-style: none;
+    width: 230px;
+    height: 67px;
+    float: right;
+    text-align: right;
+    padding: 0;
+    margin: 25px 0 0px;
+    .li {
+     &:not(:last-child) {
+       display: inline-flex;
+       padding: 0 25px 0 0;
+     }
+  }
+}
+
+
+.menu_icon .coupon{
+    display: inline-flex;
+    padding: 0 25px 0 0;
+}
+
+.menu_icon .coupon a{
+  background: #ffffff url(../images/img/coupon.png) no-repeat top center;
+    padding: 50px 0 0;
+    font-size: 12px;
+    color: #cb141a;
+}
+
+
+.menu_icon .login{
+    display: inline-flex;
+    padding: 0 20px 0 0;
+}
+
+.menu_icon .login a{
+    background: #ffffff url(../images/img/login.png) no-repeat top 3px right 11px;
+    background-size: 35px;
+    padding: 50px 0 0;
+    vertical-align: bottom;
+    font-size: 12px;
+    color: #cb141a;
+}
+
+.menu_icon .entry{
+    display: inline-flex;
+}
+
+.menu_icon .entry a{
+    background: #ffffff url(../images/img/pen_g.png) no-repeat top 2px right 19px;
+    background-size: 41px;
+    padding: 50px 0 0;
+    vertical-align: bottom;
+    font-size: 12px;
+    color: #cb141a;
+}
+
+.menu_icon .mypage {
+    display: inline-flex;
+}
+
+.menu_icon .mypage a{
+    background: #ffffff url(../images/img/user_g.png) no-repeat top center;
+    background-size: 41px;
+    padding: 50px 0 0;
+    vertical-align: bottom;
+    font-size: 12px;
+    color: #cb141a;
+}
+
+.menu_icon a:hover{
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+#badge-container {
+    position: absolute !important;
+    left: 31px !important;
+  z-index: 5;
+    width: 10px;
+    height: 10px;
+    letter-spacing: normal;
+  display: block !important;
+}
+
+#badge-container .badge-bg.oval {
+    height: 17px !important;
+    width: 30px !important;
+}
+
+#badge-container .badge-bg {
+    height: 17px !important;
+    width: 17px !important;
+  }
+
+/* coupon */
+#coupon_wrap header {
+    position: relative;
+    min-width: 590px;
+    background: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom: 0;
+    padding: 0;
+}
+
+#coupon_wrap header div.cancel {
+    padding: 13px 10px 10px !important;
+    width: 90px !important;
+  top: 5px !important;
+  }
+
+#coupon_wrap header div.cancel .text_cancel{
+    display: inline-block;
+    padding: 0 10px 0 0;
+    position: relative;
+    bottom: 1px;
+}

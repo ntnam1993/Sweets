@@ -1,0 +1,1074 @@
+@charset "utf-8";
+/* =================== 共通 =================== */
+
+/*ヘッダーPC*/
+.common_header{
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 0 5px;
+    text-align: left;
+}
+
+.common_header .h_logo{
+    display: inline-block;
+
+}
+
+.common_header .h_logo .to_top{
+    display: inline-block;
+}
+
+.common_header .coment{
+    vertical-align: top;
+    margin-left: 13px;
+    width: 55%;
+    height: auto;
+}
+
+.common_header .menu_list{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+
+.common_header .menu_list li{
+    display: inline-block;
+    border-right: solid 1px #d8d8d8;
+    padding: 0 10px;
+}
+
+.common_header .menu_list li.mobile{
+    display: none;
+}
+
+
+.common_header .menu_list li:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+.common_header .menu_list li a{
+    background: 0 0;
+    padding: 0;
+    font-size: 15px;
+    color: #cb141a;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.common_header .menu_list li .innerCart{
+    position: relative;
+    left: 4px;
+    background-color: #D91E18;
+    border: solid #D91E18;
+    color: #fff;
+    font-size: 10px;
+    display: inline-block;
+    padding: 0px 3px;
+    border-radius: 50%;
+    top: -1px;
+}
+
+.common_header .menu_list li a p {
+    display: inline-block;
+}
+
+.common_header .menu_list li a span {
+    position: initial!important;
+}
+
+@media screen and (max-width: 960px){
+
+    .common_header{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .common_header{
+        padding: 10px 5px;
+        text-align: left;
+        position: initial;
+    }
+
+    .h_logo .coment{
+        display: none;
+    }
+
+    .common_header .menu_list {
+        display: inline-block;
+        float: right;
+        position: initial;
+        right: initial;
+        bottom: initial;
+    }
+
+    .common_header .menu_list li{
+        border-right: none;
+        padding: 0 3px;
+        position: relative;
+    }
+
+    .common_header .menu_list li img.mobile{
+        width: 25px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .common_header .menu_list li.mobile{
+        display: inline-block;
+    }
+
+    .common_header .menu_list li.pc{
+        display: none;
+    }
+
+    .common_header .menu_list li a {
+        background: 0 0;
+        padding: 0;
+        font-size: 10px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #888;
+    }
+
+    .common_header .menu_list li .innerCart{
+        position: absolute;
+        top: -6px;
+        right: 0;
+        left: initial;
+    }
+
+    .common_header .menu_list li a span {
+        position: absolute!important;
+        left: initial!important;
+        right: -5px;
+    }
+}
+
+
+/*  パンくず  */
+.bread_list{
+    display: block;
+    margin-top: 10px;
+}
+
+.bread_list li{
+    font-size: 12px;
+    display: inline-block;
+}
+
+.bread_list li::after{
+    content: ">";
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.bread_list li:last-child::after{
+    content: "";
+}
+
+
+.bread_list li a{
+    color: #aa8c75!important;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 580px){
+    .bread_list{
+        margin-top: 0;
+        width: 100%;
+    }
+    .bread_list li,
+    .bread_list li a{
+        font-size: 10px;
+    }
+}
+/*ヘッダーPC*/
+
+
+/*ヘッダーSP*/
+
+.head-sp{
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.head-sp .h_logo{
+    display: inline-block;
+}
+
+.head-sp .menu_list{
+    display: inline-block;
+    float: right;
+}
+
+.head-sp .menu_list li{
+    display: inline-block;
+    text-align: center;
+
+    position: relative;
+}
+
+.head-sp .menu_list li p{
+    color: #888;
+    display: block;
+    font-size: 0.7em !important;
+    font-weight: bold;
+}
+
+.head-sp .menu_list li img{
+    height: 25px;
+}
+
+.head-sp .menu_list li .innerCart{
+    position: absolute;
+    background-color: #D91E18;
+    border: solid #D91E18;
+    color: #fff;
+    font-size: 10px;
+    display: inline-block;
+    padding: 0px 3px;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+}
+
+.head-sp .menu_list li a{
+    text-decoration: none;
+}
+
+
+
+#epark_common_header .swiper-container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    word-break: keep-all;
+}
+#epark_common_header .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#epark_common_header .swiper-slide img {
+    width: 100%;
+}
+
+
+#epark_common_groupheader {
+    width: 100%;
+    color: #fff;
+    font-size: 0.6em;
+    padding: 5px 24px 5px 5px;
+    box-sizing: border-box;
+    background: url(https://sweetsguide.jp/docs/assets/img/icons-expand-arrow_close.png) right 5px center no-repeat #444;
+    background-size: 13px 7px;
+    word-wrap: break-word;
+    -webkit-font-smoothing: subpixel-antialiased;
+    z-index: 99999;
+}
+
+#epark_common_groupheader p:first-child {
+    float: left;
+    font-size: 10px;
+}
+#epark_common_groupheader p:last-child {
+    float: right;
+    font-size: 10px;
+}
+#epark_common_groupheader:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#epark_common_groupheader.active{
+    background: url(https://sweetsguide.jp/docs/assets/img/icons-expand-arrow_open.png) right 5px center no-repeat #444;
+    background-size: 13px 7px;
+    position: fixed;
+}
+
+#epark_common_groupmodal {
+    display: none;
+    position: fixed;
+    z-index: 99990;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    min-height: 100%;
+    padding-top: 25px;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+#epark_common_groupmodal .epark_common_groupmodal_groups .list_title{
+    padding: 25px 0 7px 5px;
+}
+#epark_common_groupmodal iframe {
+    width: 100%;
+    border: none;
+    height: 2000px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Hiragino Kaku Gothic ProN",Verdana,Roboto,"Droid Sans",遊ゴシック,YuGothic,メイリオ,Meiryo,sans-serif;
+    padding-top: 25px;
+}
+
+.epark_common_groupheader_close {
+    display: block;
+    border-radius: 4px;
+    border: solid 1px;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 100%;
+    cursor: pointer;
+    height: auto;
+    box-sizing: border-box;
+    border-color: #666;
+    background-color: #fff!important;
+    color: #666;
+    margin: 20px auto;
+    width: 80%;
+}
+#epark_common_header {
+    color: #333;
+    line-height: 1.4;
+    font-size: 62.5%;
+    word-wrap: break-word;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+#epark_common_header #epark_common_sidebar-overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.75);
+    position: fixed;
+    top: 0;
+    z-index: 19999;
+    display: none;
+}
+#epark_common_header .epark_common_nav-sidemenu {
+    position: fixed;
+    width: 270px;
+    z-index: 20000;
+    top: 0;
+    right: -270px;
+    display: block;
+    padding-bottom: 300px;
+}
+#epark_common_header .epark_common_nav-sidemenu-body {
+    background-color: #e8e8e8;
+    height: 100vh;
+    position: fixed;
+    width: 270px;
+}
+#epark_common_header .epark_common_nav-sidemenu-close {
+    height: 18px;
+    left: -28px;
+    position: absolute;
+    top: 10px;
+    width: 18px;
+    z-index: 2001;
+}
+#epark_common_header .epark_common_nav-sidemenu-close img {
+    height: 18px;
+    width: 18px;
+}
+#epark_common_header .epark_common_nav-sidemenu-box {
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 0 35px 0;
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-username {
+    background-color: #888888;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 20px 10px 7px;
+    width: 100%;
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+#epark_common_header .epark_common_nav-username span {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#epark_common_header .epark_common_nav-balance {
+    background-color: #888888;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 20px 10px 7px;
+    width: 100%;
+    box-sizing: border-box;
+    word-break: keep-all;
+    box-shadow: 0px -1px 0px 0px #9f9f9f inset;
+    border-bottom: solid 1px #6f6f6f;
+}
+#epark_common_header .epark_common_nav-balance ul {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-balance li:first-child {
+    border-radius: 4px 4px 0 0;
+    border-bottom: solid 1px #888;
+}
+#epark_common_header .epark_common_nav-balance li div {
+    float: right;
+    vertical-align: middle;
+}
+#epark_common_header .epark_common_nav-balance span {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#epark_common_header .epark_common_nav-balance li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+#epark_common_header .epark_common_nav-premium {
+    background-color: #888888;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 17px 10px 7px;
+    width: 100%;
+    box-sizing: border-box;
+    word-break: keep-all;
+    overflow: hidden;
+}
+#epark_common_header .epark_common_nav-premium-content {
+    width: 270px;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#epark_common_header .epark_common_nav-premium p {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+#epark_common_header .swiper-container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    word-break: keep-all;
+}
+#epark_common_header .epark_common_nav-login {
+    background-color: #888888;
+    padding: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-login .epark_common_nav-login-content {
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#epark_common_header .epark_common_nav-login .epark_common_nav-login-title {
+    text-align: center;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#epark_common_header .epark_common_nav-login .epark_common_nav-login-btn {
+    border-radius: 5px;
+    background-color: #8fc31f;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 0 0 #6a940f;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    font-weight: bolder;
+    display: block;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+#epark_common_header .epark_common_nav-registry {
+    background-color: #888888;
+    padding: 0 14px 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-content {
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-title {
+    text-align: center;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-description {
+    margin-bottom: 10px;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-description strong {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-btn {
+    border-radius: 5px;
+    background-color: #ffe53d;
+    color: #333;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 0 0 #e9cd1b;
+    box-sizing: border-box;
+    font-weight: bolder;
+    display: block;
+    text-decoration: none;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-link {
+    margin-top: 10px;
+    text-align: center;
+}
+#epark_common_header .epark_common_nav-registry .epark_common_nav-registry-link a {
+    background: url(https://sweetsguide.jp/docs/assets/img/common/header/point.png) left center no-repeat;
+    background-size: 3px 5px;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: #333;
+}
+#epark_common_header li.epark_common_nav-acc span {
+    display: block;
+    height: 42px;
+    line-height: 41px;
+    position: relative;
+}
+#epark_common_header li.epark_common_nav-acc span {
+    color: #666;
+    font-size: 1.3em;
+    letter-spacing: .6px;
+    padding: 0 0 0 10px;
+}
+#epark_common_header .epark_common_nav-contents {
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-contents-list {
+    padding: 0;
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-contents-list li:first-child {
+    border-top: none;
+}
+#epark_common_header .epark_common_nav-contents-list li {
+    background-color: #f8f8f8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    height: 44px;
+    position: relative;
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-contents-list a {
+    color: #666;
+    display:block;
+    font-size: 1.3em;
+    height: 44px;
+    letter-spacing: 0.6px;
+    line-height: 41px;
+    padding: 0 30px 0 10px;
+    text-align:left;
+}
+#epark_common_header .epark_common_nav-contents-list li:last-of-type {
+    border-bottom: none;
+}
+#epark_common_header .epark_common_nav-contents .epark_common_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 15px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 0 #fff inset, 0 0 0 1px #fff inset;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+}
+#epark_common_header .epark_common_nav-infomation-list {
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-infomation-list li:last-of-type {
+    border-bottom: none;
+}
+#epark_common_header .epark_common_nav-infomation-list li:first-child {
+    border-top: none;
+}
+
+#epark_common_header li.epark_common_nav-acc:first-child span {
+    line-height: 41px;
+}
+#epark_common_header li.epark_common_nav-acc span {
+    display: block;
+    height: 42px;
+    background: #fff;
+    line-height: 40px;
+    position: relative;
+    padding: 0 0 0 20px;
+    text-align: left;
+}
+#epark_common_header li.epark_common_nav-acc span:after {
+    border-right: 1px solid #b0b0b0;
+    border-bottom: 1px solid #b0b0b0;
+    content: "";
+    height: 12px;
+    margin-top: -5px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 12px;
+}
+#epark_common_header li.epark_common_nav-acc span.epark_common_is-active:after {
+    margin-top: -3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#epark_common_header .epark_common_tab-content {
+    display: none;
+}
+#epark_common_header .epark_common_tab-content.epark_common_is_open {
+    display: block;
+}
+#epark_common_header .epark_common_nav-acc a {
+    background-color: #f1f1f1;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    font-size: 1.3em;
+    display: block;
+    height: 44px;
+    letter-spacing: 0.6px;
+    line-height: 39px;
+    padding: 0 0 0 20px;
+    position: relative;
+    text-align: left;
+}
+#epark_common_header .epark_common_nav-service .epark_common_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 15px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 0 #fff inset, 0 0 0 1px #fff inset;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+}
+#epark_common_header .epark_common_nav-sidemenu-bn {
+    border-top: 1px solid #ccc;
+    box-shadow: 0 1px 0 0 #fff inset, 0 0 0 1px #fff inset;
+    padding: 10px;
+}
+#epark_common_header .epark_common_nav-sidemenu-bn a {
+    margin: 0 auto 10px;
+    display: block;
+}
+#epark_common_header .epark_common_nav-sidemenu-bn a:last-of-type {
+    margin: 0 auto;
+}
+#epark_common_header .epark_common_nav-free {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+#epark_common_header .epark_common_nav-free ul.epark_sweets_nav {
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-free ul.epark_sweets_nav li:first-child {
+    border-top: 0px solid #fff;
+}
+#epark_common_header .epark_common_nav-free ul.epark_sweets_nav li {
+    background-color: #f8f8f8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    height: 44px;
+    position: relative;
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-free ul.epark_sweets_nav li a {
+    color: #666;
+    font-size: 1.3em;
+    display: block;
+    height: 44px;
+    letter-spacing: 0.6px;
+    line-height: 41px;
+    padding: 0 0 0 10px;
+    text-align: left;
+}
+
+.epark_common_nav-sidemenu-bn img {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-home {
+    background-color: #fff;
+}
+#epark_common_header .epark_common_nav-home img {
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-group {
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-group .epark_common_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 15px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 0 #fff inset, 0 0 0 1px #fff inset;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+}
+#epark_common_header .epark_common_nav-group-list {
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-group-list li:first-child {
+    border-top: 0px solid #fff;
+}
+#epark_common_header .epark_common_nav-group-list li:first-child a {
+    line-height: 42px;
+}
+#epark_common_header .epark_common_nav-group-list li {
+    background-color: #f8f8f8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    height: 44px;
+    position: relative;
+    width: 100%;
+}
+
+
+#epark_common_header .epark_common_nav-group-list a {
+    color: #666;
+    font-size: 1.3em;
+    display: block;
+    height: 44px;
+    letter-spacing: 0.6px;
+    line-height: 41px;
+    padding: 0 0 0 10px;
+}
+#epark_common_header .epark_common_nav-group {
+    width: 100%;
+    box-sizing: border-box;
+}
+#epark_common_header .epark_common_nav-group-list {
+    width: 100%;
+}
+#epark_common_header .epark_common_nav-group .epark_common_last {
+    font-weight: bold;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 0 #fff inset;
+    border-top: solid 1px #ccc;
+}
+
+@media screen and (max-width: 960px){
+
+    .common_header .header-500-center{
+        padding: 22px 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 580px){
+    .common_header .header-500-center {
+        height: auto;
+        background: none;
+        margin-bottom: 0px;
+        padding: 10px 10px 5px;
+    }
+    .epark_common_header {
+        /* width: 100%; */
+        height: 56px;
+        padding: 0;
+        display: block;
+        vertical-align: middle;
+        /* overflow: hidden; */
+    }
+
+    .epark_common_header a{
+        display: inline-block;	}
+
+    .common_header .header-500-center img.h-logo {
+        margin-left: 0px;
+        margin-top: 6px;
+    }
+    .h-logo {
+        width: 90px;
+    }
+
+
+    .coupon-list-btn{
+        width: auto;
+    }
+
+    .common_header .pankuzu{
+        margin-top: 5px;
+    }
+
+
+    .common_header .t-path li {
+        display: inline-block;
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 344px){
+    /*
+        #epark_common_groupmodal{
+            padding-top: 39px;
+        }
+    */
+
+    #epark_common_groupmodal iframe {
+        padding-top: 37px;
+    }
+}
+
+/*フッターPC*/
+footer {
+    margin-top: 20px;
+    min-height: 92px;
+    height: auto;
+    border-top: 2px solid #c7000b;
+    width: 100%;
+    background: #f3efe9;
+    text-align: center;
+}
+#epark-global-footer-box {
+    clear: both;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 20px 0;
+    text-align: center;
+}
+#epark-global-footer-box .epark-global-footer-box-inner {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 15px 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+#epark-global-footer-box .epark-global-footer-group-box .epark-global-footer-group-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #936945;
+
+}
+#epark-global-footer-box .epark-global-footer-group-box ul {
+    margin-bottom: .5em;
+}
+#epark-global-footer-box .epark-global-footer-group-box ul li {
+    border-right: 1px solid #ccc;
+    float: left;
+    line-height: 1.1;
+    margin: 0 1em .8em 0;
+    padding-right: 1em;
+}
+footer ul li a {
+    color: #936945;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: inherit;
+}
+.epark-global-clearfix:after {
+    clear: both;
+    color: transparent;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+#epark-global-footer-box a{
+    color: #936945!important;
+    text-decoration: none;
+}
+
+#epark-global-footer-box .epark-global-arrow {
+    background: url(https://d229s2sntbxd5j.cloudfront.net/epark_portal_global/img/epark-global-img/arrow.png) left center no-repeat;
+    padding-left: 9px;
+}
+#epark-global-footer-box .epark-global-footer-box-inner-sp, #yui3-css-stamp.cssreset {
+    display: none;
+}
+#epark-global-footer-box ol, #epark-global-footer-box ul, #epark-global-header-box ol, #epark-global-header-box ul {
+    list-style: none;
+}
+.epark-global-clearfix {
+    zoom: 1;
+}
+.pc-content, footer p, footer ul, h2 {
+    display: block;
+}
+footer ul li {
+    display: inline-block;
+    color: #936945;
+}
+footer ul {
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+}
+footer p.copy_color_footer {
+
+    color: #936945!important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.toppage {
+    background: url(../images/btn_pagetop.png) center center no-repeat;
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+    display: inline-block;
+    right: 13px;
+    top: -14px;
+    position: absolute;
+    cursor: pointer;
+}
+#epark_common .box_lightgray {
+    box-shadow: 0 -1px 0 0 #fff inset, 0 1px 0 0 #fff inset;
+    background-color: #f4f4f4;
+    color: #666;
+}
+.epark_common_footer_pagetop {
+    font-size: 0.8rem;
+    padding: 1.1rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+/*フッターPC*/
+/*フッターSP*/
+.pc-container {
+    display: inline-block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 981px;
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.footer-common .epark_common_footer_pagetop a {
+    color: #333;
+    background-image: url(https://sweetsguide.jp/build/assets/mobile/images/img/common_footer_expand-arrow.png) !important;
+    background-repeat: no-repeat;
+    background-size: 17px 9px;
+    background-position: center 0;
+    display: block;
+    padding: 15px 0 0;
+}
+.epark_common_footer_apri {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    height: 412px;
+    overflow: hidden;
+}
+.epark_common_footer_eparklink>a>img {
+    max-width: 615px;
+    width: 100%;
+}
+#epark_common a, #epark_common a:link, #epark_common a:hover {
+    text-decoration: none;
+}
+.epark_common_footer_eparklink>a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+}
+#epark_common ul {
+    padding: 0;
+}
+#epark_common li {
+    list-style-type: none;
+}
+.epark_common_footer_eparklink ul li {
+    width: 50%;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.epark_common_footer_eparklink ul li a {
+    box-shadow: 0 -1px 0 0 #fff inset, 0 1px 0 0 #fff inset, 1px 1px 0 0 #ccc, -1px -1px 0 0 #ccc;
+    font-size: 0.8rem;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 1em 0 1em;
+    width: 100%;
+    display: inline-block;
+}
+.epark_common_footer_eparklink ul li.full {
+    width: 100%;
+}
+#epark_common footer {
+    margin-top: 0;
+    clear: left;
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: #666;
+    padding: 1.5rem 0 1.5rem;
+    text-align: center;
+    height: auto;
+    min-height: auto;
+    border-top: none;
+}
+footer p {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.mobile footer p.copylight{
+    margin-top: 0;
+}
+
+/*フッターSP*/
+
+

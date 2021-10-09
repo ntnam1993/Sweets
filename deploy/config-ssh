@@ -1,0 +1,25 @@
+Host sweet-bastion
+  HostName 210.129.18.22
+  Port 10011
+  User neolab
+  IdentityFile /home/ec2-user/bastion_key/springboard.pem
+
+Host sweet-staging1
+  HostName 10.13.1.44
+  User neolab
+  ProxyCommand ssh -W %h:%p sweet-bastion
+
+Host sweet-staging2
+  HostName 10.13.1.36
+  User neolab
+  ProxyCommand ssh -W %h:%p sweet-bastion
+
+Host sweet-production1
+  HostName 10.13.1.12
+  User neolab
+  ProxyCommand ssh -W %h:%p sweet-bastion
+
+Host sweet-production2
+  HostName 10.13.1.87
+  User neolab
+  ProxyCommand ssh -W %h:%p sweet-bastion

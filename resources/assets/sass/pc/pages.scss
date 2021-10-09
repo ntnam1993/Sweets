@@ -1,0 +1,132 @@
+.privacy-page, .term-page, .about-page, .contact-page, .login-page {
+  .div-eff .ht-logo {
+    background: url(../pc/images/top-logo_wo_white_1.png) center center no-repeat;
+    background-size: 135px 60px;
+    width: 135px;
+    height: 60px;
+  }
+  .p-ct-bf {
+    padding-left: 15px;
+    position: relative;
+    &::before {
+      content: '※';
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+.term-page {
+  border-top: 10px solid #c7000b !important;
+}
+.shop-index, .error404, .about-page, .checkout-header, .contact-page, .login-page, .privacy-page, .term-page, .error500 {
+  .header-pc .menu_icon .coupon a{
+    color: #cb141a;
+  }
+
+  .header-pc .menu_icon .login a{
+    vertical-align: bottom;
+    color: #cb141a;
+  }
+
+  .header-pc .menu_icon .entry a{
+    vertical-align: bottom;
+    color: #cb141a;
+  }
+
+  .header-pc .menu_icon .mypage a{
+    vertical-align: bottom;
+    color: #cb141a;
+  }
+
+  .header-pc .menu_icon .cart a {
+    color: #cb141a;
+    background-size: 37px;
+  }
+
+  .header-pc .header-500-center {
+    background: url(../pc/images/sale-banner.png) 150px 30px no-repeat;
+    background-size: 318px !important;
+  }
+}
+
+.header-pc.mypage-h {
+  .header-500-center {
+    background: url(../pc/images/sale-banner.png) 150px 30px no-repeat;
+    background-size: 318px !important;
+  }
+}
+.shop-index .pc-content {
+  .shop-name{
+    color: #916a41;
+    border-top: 2px solid #000;
+    margin-bottom: 0;
+  }
+
+  .shop-name .name a{
+    color: #916a41;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding:10px 0;
+  }
+
+  .shop-name .name{
+    float: left;
+  }
+
+  .shop-name p.name{
+    display: inline-block;
+    width: 410px;
+    text-align: left;
+    padding: 22px 0 7px;
+    font-weight: bold;
+  }
+
+  .shop-name h1.name{
+   display: inline-block;
+   width: 410px;
+   text-align: left;
+   padding: 22px 0 7px;
+   font-weight: bold;
+   font-size: 15px;
+  }
+
+  .shop-name_br a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .shop-name .kessai_f{
+    display: inline-block;
+    float: right;
+    padding: 22px 0;
+  }
+
+  .shop-name .kessai_f .kessai{
+    display: block;
+    width: 100px;
+    margin-right: 5px;
+    padding: 5px;
+    text-align: center;
+    background: #dfd7cc;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: normal;
+    float:left;
+    color: #916a41;
+  }
+
+  .shop-name .kessai_f .kessai_r{
+    display: block;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background: #dfd7cc;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: normal;
+    float:left;
+    color: #916a41;
+  }
+}

@@ -1,0 +1,408 @@
+@charset "utf-8";
+.sp-container{
+  min-width:320px;
+  min-height: 340px;
+  overflow: hidden;
+}
+
+/* 電話予約ボタン */
+.sp-container .menuList {
+    width: 100%;
+    overflow: hidden;
+  display: table;
+    vertical-align: middle;
+}
+
+.sp-container .menuList p:first-child {
+    display: table-cell;
+  width: 51%;
+  font-weight: bold;
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+  vertical-align: middle;
+  line-height: 16px;
+  }
+
+.sp-container .menuList .unmatched{
+  display: inline-block;
+    font-size: 0.72em;
+    line-height: 1.3em;
+    color: #cb141a;
+    margin-top: 3%;
+}
+
+.sp-container .menu_tel{
+    display: table-cell;
+    width: 39%;
+  }
+
+.sp-container .menu_tel a{
+    display: inline-block;
+  max-width: 120px;
+    width: 100%;
+  background: #916a41;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 5px;
+  border-radius: 4px;
+    float: right;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.sp-container .menu_tel a span{
+    font-size: 0.7em;
+    display: inline-block;
+    background: #ffffff;
+    color: #916a41;
+    padding: 1% 3%;
+    border-radius: 4px;
+  margin-right: 11%;
+}
+
+
+
+
+/* 固定footer */
+footer{
+  z-index: 999 !important;
+}
+
+.fix_fmenu {
+    position: fixed;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.5);
+    width: 100%;
+    /*opacity: 0.5;*/
+  z-index:1000;
+}
+
+.fmenuList {
+  display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fmenuList .fmenu_net,
+.fmenuList .fmenu_tel,
+.fmenuList .fmenu_share {
+  display: inline-block;
+  width: 33.33%;
+  position: relative;
+  span {
+    display: block;
+    text-align: center;
+    padding: 0 5px;
+  }
+  a {
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 7px 3px;
+  }
+  &.twoLi {
+    width: 50%;
+  }
+
+}
+
+
+.fmenuList .fmenu_net a{
+    display: inline-block;
+    width: 100%;
+    background: #cb141a;
+}
+
+.fmenuList .fmenu_tel a{
+    display: inline-block;
+    width: 100%;
+    background: #916a41;
+}
+.fmenuList .fmenu_share a{
+    display: inline-block;
+    width: 100%;
+    background: #dfd7cc;
+}
+
+.fmenuList .fmenu_net a span:first-child{
+    font-size: 0.7em;
+    display: block;
+    background: #ffffff;
+    color: #cb141a;
+    padding: 1% 1% 0.5%;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto 3%;
+}
+
+.fmenuList .fmenu_tel a span:first-child{
+    font-size: 0.7em;
+    display: block;
+    background: #ffffff;
+    color: #916a41;
+    padding: 1% 1% 0.5%;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto 3%;
+}
+.fmenuList .fmenu_share a span:first-child {
+    font-size: .7em;
+    background: #fff!important;
+    padding: 1% 1% .5%;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto 3%;
+    display: block;
+    color: #cb1210;
+}
+
+.fmenuList .fmenu_net a span.net_bg{
+    background: url(../mobile/images/img/reserve_w.png) no-repeat left center;
+    background-size: 1.4em;
+    padding-left: 22px;
+    display: inline;
+  }
+
+.fmenuList .fmenu_tel a span.tel_bg{
+    background: url(../mobile/images/img/tel_w.png) no-repeat left center;
+    background-size: 1.1em;
+    padding-left: 22px;
+    display: inline;
+  }
+
+.fmenuList .fmenu_share a span.share_bg {
+    background: url(../mobile/images/share_bl.png) no-repeat left center;
+    color: #8d6448;
+    background-size: 1em;
+    padding-left: 22px;
+    display: inline;
+}
+
+.fmenuList .oneSize{
+    width: 100%;
+}
+
+.fmenuList .oneSize a{
+    width: 100%;
+  font-size: 1.1em;
+}
+
+.fmenuList .oneSize a span:first-child{
+    padding: 0.5% 3%;
+  margin: 0 auto 1%;
+  width: 27%;
+}
+
+
+/* tel popup */
+
+        #dialog{
+            width:90%;
+      height:310px;
+      padding:17px 0;
+            text-align: center;
+            background:#fff;
+            box-shadow:0 2px 8px rgba(0,0,0,.4);
+            position:fixed;
+            left:0;
+            right:0;
+            margin:0 auto;
+            top:100px;
+        z-index: 10000;
+      border-radius:5px;
+        }
+        #mask{
+        z-index: 9999;
+      position: fixed;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+        background: rgba(0, 0, 0,.5);
+  }
+
+.tel_out {
+  width:auto;
+  padding:10px;
+  box-sizing:border-box;
+  margin:0 auto;
+}
+        .close{
+            position:absolute;
+            color:#353535;
+            right:3px;
+            top:0;
+            font-size:1.5rem;
+            line-height:1;
+            cursor:pointer;
+      text-shadow: none;
+        opacity: 1;
+        font-size: 25px;
+        }
+
+.tel_ppc {
+  width:48%;
+  float:left;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+  margin-right:3px;
+}
+
+.tel_ppc .tel_reserve a{
+    display: block;
+  background: #cb141a url("../mobile/images/img/tel_w.png") no-repeat top 70% center;
+  background-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px auto;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 0;
+    font-size: 1.1em;
+}
+
+.tel_info {
+  width:48%;
+  float:right;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+}
+
+.tel_info .tel_inquiry a{
+    display: block;
+    background: #916a41 url("../mobile/images/img/tel_w.png") no-repeat top 70% center;
+  background-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px auto;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 0;
+    font-size: 1em;
+}
+
+.tel_ppc p,
+.tel_info p{
+  font-size: 0.73em;
+  margin-bottom: 10px;
+    text-align: center;
+}
+
+.tel_attention{
+    clear: both;
+    display: block;
+    padding: 10px 0 0;
+    font-size: 0.8em;
+  text-align: left;
+  }
+
+
+.tel_attention p{
+    margin-bottom: 3px;
+}
+
+.tel_attention p.unmatched{
+    color: #cb141a;
+}
+#shopDetail {
+ .modal-header {
+   padding: 30px 0 10px;
+   h3 {
+     font-weight: bold;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+     border-bottom: none;
+   }
+ }
+ .modal-dialog-centered {
+   position: absolute;
+   transform: translateY(-50%);
+   top: 50%;
+   .net_price {
+     text-align: left;
+     color: #000;
+     margin: 0;
+   }
+   .div-price-by-size {
+     margin: 0;
+     .div-item-price-by-size {
+       padding-top: 0;
+     }
+   }
+   .net_price {
+     font-weight: normal;
+      color: initial;
+      font-size: 14px;
+      min-height: 22px;
+     div {
+       padding: 0;
+     }
+   }
+   .current-url {
+     color: #000;
+     font-weight: normal;
+     text-align: left;
+   }
+ }
+}
+.div-share {
+ &.product-social {
+   display: block;
+   width: auto;
+   left: auto;
+   right: auto;
+   margin: 0;
+   top: auto;
+   position: relative;
+   padding: 10px;
+   border-radius: 6px;
+   .ul-share li {
+     width: calc((100% - 24px)/ 4);
+     margin: 3px;
+     float: none;
+   }
+ }
+ .ul-share {
+   padding: 20px 0;
+   display: inline-block;
+   width: 100%;
+   font-size: 0;
+   &.clearfix {
+     li {
+       height: auto !important;
+       display: inline-block;
+     }
+   }
+ }
+}
+.close {
+  &.close-social {
+    margin-top: 5px;
+   margin-right: 3px;
+   width: 24px;
+   height: 25px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 25px;
+   display: inline-block;
+   vertical-align: middle;
+   background: url(../mobile/images/close.png) no-repeat center center / 80%;
+  }
+}
+.moreDetail {
+  color: #8d6448!important;
+  background: url(../mobile/images/share_bl.png) no-repeat 5px center / 13px #dfd7cc;
+  padding: 5px;
+  padding-left: 20px;
+}

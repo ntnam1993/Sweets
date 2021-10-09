@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* 予約ステップ　生年月日フォーム */
+.sp-container div.birth-form {
+    overflow: hidden;
+}
+
+.sp-container div.birth-form div {
+    width: 50%;
+  display: inline-block;
+}
+
+.sp-container div.birth-form select {
+    width: 85%;
+    padding: 15px;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    background: #ffffff url(../mobile/images/img/form_sp.png) no-repeat right top;
+    background-size: contain;
+    font-size: 14px;
+  margin-right: 2%;
+}
+
+.sp-container div.birth-form .birth-year{
+    width: 100%;
+}
+
+.sp-container div.birth-form .birth-year select{
+    width: 93%;
+    margin-bottom: 3%;
+}
+
+.sp-container div.birth-form .birth-day{
+    float: right;
+  padding-left: 2%;
+}
+
+
+/* 予約ステップ　名前フォーム */
+.input-right {
+    float: right;
+}

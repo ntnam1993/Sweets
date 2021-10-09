@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+h3 .ref-header {
+    margin-left: 0;
+    position: relative;
+  left: 8%;
+}
+
+.newHeader {
+  display: block;
+    width: 27%;
+    margin-top: 5px;
+    margin-right: 5%;
+}
+
+.newHeader .coupon-list-btn {
+    position: relative;
+  left: 4px;
+  width: 100px;
+}
+
+.newHeader .showMenu1 {
+    background: none;
+}
+
+.newHeader .showMenu1 img {
+width: 32px;
+    margin-top: 0px;
+    position: relative;
+    top: 4px;
+    left: 2px;
+  }
+
+.newHeader .mar-top-15 a span {
+  color: unset !important;
+  color: #cb141a !important;
+}
+
+.newHeader .showMenu{
+  display: inline-block;
+    float: right;
+    position: absolute;
+  bottom: 0px;
+    right: -10px;
+  background: none;
+}
+
+.newHeader .showMenu .icon-log-new {
+    margin: 0;
+    width: 25px;
+    position: relative;
+     top: 4px;
+    right: 1px;
+}
+
+#badge-container{
+    display: block !important;
+  top: 4px !important;
+    left: 24px !important;
+  z-index: 10;
+}
+
+#badge-container .badge-bg {
+    height: 15px !important;
+    width: 15px !important;
+  top: 4px !important;
+    left: 6px !important;
+}
+
+#badge-container .badge-bg.oval{
+  width: 26px !important;
+  left: 1px !important;
+
+}
+
+#badge-container .badge-bg span.inner {
+    font-size: 60% !important;
+}
+
+.mar-top-20 {
+  margin-top: -20px;
+}
+.pad-15 .newHeader .bottom-5 {
+  bottom: -5px;
+}
+.pad-bottom-8 {
+  padding-bottom: 8px;
+}
+
+.show-menu {
+  display: inline-block;
+    float: right;
+    position: absolute;
+    right: -10px;
+    top: -1px;
+  background: none;
+}
+.pad-15 #badge-container .badge-bg {
+    height: 15px !important;
+    width: 15px !important;
+  top: -14px !important;
+    left: 14px !important;
+}
+
+.pad-15 a.login-menu {
+  background: none;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  span {
+    width: 4em;
+    margin-top: 6px;
+  }
+}
+
+.login-menu-a {
+  top: 13px;
+  position: absolute;
+  right: -5px;
+  img.icon-log-new {
+    width: 25px;
+  }
+  span {
+    position: absolute;
+    right: 1px;
+    margin-top: 5px !important;
+  }
+}
+.img-icon-log-new {
+  width: 25px;
+}
+.mar-left-38 {
+  margin-left: 38px !important;
+}

@@ -1,0 +1,369 @@
+@charset "utf-8";
+/* 20180122 路線追加 */
+
+.shop-summary .info dl p{
+	display: inline;
+}
+
+.shop-summary .info dl p:before{
+	content: "/";
+	padding-right: 3px;
+}
+
+.shop-summary .info dl p:first-of-type:before{
+	content: none;
+}
+
+
+
+.shop-info .info-wrap .text-left span:before{
+	content: "/";
+	padding-right: 3px;
+}
+
+.shop-info .info-wrap .text-left span:first-of-type:before{
+	content: none;
+}
+
+
+.shop-contents-unit .scu-shopAccess p{
+	display: block;
+}
+
+
+/*===================================
+	 20180129 メニューの名前2行表示
+=====================================*/
+.list-item-detail .div-text-l .p-f1 {
+   /* height: 2.8em;
+    overflow: hidden;*/
+}
+
+/* スライダー画像下ドット表示 */
+.slick-dots li button:before {
+    font-size: 24px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #000;
+}
+
+/*===================================
+	     20180130 路線のリンク
+=====================================*/
+
+.shop-summary.css-new .info a{
+	text-decoration: underline;
+}
+
+.shop-contents-unit .scu-shopAccess p a{
+	text-decoration: underline;
+}
+
+
+/*===================================
+	  20180208 掲載リクエストボタン
+=====================================*/
+
+.shop-summary.css-new .info .request_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+	background: #f7f6f2;
+    padding: 15px;
+	margin-top: 10px;
+}
+
+.shop-summary.css-new .info .request_btn a{
+    display: block;
+    background: #916a41;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: 4px 0 10px;
+    text-decoration: none;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.shop-summary.css-new .info .request_btn a span.req_img{
+content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+  background: url(../../../../assets/mobile/images/request_w.png) no-repeat;
+    background-size: 20px;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
+
+
+.shop-summary.css-new .info .request_btn a span.count{
+    display: inline-block;
+    color: #cb141a;
+    background: #fff;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 1px 5px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 1px;
+	left: 6px;
+}
+
+.shop-summary.css-new .info .request_btn p{
+    font-size: 0.85em;
+    text-align: left;
+}
+
+
+/* リクエスト済 */
+.shop-summary.css-new .info .request_btn.settled a{
+	background:#dfd7cc;
+}
+
+
+/*===================================
+	  20180228-誤情報報告ボタン
+=====================================*/
+
+.sp-container .reportBtn{
+    width: 100%;
+    margin: 10px auto 30px;
+    text-align: center;
+}
+
+.sp-container .reportBtn a{
+    display: inline-block;
+    max-width: 260px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background: #ddd;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+/* ===================================================
+			20180314 共通パーツ設置に伴う修正
+====================================================== */
+
+.sp-container {
+    padding-bottom: 30px;
+}
+
+.coupon_content .couponBox {
+    margin: 30px auto 0;
+}
+
+.css-new .shop-contents-unit {
+    margin-bottom: 0;
+}
+
+.paging.mar-top-20 {
+    margin-top: 10px;
+}
+
+.paging .controls {
+    margin-bottom: 0px;
+}
+
+/* ===================================================
+			20180401 バッジ修正
+====================================================== */
+
+
+/* =====================================
+  20180426 キャッシュポ・事前決済OKアイコンの追加
+========================================*/
+
+.cashpo_kessai{
+	display:flex;
+    color: #916a41;
+    font-size: 0.9em;
+	margin:10px 0;
+}
+.cashpo_icon{
+	background: #dfd7cc;
+    border-radius: 3px;
+    padding: 3px 6px;
+	margin-right:5px;
+}
+.kessai_icon{
+	background: #dfd7cc;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+/* =====================================
+  20180607 パンくず追加
+========================================*/
+
+.pankuzu {
+    position: relative;
+    top: 0px;
+    left: 5px;
+	font-size: 0.6em;
+    margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*span.h1-inbl, input#size10:checked~label[for=size10]::after, input#size11:checked~label[for=size11]::after, input#size9:checked~label[for=size9]::after {
+    display: inline-block;
+}*/
+.t-path p {
+    display: inline-block;
+    font-size: 11px;
+}
+.t-path-list {
+    color: #aa8c75;
+}
+p.t-path span span.t-path-kako:before {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    content: '>';
+    color: #6b6b6b;
+}
+
+.t-path-last{
+	color: #333;
+}
+/*
+.pankuzu {
+    position: relative;
+    top: 0px;
+    left: 5px;
+	font-size: 0.6em;
+    margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.h1-inbl, input#size10:checked~label[for=size10]::after, input#size11:checked~label[for=size11]::after, input#size9:checked~label[for=size9]::after {
+    display: inline-block;
+}
+.t-path li {
+    display: inline-block;
+    font-size: 11px;
+}
+.t-path-list {
+    color: #aa8c75;
+}
+ul.t-path li span:before {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    content: '>';
+    color: #6b6b6b;
+}
+*/
+
+/* =====================================
+  20180618 ロイヤルパスポート会員様限定特典
+========================================*/
+.couponDetail p.gentei img{
+	width: 17px;
+    height: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+
+}
+
+.couponDetail p.gentei span{
+	color: #f00;
+	font-size: 0.9em;
+}
+
+.couponDetail p.caution{
+	color: #f00;
+	font-size: 0.9em;
+}
+
+
+/*===================================
+	 20180809 店舗詳細ページにメニュー一覧表示
+=====================================*/
+.reservecakeichiran{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.reservecakeichiran .reserveshouhin{
+	width:48%;
+	position: relative;
+}
+
+.reservecakeichiran .reserveshouhin .reservecakeimg{
+	width:100%;
+  display: block;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center;
+}
+
+.reservecakeichiran .reserveshouhin .reservecakeicon{
+	position: absolute;
+	top:2%;
+	left:4%;
+}
+
+.reservecakeichiran .reserveshouhin .producttitle{
+	font-size: 12px;
+}
+
+.reservecakeichiran .reserveshouhin .cakekakaku{
+	color:red;
+	font-weight: bold;
+	margin: 0 0 5px;
+}
+
+.reservecakeichiran .reserveshouhin .todayreserve{
+  height: 20px;
+	line-height: 20px;
+	font-size: 11px;
+	margin:0;
+	padding-left: 0;
+	position: relative;
+}
+
+.reservecakeichiran .reserveshouhin .canreserve{
+	display: block;
+	background:#c7000b;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.css-new .shop-contents-unit .moremenyuichiran{
+	font-size: 11px;
+	text-align: right;
+	margin: 0 0 25px;
+  display: block;
+  width: 100%;
+
+}
+
+.css-new .shop-contents-unit .moremenyuichiran a{
+	text-decoration: underline;
+	color:red;
+}
+.ul-sizes-item {
+  background: #F6848A;
+  color: #FFF;
+  margin: 3px 4px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}

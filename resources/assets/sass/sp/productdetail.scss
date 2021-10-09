@@ -1,0 +1,1177 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.div-item-price-by-size .size {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.price_align_txt {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.div-item-price-by-size .price {
+  text-align: center;
+}
+
+.getDay {
+  font-size: 0.8em;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #916a41;
+  font-weight: normal;
+}
+
+.div-item-price-by-size .reservation-btn {
+  width: auto;
+  display: block;
+  font-size: 14px;
+}
+
+.div-item-price-by-size {
+  border-bottom: 1px solid #ded6cd;
+  margin-top: 0;
+}
+
+.price_discount {
+  text-align: left !important;
+}
+
+.net_price {
+  color: #ff0000;
+  text-align: right;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 9px;
+  margin-top: 25px;
+  min-height: 32px;
+}
+
+.net_price div {
+  font-size: 0.8em;
+  font-weight: normal;
+  padding-right: 2em;
+}
+
+.div-item-price-by-size .price {
+  text-align: left;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.div-item-price-by-size .size {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.pull-left .price_align_txt {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+
+
+.div-item-price-by-size .price {
+  text-align: center;
+}
+
+.pull-right .price_align_txt {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #333333;
+  text-align: left;
+  padding-left: 1em;
+  margin-top: 1%;
+}
+
+.pull-right .price{
+  margin-top: -1px;
+}
+
+.getDay {
+  font-size: 0.8em;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #916a41;
+  font-weight: normal;
+}
+
+
+.div-item-price-by-size .reservation-btn {
+  width: 120px;
+  font-size: 0.9em;
+  padding: 8px;
+}
+
+.div-item-price-by-size .reservation-btn span {
+  background: url(../mobile/images/reserve_w.png) no-repeat top 50% left;
+  background-size: 18px;
+  padding-left: 23px;
+}
+
+
+.div-item-price-by-size {
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.price_discount{
+  text-align: left !important;
+}
+
+.net_price{
+  color:#ff0000;
+  text-align: right;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 9px;
+  margin-top: 25px;
+}
+
+.net_price div{
+  font-size: 0.8em;
+  font-weight: normal;
+  padding-right: 2em;
+}
+
+.div-item-price-by-size .price {
+  text-align: left;
+  color: #333;
+}
+
+
+
+
+@charset "utf-8";
+/* 電話予約ボタン */
+ .menuList {
+  width: 100%;
+  overflow: hidden;
+  display: table;
+  vertical-align: middle;
+}
+
+ .menuList p:first-child {
+  display: table-cell;
+  width: 51%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 15px;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+ .menu_tel{
+  display: table-cell;
+  width: 39%;
+}
+
+ .menu_tel a{
+  display: inline-block;
+  max-width: 120px;
+  width: 100%;
+  background: #916a41;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 5px;
+  border-radius: 4px;
+  float: right;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+ .menu_tel a span{
+  font-size: 0.7em;
+  display: inline-block;
+  background: #ffffff;
+  color: #916a41;
+  padding: 1% 3%;
+  border-radius: 4px;
+  margin-right: 11%;
+}
+
+/* 固定footer */
+footer{
+  z-index: 999 !important;
+}
+
+.fix_fmenu {
+  position: fixed;
+  bottom: 0;
+  background-color:rgba(0,0,0,0.5);
+  width: 100%;
+  /*opacity: 0.5;*/
+  z-index:1000;
+}
+
+.fmenuList {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fmenuList .fmenu_net,
+.fmenuList .fmenu_tel{
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+
+
+.fmenuList .fmenu_net a{
+  display: inline-block;
+  width: 100%;
+  background: #cb141a;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.fmenuList .fmenu_tel a{
+  display: inline-block;
+  width: 100%;
+  background: #916a41;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
+  float: right;
+  font-size: 1em;
+  text-align: center;
+}
+
+.fmenuList .fmenu_net a span:first-child{
+  font-size: 0.7em;
+  display: block;
+  background: #ffffff;
+  color: #cb141a;
+  padding: 1% 1% 0.5%;
+  border-radius: 20px;
+  width: 45%;
+  margin: 0 auto 3%;
+}
+
+.fmenuList .fmenu_tel a span:first-child{
+  font-size: 0.7em;
+  display: block;
+  background: #ffffff;
+  color: #916a41;
+  padding: 1% 1% 0.5%;
+  border-radius: 20px;
+  width: 45%;
+  margin: 0 auto 3%;
+}
+
+.fmenuList .fmenu_net a span.net_bg{
+  padding: 10px 20px 10px 45px;
+  background: url(../img/reserve_w.png) no-repeat top 50% left 20px;
+  background-size: 1.4em;
+}
+
+.fmenuList .fmenu_tel a span.tel_bg{
+  padding: 10px 35px 10px 45px;
+  background: url(../img/tel_w.png) no-repeat top 50% left 25px;
+  background-size: 1.1em;
+}
+
+.fmenuList .oneSize{
+  width: 100%;
+}
+
+.fmenuList .oneSize a{
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.fmenuList .oneSize a span:first-child{
+  padding: 0.5% 3%;
+  margin: 0 auto 1%;
+  width: 27%;
+}
+
+
+/* tel popup */
+
+#dialog{
+  width:90%;
+  height:310px;
+  padding:17px 0;
+  text-align: center;
+  background:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.4);
+  position:fixed;
+  left:0;
+  right:0;
+  margin:0 auto;
+  top:100px;
+  z-index: 10000;
+  border-radius:5px;
+}
+#mask{
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background: rgba(0, 0, 0,.5);
+}
+
+.tel_out {
+  width:auto;
+  padding:10px;
+  box-sizing:border-box;
+  margin:0 auto;
+}
+.close{
+  position:absolute;
+  color:#353535;
+  right:3px;
+  top:0;
+  font-size:1.5rem;
+  line-height:1;
+  cursor:pointer;
+  text-shadow: none;
+  opacity: 1;
+  font-size: 25px;
+}
+
+.tel_ppc {
+  width:48%;
+  float:left;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+  margin-right:3px;
+}
+
+.tel_ppc .tel_reserve a{
+  display: block;
+  background: #cb141a url("../img/tel_w.png") no-repeat top 70% center;
+  background-size: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 1.1em;
+}
+
+.tel_info {
+  width:48%;
+  float:right;
+  box-sizing:border-box;
+  background-color: #f3efe9;
+}
+
+.tel_info .tel_inquiry a{
+  display: block;
+  background: #916a41 url("../img/tel_w.png") no-repeat top 70% center;
+  background-size: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px auto;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 1em;
+}
+
+.tel_ppc p,
+.tel_info p{
+  font-size: 0.73em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tel_attention{
+  clear: both;
+  display: block;
+  padding: 10px 0 0;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+
+.tel_attention p{
+  margin-bottom: 3px;
+}
+
+.tel_attention p.unmatched{
+  color: #cb141a;
+}
+
+@charset "utf-8";
+
+/* 20180122 路線追加 */
+
+.shop-summary .info dl p {
+  display: inline;
+}
+
+.shop-summary .info dl p:before {
+  content: "/";
+  padding-right: 3px;
+}
+
+.shop-summary .info dl p:first-of-type:before {
+  content: none;
+}
+
+.shop-info .info-wrap .text-left span:before {
+  content: "/";
+  padding-right: 3px;
+}
+
+.shop-info .info-wrap .text-left span:first-of-type:before {
+  content: none;
+}
+
+.shop-contents-unit .scu-shopAccess p {
+  display: block;
+}
+
+
+/*===================================
+   20180129 メニューの名前2行表示
+=====================================*/
+
+.list-item-detail .div-text-l .p-f1 {
+  height: 2.8em;
+  overflow: hidden;
+}
+
+
+/* スライダー画像下ドット表示 */
+
+.slick-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #000;
+}
+
+
+/*===================================
+       20180130 路線のリンク
+=====================================*/
+
+.shop-summary.css-new .info a {
+  text-decoration: underline;
+}
+
+.shop-contents-unit .scu-shopAccess p a {
+  text-decoration: underline;
+}
+
+
+/*===================================
+    20180208 掲載リクエストボタン
+=====================================*/
+
+.shop-summary.css-new .info .request_btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #f7f6f2;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.shop-summary.css-new .info .request_btn a {
+  display: block;
+  background: #916a41;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 4px;
+  padding: 4px 0 10px;
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.shop-summary.css-new .info .request_btn a span.req_img {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(../../../../assets/mobile/images/request_w.png) no-repeat;
+  background-size: 20px;
+  position: relative;
+  top: 6px;
+  right: 6px;
+}
+
+.shop-summary.css-new .info .request_btn a span.count {
+  display: inline-block;
+  color: #cb141a;
+  background: #fff;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 1px 5px;
+  border-radius: 2px;
+  position: relative;
+  bottom: 1px;
+  left: 6px;
+}
+
+.shop-summary.css-new .info .request_btn p {
+  font-size: 0.85em;
+  text-align: left;
+}
+
+
+/* リクエスト済 */
+
+.shop-summary.css-new .info .request_btn.settled a {
+  background: #dfd7cc;
+}
+
+
+/*===================================
+    20180228-誤情報報告ボタン
+=====================================*/
+
+.sp-container .reportBtn {
+  width: 100%;
+  margin: 10px auto 30px;
+  text-align: center;
+}
+
+.sp-container .reportBtn a {
+  display: inline-block;
+  max-width: 260px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  background: #ddd;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+
+/* ===================================================
+      20180314 共通パーツ設置に伴う修正
+====================================================== */
+
+.sp-container {
+  padding-bottom: 30px;
+}
+
+.coupon_content .couponBox {
+  margin: 30px auto 0;
+}
+
+.css-new .shop-contents-unit {
+  margin-bottom: 0;
+}
+
+.paging.mar-top-20 {
+  margin-top: 10px;
+}
+
+.paging .controls {
+  margin-bottom: 0px;
+}
+
+
+/* ===================================================
+      20180401 バッジ修正
+====================================================== */
+
+
+/* =====================================
+  20180426 キャッシュポ・事前決済OKアイコンの追加
+========================================*/
+
+.cashpo_kessai {
+  display: flex;
+  color: #916a41;
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+.cashpo_icon {
+  background: #dfd7cc;
+  border-radius: 3px;
+  padding: 3px 6px;
+  margin-right: 5px;
+}
+
+.kessai_icon {
+  background: #dfd7cc;
+  border-radius: 3px;
+  padding: 3px 6px;
+}
+
+.slick-dots li button:focus:before,
+.slick-dots li button:hover:before {
+  opacity: .25;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+}
+.div-price-by-size {
+      margin: 0;
+      height: auto;
+      .div-item-price-by-size {
+        padding-top: 0;
+        .gr-button {
+          margin-top: 10px;
+          .reservation-btn {
+            display: block;
+            width: auto;
+            font-size: 14px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+}
+.div-price-by-size {
+  margin: 20px -15px;
+}
+
+.price-discount {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px 0 20px;
+    .pull-left, .pull-right {
+      float: none !important;
+      .net_price {
+        margin: 0;
+      }
+    }
+}
+.div-price-by-size {
+  margin: 0;
+  height: auto;
+  margin-bottom: 15px;
+  .div-item-price-by-size {
+    padding-top: 0;
+    background: #f7f6f2;
+    border-bottom: none;
+    padding: 10px 15px;
+    margin: 0 -15px 15px;
+    height: auto;
+    .gr-button {
+      .reservation-btn {
+        display: block;
+        width: auto;
+        font-size: 14px;
+        margin-bottom: 10px;
+        span {
+          font-weight: bold;
+          color: #fff;
+          background-size: 22px 21px;
+          padding-left: 28px;
+        }
+      }
+      .btn-cart {
+        span {
+          background: url(../mobile/images/cart_icon.png) left center no-repeat;
+          background-size: 21px 20px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+#productDetail {
+ .modal-header {
+   padding: 30px 0 10px;
+   h3 {
+     font-weight: bold;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+     border-bottom: none;
+   }
+ }
+ .modal-dialog-centered {
+   position: absolute;
+   transform: translateY(-50%);
+   top: 50%;
+   .net_price {
+     text-align: left;
+     color: #000;
+     margin: 0;
+   }
+   .div-price-by-size {
+     margin: 0;
+     .div-item-price-by-size {
+       padding-top: 0;
+       margin: 5px 0;
+       background: #fff;
+       padding: 0;
+     }
+   }
+   .net_price {
+     font-weight: normal;
+      color: initial;
+      font-size: 14px;
+      min-height: 22px;
+     div {
+       padding: 0;
+     }
+   }
+   .current-url {
+     color: #000;
+     font-weight: normal;
+     text-align: left;
+   }
+ }
+}
+.div-share {
+ &.product-social {
+   display: inline-block;
+   width: auto;
+   left: auto;
+   right: auto;
+   margin: 0;
+   top: auto;
+   position: relative;
+   padding: 10px;
+   border-radius: 6px;
+   .ul-share li {
+     width: calc((100% - 24px)/ 4);
+     float: none;
+     margin: 3px;
+   }
+ }
+ .ul-share {
+   padding: 20px 0;
+   display: inline-block;
+   width: 100%;
+   font-size: 0;
+   &.clearfix {
+     li {
+       height: auto !important;
+       display: inline-block;
+     }
+   }
+ }
+}
+.close-social {
+  margin-top: 5px;
+ margin-right: 3px;
+ width: 24px;
+ height: 25px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 25px;
+ display: inline-block;
+ vertical-align: middle;
+ background: url(../mobile/images/close.png) no-repeat center center / 80%;
+}
+.moreDetail {
+  color: #8d6448!important;
+  background: url(../mobile/images/share_bl.png) no-repeat 5px center / 13px #dfd7cc;
+  padding: 5px;
+  padding-left: 20px;
+}
+.menuList {
+  margin-bottom: 20px;
+}
+.slick-dots li button:before {
+  font-size: 6px !important;
+}
+
+.cashpo_own{
+    background:#fbfde0;
+    padding:1px;
+    width:100%;
+    margin: 0px 0 15px;
+}
+.cashpo_own .cashpo_point_box{
+    display:flex;
+}
+.cashpo_own .cashpo_point_box .cashpo_hoyu{
+    width:55%;
+    font-size: 14px;
+    padding: 10px 0 0 30px;
+    background: url(../mobile/images/cashpo_icon.png) no-repeat;
+    background-position: 7px 12px;
+    font-weight:bold;
+}
+.cashpo_own .cashpo_point_box .place_en{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 9px 0;
+    width: 45%;
+    text-align: right;
+}
+
+
+.cashpo_own .cashpo_point_box .place_en a{
+    color:#000;
+    text-decoration: underline;
+}
+.cashpo_own .bottom_text{
+    font-size: 12px;
+    padding: 0 0 5px 30px;
+
+}
+.div-price-by-size .div-item-price-by-size{
+	padding: 10px 10px;
+}
+.getDay {
+    font-size: 14px;
+}
+.div-item-price-by-size .size {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.price-discount {
+    margin: 0;
+}
+.div-item-price-by-size .price {
+    font-size: 23px;
+    margin-top:0;
+}
+.price-discount .pull-left{
+    display:flex;
+    position:relative;
+}
+.price-discount .pull-left .price_align_txt{
+    position: relative;
+    top: 10px;
+    padding-right:5px;
+}
+.price-discount .pull-left p span{
+    font-size:13px;
+
+}
+.couponDetail a dl dd:before {
+    content: "";
+    margin-right:0;
+}
+.couponDetail a dl dt, .couponDetail a dl dd{
+    display:block;
+}
+dl.cpn_publish{
+    margin-bottom:3px;
+}
+.coupon_content .couponBox{
+    width:100%;
+}
+.coupon_syosai{
+    width:100%;
+    border:2px solid #cccaca;
+    position:relative;
+}
+.coupon_syosai hr{
+    width: 100%;
+    margin: 4px auto;
+    border-top: 2px solid #cccaca;
+}
+.coupon_syosai p.title{
+    font-size:18px;
+    font-weight:bold;
+    color:#757575;
+    text-align: center;
+}
+.accordionbox{
+	width: 100%;
+	margin: 10px auto 0;
+    background:#fff;
+}
+.accordionlist dt{
+    display:block;
+    background: #fff;
+    border-top: 1px solid #DFDFDF;
+    position:relative;
+}
+.accordionlist dt .title{
+    background:#fafde0;
+}
+.accordionlist dt:first-child{
+    border-top: none !important;
+}
+.accordionlist dt .title p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    padding:6px;
+}
+.accordionlist dt .title p span{
+    font-size:17px;
+    color:#ca1419;
+}
+.accordionlist dt .title p span span{
+    font-size:15px;
+}
+.accordionlist dd{
+    display:none;
+    background: #fff;
+    text-align: left;
+    font-size:15px;
+    padding:10px;
+    border-top: 2px solid #cccaca;
+}
+.accordionlist dd span{
+    font-weight:bold;
+}
+.accordion_icon,
+.accordion_icon span {
+	display: inline-block;
+	transition: all .4s;
+	box-sizing: border-box;
+}
+.accordion_icon {
+    position: absolute;
+    width: 56px;
+    height: 27px;
+    padding: 4px 5px;
+    top: 15px;
+    color: #fff;
+    right: 3%;
+    background: #ca1419;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.accordionlist dd .normal_price,
+.accordionlist dd .coupon_own_use,
+.accordionlist dd .cashpo_own_use,
+.accordionlist dd .price_use{
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+.coupon_use_if p{
+    font-size:12px;
+}
+
+.coupon_use_if p.fz_big{
+	font-size: 18px;
+}
+
+.coupon_use_if p span{
+    font-size:20px;
+    color:#ca1419;
+}
+.coupon_use_if .point_strong{
+    text-align: right;
+    margin: 10px 0 5px;
+}
+.coupon_use_if .point_strong .reserve_notice a span{
+    font-size:10px;
+}
+.coupon_use_if p.kome{
+    font-size:11px;
+    color:#000;
+}
+.coupon_use_if{
+    border: 2px solid #cccaca;
+    padding: 7px;
+    margin: 10px 0;
+    background: #fff;
+	text-align: center;
+}
+.accordionlist dd .normal_price p,
+.accordionlist dd .coupon_own_use p,
+.accordionlist dd .cashpo_own_use p,
+.accordionlist dd .price_use p{
+    width:70%;
+    text-align:left;
+}
+.accordionlist dd .normal_price p:last-child,
+.accordionlist dd .coupon_own_use p:last-child,
+.accordionlist dd .cashpo_own_use p:last-child,
+.accordionlist dd .price_use p:last-child{
+    width:39%;
+    text-align:right;
+}
+.accordionlist dd .normal_price p span,
+.accordionlist dd .coupon_own_use p span,
+.accordionlist dd .cashpo_own_use p span,
+.accordionlist dd .price_use p span{
+    font-size:10px;
+}
+.accordionlist dd .coupon_own_use p.point_strong,
+.accordionlist dd .cashpo_own_use p.point_strong,
+.accordionlist dd .price_use p.point_strong{
+    color:#ca1419;
+}
+.reserveList {
+    display: block;
+    width: 100%;
+    padding: 3px 0 20px;
+    text-align:right;
+}
+.reserveList .reserve_notice {
+    display: block;
+    vertical-align: top;
+    margin-left: 17px;
+    position: relative;
+    font-size: 11px;
+    text-align: left;
+}
+.point_strong .reserve_notice {
+    display: block;
+    vertical-align: top;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+}
+.reserveList .reserve_notice:before {
+    content: "";
+    width: 14px;
+    height: 18px;
+    background: url(/assets/mobile/images/r_notice.png) no-repeat #fff;
+    background-size: 100%;
+    position: absolute;
+    top: 3px;
+    left: -16px;
+}
+
+.point_strong .reserve_notice .icon_q{
+	display: inline-block;
+	    width: 12px;
+}
+
+.reserveList .reserve_notice a,
+.point_strong .reserve_notice a {
+  border-bottom: 3px solid #ddd;
+    font-size: 11px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+.reserveList .reserve_notice a span{
+    font-size:10px;
+}
+ #coupon-dialog {
+    width: 90%;
+    padding: 17px 0;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+    z-index: 10000;
+    border-radius: 5px;
+}
+#coupon-dialog hr {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 2px solid #f6848a;
+    width: 90%;
+}
+#coupon-dialog .model_title{
+    font-size: 17px;
+    font-weight: bold;
+    color: #ca1419;
+}
+.coupon-out {
+    width: auto;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.coupon-product {
+    clear: both;
+    display: block;
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+}
+.coupon-product a{
+    text-decoration: underline;
+}
+.coupon-close {
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1;
+    opacity: 1;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 10px 55px;
+    border-radius: 5px;
+    background: #353535;
+}
+@media screen and (max-width: 375px) {
+.accordion_icon {
+    right: 2%;
+}
+.accordionlist dt .title p {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 320px) {
+.accordionlist dt .title p {
+    font-size:11px;
+}
+.accordionlist dt .title p span {
+    font-size: 14px;
+}
+.accordionlist dt .title p span span {
+    font-size: 12px;
+}
+.accordion_icon {
+    top: 10px;
+}
+#coupon-dialog {
+    width: 90%;
+    top:30px;
+}
+.coupon-product {
+    line-height: 20px;
+    font-size: 12px;
+}
+.coupon-close {
+    width: 56%;
+}
+}
+/*  詳細ボタン  */
+.accordion_icon::after{
+content: "";
+   display: inline-block;
+   background: url(../mobile/images/arrow_detail.png)no-repeat;
+   background-size: 100%;
+   width: 11px;
+   height: 7px;
+   position: absolute;
+   right: 5px;
+   top: 11px;
+   transition: all .4s;
+   transform: rotate(180deg);
+}
+
+.accordion_icon.active::after{
+   transition: all .4s;
+   transform: rotate(0deg);
+}

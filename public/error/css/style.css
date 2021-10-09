@@ -1,0 +1,156 @@
+/* CSS Document */
+
+/*==========  繝ｪ繧ｻ繝�ヨCSS  ==========*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    /*	font-family: "貂ｸ繧ｴ繧ｷ繝�け", "Yu Gothic";*/
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*==========  //繝ｪ繧ｻ繝�ヨCSS  ==========*/
+
+/*==========  蜈ｱ騾�  ==========*/
+
+body {
+    line-height: 1.3;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #1b1b1b;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+body .family_m{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+section{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main_box{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: underline;
+    color: #1b1b1b;
+}
+
+a:hover{
+    color: #d6081e;
+}
+
+
+.pc{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    section{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .main_container{
+        padding-top: 0;
+    }
+
+
+    .pc{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
+.contents{
+    width:960px;
+    margin:0 auto;
+}
+.img-404{
+    margin:200px auto;
+}
+.p-button.p-button-green {
+    background: #e0f5b2;
+    border: 3px solid #b3d865;
+    border-radius: 5px;
+}
+.btn-404-err {
+    width: 200px;
+    margin: 20px auto 100px;
+}
+.btn-404-err, .showModal-sp {
+    display: block;
+}
+.p-button.p-button-green a {
+    color: #627e28;
+    display: block;
+    text-decoration: none;
+}
+.p-button-cus {
+    height: 45px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 49%;
+    margin-bottom: 70px;
+    text-align: center;
+}
+@media screen and (max-width: 580px){
+    .contents {
+        width: 100%;
+    }
+    .img-404 {
+        margin: 40px auto;
+        width: 90%;
+    }
+}

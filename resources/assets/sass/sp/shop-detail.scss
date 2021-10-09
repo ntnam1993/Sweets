@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* 20180122 路線追加 */
+
+.shop-summary .info dl p{
+	display: inline;
+}
+
+.shop-summary .info dl p:before{
+	content: "/";
+	padding-right: 3px;
+}
+
+.shop-summary .info dl p:first-of-type:before{
+	content: none;
+}
+
+
+
+.shop-info .info-wrap .text-left span:before{
+	content: "/";
+	padding-right: 3px;
+}
+
+.shop-info .info-wrap .text-left span:first-of-type:before{
+	content: none;
+}
+
+
+.shop-contents-unit .scu-shopAccess p{
+	display: block;
+}
+
+
+/*===================================
+	 20180129 メニューの名前2行表示
+=====================================*/
+.list-item-detail .div-text-l .p-f1 {
+    height: 2.8em;
+    overflow: hidden;
+}
+
+/* スライダー画像下ドット表示 */
+.slick-dots li button:before {
+  font-size: 6px !important;
+}
+
+.slick-dots li button:focus:before,
+.slick-dots li button:hover:before {
+  opacity: .25;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+}
+
+/*===================================
+	     20180130 路線のリンク
+=====================================*/
+
+.shop-summary.css-new .info a{
+	text-decoration: underline;
+}
+
+.shop-contents-unit .scu-shopAccess p a{
+	text-decoration: underline;
+}
+
+
+/*===================================
+	  20180208 掲載リクエストボタン
+=====================================*/
+
+.shop-summary.css-new .info .request_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+	background: #f7f6f2;
+    padding: 15px;
+	margin-top: 10px;
+}
+
+.shop-summary.css-new .info .request_btn a{
+    display: block;
+    background: #916a41;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: 4px 0 10px;
+    text-decoration: none;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.shop-summary.css-new .info .request_btn a span.req_img{
+content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../../../../assets/mobile/images/request_w.png) no-repeat;
+    background-size: 20px;
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
+
+
+.shop-summary.css-new .info .request_btn a span.count{
+    display: inline-block;
+    color: #cb141a;
+    background: #fff;
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 1px 5px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 1px;
+	left: 6px;
+}
+
+.shop-summary.css-new .info .request_btn p{
+    font-size: 0.85em;
+    text-align: left;
+}
+
+
+/* リクエスト済 */
+.shop-summary.css-new .info .request_btn.settled a{
+	background:#dfd7cc;
+}
+
+
+/*===================================
+	  20180228-誤情報報告ボタン
+=====================================*/
+
+.sp-container .reportBtn{
+    width: 100%;
+    margin: 10px auto 30px;
+    text-align: center;
+}
+
+.sp-container .reportBtn a{
+    display: inline-block;
+    max-width: 260px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background: #ddd;
+    padding: 10px;
+    font-size: 0.9em;
+}
+.okiniiri_sp {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+a.okiniiri_btn_sp_off {
+    width: 121px;
+    height: 40px;
+    padding: 5px 17px;
+    color: #916a41 !important;
+    border: 2px solid #916a41;
+    border-radius: 5px;
+}
+.shop-summary.css-new{
+    padding: 5px 0 0;
+}
+.okiniiri_sp {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+a.okiniiri_btn_sp {
+    width: 121px;
+    height: 40px;
+    padding: 5px 10px;
+    background: #916a41 !important;
+    border: 2px solid #916a41;
+    color: #fff !important;
+    border-radius: 5px;
+}
+.item_box.item_box_ct{
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 10px;
+  .item{
+      width: 50%;
+      height: 310px;
+      padding: 10px 3px;
+      background: #fff;
+      border-radius: 10px;
+      position: relative;
+      a {
+        display: block;
+        width: 100%;
+        span {
+          background-size: 100%;
+          background-position: center center;
+          background-repeat: no-repeat;
+          display: block;
+          width: 100%;
+          height: 168px;
+        }
+      }
+			@media (max-width: 480px) {
+				height: auto !important;
+				padding-bottom: 33px;
+				.item_name {
+					height: auto;
+				}
+			}
+  }
+  .item_name{
+      text-align: left;
+  		height:46px;
+  }
+  .nedan{
+      text-align: left;
+  }
+  .yoyaku_btn{
+      background: url("../mobile/images/img/ie_icon.png") no-repeat #916a41 left center;
+			background-position: 7px;
+			border-radius: 5px;
+			padding: 7px 0 7px 43px;
+			font-weight: bold;
+			font-size: 13px;
+      color: #ffffff !important;
+      position: absolute;
+      bottom: 0;
+      left: 3px;
+      right: 3px;
+      margin: auto;
+      width: auto !important;
+			@media (max-width: 480px) {
+				padding-left: 33px;
+			}
+  }
+}

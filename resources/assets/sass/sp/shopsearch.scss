@@ -1,0 +1,980 @@
+@charset "UTF-8";
+
+.list-heading {
+  margin: {
+    left: 0px;
+    right: 0px;
+  }
+  h1 {
+    padding: 12px 15px;
+    background: #f3efe9;
+    color: #242424;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .search-switch {
+    padding: 5px 15px;
+    background: #dfd7cc;
+    font-size: 14px;
+    text-align: right;
+    a {
+      position: relative;
+      padding: 0 10px 0 18px;
+      color: #916a41;
+      &.search-shop {
+        background: url(../mobile/images/search_shop_sp.png) left center no-repeat;
+        background-size: 14px 14px;
+      }
+      &.search-product {
+        background: url(../mobile/images/search_product_sp.png) left center no-repeat;
+        background-size: 14px 14px;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+        height: 5px;
+        border-top: 1px solid #916a41;
+        border-right: 1px solid #916a41;
+        margin: auto;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
+.shoplist-ctrl {
+  margin: {
+    left: 0px;
+    right: 0px;
+  }
+  padding: 10px 15px;
+  .crtl-title {
+    padding: 0 0 0 26px;
+    color: #cb141a;
+    font-size: 14px;
+    font-weight: bold;
+    &.shop {
+      background: url(../mobile/images/search_h1_shop_sp.png) left center no-repeat;
+      background-size: 20px 20px;
+    }
+    &.product {
+      background: url(../mobile/images/search_h1_product_sp.png) left center no-repeat;
+      background-size: 20px 20px;
+    }
+  }
+  > ul {
+    > li {
+      position: relative;
+      margin: 0;
+      padding: 0 7px;
+      &:before, &:after {
+        content: '';
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        height: 35px;
+        margin: auto;
+        background: #dfd7cc;
+      }
+      &:before {
+        display: block;
+        left: 0;
+      }
+      &:last-child:after {
+        display: block;
+        right: 0;
+      }
+      > a {
+        padding-top: 28px;
+        &.icn-list {
+          background: url(../mobile/images/img/list.png) top 6px center no-repeat;
+          background-size: 20px 15px;
+        }
+        &.icn-search {
+          background-image: url(../mobile/images/icon_search.png);
+          background-size: 22px 22px;
+        }
+        &.icn-sort {
+          background-image: url(../mobile/images/icon_sort.png);
+          background-size: 22px 14px;
+        }
+        &.icn-map {
+          background-image: url(../mobile/images/icon_map.png);
+          background-size: 19px 22px;
+        }
+      }
+    }
+  }
+}
+
+.ul-lists-list {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.shoplist-item {
+  padding-top: 0;
+  border-top: 0;
+  border: none;
+}
+
+&.control-fixed {
+  .sp-container {
+    padding-top: 97px;
+
+    & > .list-heading {
+      margin-bottom: 15px;
+    }
+
+    #fixed-control {
+      z-index: 999;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      .list-heading, .shoplist-ctrl {
+        margin: 0;
+      }
+
+      .shoplist-ctrl {
+        background-color: #fff;
+      }
+    }
+
+  }
+}
+
+/*add css shopsearch 25/10/2017*/
+#header {
+  height: 218px;
+}
+#header .fixheader {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  top: auto;
+}
+#header.fixed .fixheader {
+  position: fixed;
+  top: 0px;
+  z-index:77;
+}
+
+.list-heading h1 {
+  padding: 10px 15px;
+  background: #f3efe9;
+  color: #242424;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.list-heading >p {
+ padding: 10px 15px;
+ background: #f3efe9;
+ color: #242424;
+ font-weight: 700;
+}
+.fixheader .search-switch {
+  padding: 5px 15px;
+  background: #dfd7cc;
+  font-size: 0.9em;
+  text-align: right;
+}
+.fixheader .search-switch a {
+  position: relative;
+  padding: 0 10px 0 18px;
+  color: #916a41;
+}
+.fixheader .search-switch a.search-shop {
+  background: url(../mobile/images/search_shop_sp.png) left center no-repeat;
+  background-size: 14px 14px;
+}
+.fixheader .search-switch a.search-product {
+  background: url(../mobile/images/search_product_sp.png) left center no-repeat;
+  background-size: 14px 14px;
+}
+.fixheader .search-switch a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  height: 5px;
+  border-top: 1px solid #916a41;
+  border-right: 1px solid #916a41;
+  margin: auto;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.shoplist-ctrl {
+  padding: 10px 15px;
+  margin-bottom:0;
+}
+.shoplist-ctrl a.active {
+  background-color:#f1666d;
+  color:#ffffff;
+}
+.shoplist-ctrl .crtl-title {
+  padding: 0 0 0 26px;
+  color: #cb141a;
+  font-size: 13px;
+  font-weight: bold;
+}
+.shoplist-ctrl .crtl-title.shop {
+  background: url(../mobile/images/search_h1_shop_sp.png) left center no-repeat;
+  background-size: 20px 20px;
+}
+
+@media screen and (max-width:350px) {
+  .shoplist-ctrl .crtl-title.shop span{
+  display:block;
+  }
+  .shoplist-ctrl > ul > li {
+    font-size: 8px;
+  }
+
+}
+@media screen and (max-width:390px) {
+  .shoplist-ctrl .crtl-title {
+    font-size: 9px;
+    padding: 0 0 0 17px;
+  }
+  .shoplist-ctrl .crtl-title.shop {
+    background-size: 14px 14px;
+  }
+}
+
+
+.shoplist-ctrl .crtl-title.product {
+  background: url(../mobile/images/search_h1_product_sp.png) left center no-repeat;
+  background-size: 20px 20px;
+}
+.shoplist-ctrl > ul > li {
+  position: relative;
+  margin: 0;
+  padding: 0 7px;
+}
+.shoplist-ctrl > ul > li:before, .shoplist-ctrl > ul > li:after {
+  content: '';
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: 35px;
+  margin: auto;
+  background: #dfd7cc;
+}
+.shoplist-ctrl > ul > li:before {
+  display: block;
+  left: 0;
+}
+.shoplist-ctrl > ul > li:last-child:after {
+  display: block;
+  right: 0;
+}
+.shoplist-ctrl > ul > li > a {
+  padding-top: 28px;
+}
+.shoplist-ctrl > ul > li > a.icn-search {
+  background-image: url(../mobile/images/icon_search.png);
+  background-size: 22px 22px;
+}
+.shoplist-ctrl > ul > li > a.icn-sort {
+  background-image: url(../mobile/images/icon_sort.png);
+  background-size: 22px 14px;
+}
+.shoplist-ctrl > ul > li > a.icn-map {
+  background-image: url(../mobile/images/icon_map.png);
+  background-size: 19px 22px;
+}
+
+.ul-lists-list {
+  margin-top: 0;
+  border-top: 0;
+  padding-top:0;
+}
+
+.shoplist-item {
+    background: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+  border-top:0;
+}
+.checkbox01{
+    padding: 5px;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+.checkbox01-input{
+  display: none;
+}
+.checkbox01-parts{
+    padding-left: 25px;
+    position: relative;
+    color: #333;
+	margin-right:10px;
+    font-size: 11px;
+}
+.checkbox01-parts::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  border-radius: 4px;
+	background:#fff;
+}
+.checkbox01-input:checked + .checkbox01-parts::after{
+	content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    background: url(../mobile/images/icon-check.png) no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* 商品一覧new */
+.red-bar {
+  padding: 8px;
+    font-size: 0.9em;
+  margin: 0 !important;
+}
+
+.red-bar strong {
+  font-size: 1.6em;
+}
+
+
+.red-bar span {
+    font-size: 0.9em;
+    padding-left: 0.3em;
+}
+
+.sp-container {
+    padding: 15px 0 0 0;
+    background: #f3efe9;
+}
+
+.ul-lists-list li {
+  /*border-top: 1px solid #dfd7cc;*/
+    border-bottom: 1px solid #dfd7cc;
+  /*margin-top:10px;*/
+  background: #ffffff;
+  padding: 15px;
+}
+
+.ul-lists-list li:first-child {
+  border-top: 0px solid #dfd7cc;
+  margin-top:0;
+  padding-top:15px;
+}
+
+
+
+.p-f1 {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    padding: 0 0 10px;
+}
+
+.p-f1
+:after{
+  content: '';
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-top: solid 2px #dfd7cc;
+    border-right: solid 2px #dfd7cc;
+  -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 8px;
+    left: 96.5%;
+  margin-top: -5px;
+}
+
+.div-w-img {
+    width: 42%;
+}
+
+.thumb-l {
+    max-width: 145px;
+    width: 100%;
+    height: auto;
+}
+
+.item-detail {
+    width: 58%;
+    float: right;
+  overflow:hidden;
+  padding-left: 3%;
+}
+
+.item-note {
+    font-size: 0.96em;
+  overflow:hidden;
+  margin-bottom: 3%;
+}
+
+.item-note a {
+    color: #916a41;
+    display: inline-block;
+    width: 6em;
+    border-bottom: 1px solid #916a41;
+    text-align: right;
+    float: right;
+}
+
+.item-note a:before{
+  content:">";
+  padding-right:1%;
+}
+
+.ul-sizes{
+  overflow:hidden;
+}
+
+.ul-sizes li {
+    float: left;
+    background: #d7c5b1;
+    color: #FFF;
+    padding: 1% 3%!important;
+    margin: 0 2% 0 0!important;
+    font-size: 0.7em;
+    width: auto!important;
+    border-bottom: 0;
+}
+
+.p-pr {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+  margin: 1% 0;
+}
+
+.span-fix-bug {
+    font-size: 0.7em;
+}
+
+.c88 {
+    color: #000;
+    display: inline-block;
+  width: 13em;
+    font-weight: bold;
+  font-size: 0.9em;
+    background: #ffffff url(../mobile/images/search_h1_shop_sp.png) no-repeat top 53% left 0.5%;
+  background-size: 8%;
+  padding: 2% 0 2% 10%;
+}
+
+.c88 a{
+    border-bottom: 1px solid #242424;
+}
+
+.p-f2 {
+    display: block;
+    font-size: 0.85em;
+  background:#ffffff url("../mobile/images/icon_map.png") no-repeat top 10% left;
+  background-size: 8%;
+  padding: 1% 0 15px 10%
+}
+
+.itemBtn {
+    width: 100%;
+    clear: both;
+    display: block;
+  text-align: center;
+}
+
+.itemBtn .favoriteBtn,
+.itemBtn .reserveBtn{
+    display: inline-block;
+    width: 48%;
+  color:#ffffff;
+  padding:3%;
+  box-sizing: border-box;
+    text-align: center;
+  border-radius: 5px;
+}
+
+.itemBtn .favoriteBtn a,
+.itemBtn .reserveBtn a{
+  color:#ffffff;
+  padding: 5% 16%;
+  font-size: 0.9em;
+}
+
+.itemBtn .favoriteBtn{
+    background: #916a41 url(../mobile/images/favoriteBtn.png) no-repeat top 50% left 15%;
+    background-size: 10%;
+    padding-left: 7%;
+}
+
+.itemBtn .reserveBtn{
+    background: #cb141a url(../mobile/images/reserveBtn.png) no-repeat top 50% left 33%;
+    background-size: 10%;
+    padding-left: 6%;
+}
+
+.itemBtn .favoriteBtn a{
+  padding: 5% 8%;
+}
+
+.itemBtn .favoriteBtn.completed{
+  background:#f6848a url(../mobile/images/favoriteBtn.png) no-repeat top 50% left 28%;
+  background-size: 10%;
+    padding-left: 8%;
+}
+
+/* 店舗検索一覧 */
+.shoplist-item {
+    background: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: hidden;
+  border-top:0;
+  border-bottom: 1px solid #dfd7cc;
+  position:relative;
+}
+
+
+.ul-list-shop-main {
+  width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    background: #ffffff;
+}
+
+.shoplist-item .shop-name {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: 0px solid #eae7e2;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+h2:before{
+  content:none;
+}
+
+.shop-name :after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 0px;
+    border-top: solid 3px #dfd7cc;
+    border-right: solid 3px #dfd7cc;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 10px;
+    left: 95%;
+    margin-top: -5px;
+}
+
+.shoplist-item .shop-comment {
+    margin-top: 5px;
+}
+
+.shop-catch-copy{
+    font-size: 0.85em !important;
+    font-weight: 700;
+    color: #916a41;
+}
+
+.shop-information .shop-image,
+.shop-information .cake-image{
+    float: none !important;
+  display: inline-block;
+    width: 47% !important;
+}
+
+.shop-information .shop-image{
+  margin-right: 4.3%!important;
+
+}
+
+.shop-information .shop-image img,
+.shop-information .cake-image img{
+    max-width: 290px !important;
+    width: 100%;
+    height: auto;
+}
+
+.shoplist-item .shop-review {
+    margin: 3% 0 1%;
+}
+
+.shoplist-item .shop-review .review-rating {
+    background: #ffffff url(../mobile/images/comment_icon1.png) no-repeat top 3px right -1px;
+    background-size: 9%;
+    padding-right: 30px;
+}
+
+
+.shoplist-item .shop-review .review-number dt:after {
+    content: none;
+}
+
+.shoplist-item .shop-review .review-number dd a {
+    color: #000000;
+}
+
+.shoplist-item .shop-review .review-number {
+    margin-right: 0;
+    border-bottom: 1px solid #242424;
+}
+
+.shoplist-item .shop-cVoive{
+    width: 100%;
+  /*white-space: nowrap;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+  font-size: 0.8em;
+  // height: 2.8em;
+}
+
+.shoplist-item .shop-cVoiceMore {
+    display: inline-block;
+    vertical-align: top;
+    width: 10.6em;
+    color: #916a41;
+    font-size: 0.8em;
+    line-height: 1em;
+    text-decoration: none;
+    padding: 0 3px 3px;
+    text-align: right;
+    border-bottom: 1px solid #916a41;
+    float: right;
+}
+
+.shoplist-item .shop-cVoiceMore:before {
+    content: ">";
+    padding-right: 0.22em;
+}
+
+
+.shoplist-item .shop-access{
+    display: block;
+    font-size: 0.85em;
+    background: #ffffff url(../mobile/images/icon_map.png) no-repeat top 4px left;
+  background-size: 16px;
+  padding: 1.5% 0 1.5% 6%;
+  max-width: 100%;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+  clear: both;
+}
+
+
+.shoplist-item .shop-access a {
+    text-decoration: underline;
+}
+
+.shoplist-item .shop-hour{
+    display: block;
+    font-size: 0.85em;
+    background: #ffffff url(../mobile/images/hour_icon.png) no-repeat top 7px left;
+  background-size: 16px;
+  padding: 1.5% 0 1.5% 6%;
+  max-width: 100%;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+  clear: both;
+}
+
+.shoplist-item .shop-holiday{
+    display: block;
+    font-size: 0.85em;
+    background: #ffffff url(../mobile/images/date_icon.png) no-repeat top 7px left;
+  background-size: 16px;
+  padding: 1.5% 0 1.5% 6%;
+  max-width: 100%;
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+  clear: both;
+}
+
+.shop-category ul {
+  background:#f3efe9;
+  border-radius:6px;
+  padding: 2%;
+  margin: 10px 0 13px;
+}
+
+.shop-category ul li{
+    display: inline;
+}
+
+.shop-category ul li a {
+    color: #916a41;
+    font-size: 0.75em;
+}
+
+.shop-category ul li:after{
+    content:"/";
+  color: #916a41;
+padding-left: 1.6%;
+}
+
+.shop-category ul li:last-child:after{
+    content:"";
+}
+
+.itemBtn .shopBtn,
+.itemBtn .menuBtn{
+    display: inline-block;
+    width: 48%;
+  color:#ffffff;
+  padding: 3% 0;
+  box-sizing: border-box;
+    text-align: center;
+  border-radius: 5px;
+}
+
+.itemBtn .shopBtn a,
+.itemBtn .menuBtn a{
+  color:#ffffff;
+  padding: 7% 0;
+  font-size: 0.9em;
+}
+
+
+.itemBtn .shopBtn{
+background: #916a41 url(../mobile/images/shopBtn.png) no-repeat top 49% left 8%;
+    background-size: 9%;
+    padding-left: 6%;
+}
+
+.itemBtn .menuBtn{
+    background: #cb141a url(../mobile/images/menuBtn.png) no-repeat top 50% left 10%;
+    background-size: 10%;
+    padding-left: 5%;
+}
+
+.shoplist-item:last-child {
+    border-bottom: 1px solid #dfd7cc;
+}
+#header-f{
+  background-color: #fff;
+}
+.crop-290px{
+  max-width: 290px!important;
+  object-fit: cover;
+}
+
+@charset "utf-8";
+/* 20180119- shop検索一覧で住所を表示・路線追加 */
+
+.shoplist-item .shop-address {
+  display: block;
+    font-size: .85em;
+    padding: 1.5% 0 1.5% 6%;
+    max-width: 100%;
+    clear: both;
+    background: url(../img/icon_map.png) top 5px left no-repeat #fff;
+    background-size: 16px;
+}
+
+.shoplist-item .shop-address a{
+    border-bottom: 1px solid #333;
+    line-height: 1.5em;
+}
+
+.shoplist-item .address-shop-icon a {
+  border-bottom: 1px solid #333;
+  line-height: 1.5em;
+}
+
+.shoplist-item .shop-access {
+    background: url(../mobile/images/train_r.png) top 7px left no-repeat #fff;
+    background-size: 15px;
+}
+
+
+.shoplist-item .shop-access span a {
+    line-height: 1.5em;
+}
+
+.shoplist-item .shop-access span:before{
+  content:"/";
+  padding-right: 3px;
+}
+
+.shoplist-item .shop-access span:first-child:before{
+  content: none;
+}
+
+
+
+
+/* 20180119- cake検索一覧で住所を表示・路線追加 */
+
+.productsearch .shop_address {
+    display: block;
+    font-size: .85em;
+    background: url(../img/icon_map.png) top 1px left 1px no-repeat #fff;
+    background-size: 14px;
+    padding: 0 0 3% 6%;
+}
+
+.productsearch .shop_address a{
+    border-bottom: 1px solid #333;
+    line-height: 1.5em;
+}
+
+.productsearch .p-f2 {
+    background: url(../img/train_r.png) top 2px left 1px no-repeat #fff;
+    background-size: 15px;
+    padding: 0 0 5px 6%;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: visible;
+}
+
+.productsearch .p-f2 span a{
+    border-bottom: 1px solid #333;
+    line-height: 1.5em;
+}
+
+.productsearch .p-f2 span:before{
+  content:"/";
+  padding-right: 3px;
+}
+
+.productsearch .p-f2 span:first-child:before{
+  content: none;
+}
+
+/* =====================================
+            20180129 改修
+========================================*/
+
+/* h1と件数を別にする */
+
+.list-heading h1 {
+    font-size: 1em;
+}
+
+.list-heading.list-heading-ct {
+  font-size: 1em;
+  color: #242424;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.list-heading.list-heading-ct h1 {
+  padding: 0;
+  display: inline;
+}
+
+.sp-container .search_total {
+    text-align: right;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background: #f3efe9;
+}
+
+/* ケーキリストレイアウト変更 */
+
+.productsearch .item-note {
+    height: 90px;
+  font-size: .9em;
+}
+
+.productsearch .ul-sizes {
+    height: 23px;
+}
+
+.productsearch .c88 {
+    width: 100%;
+    background-size: 13px;
+    padding-left: 6%;
+}
+
+.productsearch .itemBtn .favoriteBtn {
+    background: url(../img/favorite_w.png) top 50% left 14% no-repeat #916a41;
+    background-size: 11%;
+    padding-left: 7%;
+}
+
+.productsearch .itemBtn .reserveBtn {
+    background: url(../img/reserve_w.png) top 50% left 30% no-repeat #cb141a;
+    background-size: 13%;
+    padding-left: 6%;
+}
+
+
+/* =====================================
+  20180314 グループ共通パーツつけた際の修正
+========================================*/
+
+.sp-container .paging .controls {
+  margin-bottom: 0;
+  padding: 0 15px 30px 15px;
+}
+
+
+
+/* =====================================
+  20180328 固定ヘッダーナビ周り再修正
+========================================*/
+.productsearch .list-heading h1 {
+    padding: 12px 9px;
+  line-height: 1.2em;
+}
+/* =====================================
+  20180426 キャッシュポ・事前決済OKアイコンの追加
+========================================*/
+
+.cashpo_kessai{
+  display:flex;
+    color: #916a41;
+    font-size: 0.9em;
+}
+.cashpo_icon{
+  background: #dfd7cc;
+    border-radius: 3px;
+    padding: 3px 6px;
+  margin-right:5px;
+}
+.kessai_icon{
+  background: #dfd7cc;
+    border-radius: 3px;
+    padding: 3px 6px;
+}

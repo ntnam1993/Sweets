@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html,
+body{padding:0;margin:0;}
+
+#epark_common{
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#epark_common ul{
+padding:0;
+}
+
+#epark_common a,
+#epark_common a:link,
+#epark_common a:hover{
+text-decoration:none;
+}
+
+#epark_common li{
+list-style-type:none;
+}
+
+#epark_common h1,
+#epark_common h2,
+#epark_common h3,
+#epark_common h4,
+#epark_common h5,
+#epark_common h6{font-size:100%;}
+
+/*copyrightが小さくならないように*/
+#epark_common footer{font-family: Helvetica, sans-serif;}
+
+#epark_common .box_lightgray{
+box-shadow: 0 -1px 0 0 #fff inset,0 1px 0 0 #fff inset;
+background-color:#f4f4f4;
+color:#666;
+}
+
+#epark_common .box_thinline{
+border:solid 1px #cccccc;
+}
+.epark_common_footer_pagetop{
+font-size:0.8rem;
+padding:1.1rem;
+text-align:center;
+border-bottom:1px solid #ccc;
+}
+
+.epark_common_footer_pagetop a{
+color:#333;
+background-image:url(../mobile/images/img/common_footer_expand-arrow.png);
+background-repeat:no-repeat;
+background-size:17px 9px;
+background-position:center 0;
+display:block;
+padding:15px 0 0;
+}
+
+.epark_common_footer_apri{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    height: 412px;
+  overflow:hidden;
+}
+
+.epark_common_footer_apri .epark_common_footer_apri_title{
+color:#333;
+font-size:0.9rem;
+text-align:center;
+padding:1rem;
+}
+.epark_common_footer_sns{
+padding:0.5rem;
+border-bottom:solid 1px #ccc;
+}
+
+.epark_common_footer_sns .epark_common_footer_sns_title{
+color:#333;
+font-size:0.9rem;
+text-align:center;
+padding:1rem 1rem 0 1rem;
+
+}
+
+.epark_common_footer_sns .epark_common_footer_sns_content{
+  width:100%;
+  display: -webkit-flex;
+  display:flex;
+    align-items: center;
+}
+
+.epark_common_footer_sns .epark_common_footer_sns_content li{
+margin-right:10px;
+width:33%;
+}
+
+.epark_common_footer_sns .epark_common_footer_sns_content li:last-child{
+margin-right:0;
+}
+
+.epark_common_footer_sns .epark_common_footer_sns_content li img{
+width:100%;
+}
+
+.epark_common_footer_eparklink>a{
+display:block;
+padding: 0.5rem 1.5rem;
+text-align:center;
+}
+
+.epark_common_footer_eparklink>a>img{
+max-width:615px;
+width:100%;
+
+}
+
+.epark_common_footer_eparklink ul li{
+width:50%;
+box-sizing:border-box;
+display:block;
+float:left;
+text-align:center;
+}
+
+.epark_common_footer_eparklink ul li.full{
+width:100%;
+}
+
+.epark_common_footer_eparklink ul li a{
+box-shadow: 0 -1px 0 0 #fff inset,0 1px 0 0 #fff inset,1px 1px 0 0 #ccc,-1px -1px 0 0 #ccc;
+font-size:0.8rem;
+color:#333;
+background-color:#f4f4f4;
+padding:1em 0 1em;
+width:100%;
+display:inline-block;
+}
+#epark_common footer{
+clear:left;
+font-size:0.7rem;
+color:#fff;
+background-color:#666;
+padding:1.5rem 0 1.5rem;
+text-align:center;
+}
+
+/*bxslider*/
+.bxslider .bx-pager{
+  clear: both;
+}
+
+.bxslider li{
+text-align:center!important;
+}
+
+.bx-pager-link.active {
+    background: none repeat scroll 0 0 #b3d465 !important;
+}
+.bx-pager-link {
+    background: none repeat scroll 0 0 #cce198 !important;
+}
+
+.bx-wrapper {
+margin:0 auto 0;
+font-size:0.7rem;
+}
+
+.bx-wrapper a,
+.bx-wrapper a:link,
+.bx-wrapper a:hover{
+color:#333;
+font-weight:bolder;
+text-align:center;
+}
+
+.bx-wrapper {
+   margin-bottom: 30px!important;
+ }
+
+ .bx-wrapper {
+  -moz-box-shadow:none!important;
+  -webkit-box-shadow:none!important;
+  box-shadow:none!important;
+  border:none!important;
+  background:none!important;
+}
+
+#epark_common_footer footer {
+    margin-top: 0;
+}
+

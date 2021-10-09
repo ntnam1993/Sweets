@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+.pc-content{
+  display: block;
+  overflow: hidden;
+}
+
+.t-path {
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+ul.header-nav {
+  margin: 0 0 10px 0!important;
+  text-align: right;
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+
+.pc-container {
+  display: table;
+  margin-top: 20px;
+}
+
+.pc-container .col_left {
+  display: table-cell;
+  width: 22%;
+  vertical-align: top;
+}
+
+.pc-container .col_right {
+  display: table-cell;
+  width: 78%;
+  vertical-align: top;
+  padding-left: 15px;
+}
+
+/* 左カラム（ナビ） */
+
+.side_nav{
+  padding:0 5px;
+}
+
+.side_nav ul li > a{
+  display: block;
+  width: 100%;
+  margin-bottom: 3px;
+  background: #ffffff;
+  padding: 12px 0 12px 3.2em;
+  text-align: left;
+  border: 1px solid #dfd7cc;
+  border-radius: 5px;
+  color: #916a41;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.side_nav ul li:first-child {
+  border: 1px solid #dfd7cc;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding: 2px 0 8px;
+  text-align: left;
+  color: #916a41;
+  font-weight: bold;
+}
+
+.side_nav ul li:first-child p:first-child{
+  padding: 8px 12px 8px 47px;
+  background: url(../pc/images/user.png) no-repeat top 7px left 15px;
+  background-size: 25px;
+}
+
+.side_nav ul li:first-child span.username {
+  font-size: 14px;
+  color: #916a41;
+}
+
+.side_nav ul li:first-child p:first-child small{
+  font-size: 11px;
+}
+
+.side_nav ul li:first-child p:nth-child(2){
+  background: #dfd7cc;
+  padding: 10px 0 10px 12px;
+}
+
+.side_nav ul li:first-child p:nth-child(2) span:first-child,
+.side_nav ul li:first-child p:nth-child(2) span:nth-child(2){
+  padding-right: 1em;
+}
+
+.side_nav ul li:first-child p:last-child{
+  font-weight: normal;
+  font-size: 12px;
+  padding: 8px 12px 0;
+}
+
+.side_nav ul li:first-child p:last-child a{
+  text-decoration: underline;
+  color: #916a41;
+}
+
+.side_nav ul li.current a{
+  background: #cb141a;
+  border: 0;
+  color:#ffffff;
+}
+
+.side_nav ul li.mypage > a{
+  background: url(../pc/images/top_b.png) no-repeat top 50% left 15px;
+  background-size: 19px;
+}
+.side_nav ul li.mypage.current > a{
+  background: #cb141a url(../pc/images/top_w.png) no-repeat top 50% left 15px;
+  background-size: 19px;
+  color:#ffffff;
+}
+
+.side_nav ul li.reserve > a{
+  background: url(../pc/images/reserve_b.png) no-repeat top 50% left 14px;
+  background-size: 23px;
+}
+.side_nav ul li.reserve.current > a{
+  background: #cb141a url(../pc/images/reserve_w.png) no-repeat top 50% left 14px;
+  background-size: 23px;
+  color:#ffffff;
+}
+
+.side_nav ul li.reading > a{
+  background: url(../pc/images/history_b.png) no-repeat top 50% left 14px;
+  background-size: 21px;
+}
+.side_nav ul li.reading.current > a{
+  background: #cb141a url(../pc/images/history_w.png) no-repeat top 50% left 14px;
+  background-size: 21px;
+  color:#ffffff;
+}
+
+.side_nav ul li.favorite > a{
+  background: url(../pc/images/favorite_b.png) no-repeat top 50% left 16px;
+  background-size: 18px;
+}
+.side_nav ul li.favorite.current > a{
+  background: #cb141a url(../pc/images/favorite_w.png) no-repeat top 50% left 16px;
+  background-size: 18px;
+  color:#ffffff;
+}
+
+.side_nav ul li.comment > a{
+  background: url(../pc/images/review_b.png) no-repeat top 50% left 15px;
+  background-size: 20px;
+}
+.side_nav ul li.comment.current > a{
+  background: #cb141a url(../pc/images/review_w.png) no-repeat top 50% left 15px;
+  background-size: 20px;
+  color:#ffffff;
+}
+
+.side_nav ul li.coupon > a{
+  background: url(../pc/images/coupon_b.png) no-repeat top 50% left 12px;
+  background-size: 24px;
+}
+.side_nav ul li.coupon.current > a{
+  background: #cb141a url(../pc/images/coupon_w.png) no-repeat top 50% left 12px;
+  background-size: 24px;
+  color:#ffffff;
+}
+
+
+.side_nav ul li.purchase > a{
+  background: url(../pc/images/cart_b.png) no-repeat top 50% left 12px;
+  background-size: 21px;
+}
+.side_nav ul li.purchase.current > a{
+  background: #cb141a url(../pc/images/cart_w.png) no-repeat top 50% left 12px;
+  background-size: 21px;
+  color:#ffffff;
+}
+
+
+.side_nav ul li.delivery > a{
+  background: url(../pc/images/delivery_b.png) no-repeat top 50% left 14px;
+  background-size: 21px;
+}
+.side_nav ul li.delivery.current > a{
+  background: #cb141a url(../pc/images/delivery_w.png) no-repeat top 50% left 14px;
+  background-size: 21px;
+  color:#ffffff;
+}
+
+
+.side_nav ul li.family > a{
+  background: url(../pc/images/family.png) no-repeat top 50% left 14px;
+  background-size: 22px;
+}
+
+.side_nav ul li.entry > a{
+  background: url(../pc/images/user.png) no-repeat top 50% left 14px;
+  background-size: 22px;
+}
+.side_nav ul li.entry.current > a{
+  background: #cb141a url(../pc/images/user_w.png) no-repeat top 50% left 14px;
+  background-size: 22px;
+  color:#ffffff;
+}
+
+.col_left .advise {
+  text-align: left;
+  font-size: 12px;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0 0 6px;
+}
+
+.w-650 {
+  width: 450px!important;
+}
+
+/* update-info 右カラム */
+header {
+  margin: 0 auto 30px;
+}
+
+h2.bor0{
+  background: url("../img/user_r.png") no-repeat top 9px left;
+  background-size: 20px;
+  border-bottom: 3px solid #ded7cc;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+.bor0 .bor0-span {
+  color: #d8494e;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.p-btn {
+  margin: 15px 0 30px;
+}
+
+.btn {
+  color: #ffffff;
+  background: #916a41;
+  border: 3px solid #916a41;
+  font-weight: bold;
+}
+
+
+/* member-info 右カラム */
+
+.fz24 {
+  font-size: 16px;
+  color: #d8494e;
+  border-bottom: 3px solid #dfd7cc;
+  background: url("../img/user_r.png") no-repeat top 9px left;
+  background-size: 20px;
+  border-top: 0;
+  padding-left: 25px;
+
+}
+
+
+.w-250{
+  width:250px !important;
+}
+
+.p-btn .stop ,
+.p-btn .out{
+  width: 160px;
+  border: 3px solid #e4dbce!important;
+  background: #f3efe9!important;
+  color: #916a41;
+  margin-left: 5px;
+}
+
+.p-btn .btn.next:hover {
+  color: #ffffff!important;
+}
+
+/* reserve 右カラム */
+div.mypage div.item-detil h3 {
+  margin-top: 0;
+}
+
+/* favorite 右カラム */
+ul.item-comment-list {
+  margin-top: 10px;
+}
+
+div.summary span {
+  margin: 0;
+  font-size: 12px;
+}
+
+.p-title-52 {
+  margin: 8px 0;
+}
+
+ul.evaluation-list {
+  width: 100%;
+}
+
+ul.evaluation-list li {
+  padding: 0 10px;
+}
+
+/* reviews_old 右カラム */
+.listTab{
+  display: table;
+  width:100%;
+}
+
+.listTab > li{
+  display: table-cell;
+  width:22%;
+  text-align: left;
+}
+
+.listTab .listTab_li{
+  display: table-cell;
+  width:78%;
+}
+
+.listTab .listTab_li li:first-child{
+  border: 1px solid #dfd7cc;
+}
+
+.listTab .listTab_li > li{
+  margin-bottom: 10px;
+}
+
+
+/* otodokesaki 右カラム */
+
+.return_onlineShop{
+  display: block;
+  width:95%;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.return_onlineShop a:before{
+  content: ">";
+  padding-right: 7px;
+}
+
+
+/* purchase 右カラム */
+.purchase-history {
+  margin: 0 0 50px;
+}
+
+.delivery-status {
+  margin: 0;
+}
+
+.return_onlineShop.full{
+  width:100%;
+}
+
+/* edit-list 右カラム */
+.delivery h2{
+ background: url(../img/delivery_r.png) no-repeat top 12px left;
+ background-size: 20px;
+}
+
+table.table01 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin:35px 0;
+}
+
+table.table01 tr {
+  border-top: 1px dashed #dfd7cc;
+}
+
+table.table01 tr:last-child {
+  border-bottom: 1px dashed #dfd7cc;
+}
+
+
+table.table01 th {
+  padding: 0.5em 1em;
+  background: #f3efe9;
+  color: #916a41;
+  text-align: left;
+  width: 270px;
+  height: 3.6em;
+}
+
+table.table01 tr:not(:first-child):not(:last-child) th {
+}
+
+.indispensableMark {
+  font-size: 100%;
+  font-style: normal;
+  font-family: Verdana,sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #d8494e;
+}
+
+table.table01 td {
+  background: #fff;
+  text-align: left;
+  padding: 12px 1em 9px;
+  vertical-align: middle;
+  height: 3.6em;
+  color: #916a41;
+}
+
+table.table01 td label{
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+table.table01 td label span{
+  position: relative;
+  top: 8px;
+}
+
+table.table01 td label:nth-child(2) span{
+  padding-left: 20px;
+}
+
+table.table01 td label input{
+  float: right;
+  margin-left: 10px;
+}
+
+.inputNtext {
+  width: 180px;
+}
+
+.type03 {
+  width: 90px;
+  display: inline-block;
+}
+
+.type03:first-child {
+  margin-right: 4px;
+}
+
+td .list02 li{
+  display: inline-block;
+}
+
+.itemList .btn02{
+  display: block;
+}
+
+.itemList .btn02 .btnS,
+.itemList .btn02 .btnM{
+  display: inline-block;
+  margin-bottom: 30px;
+}

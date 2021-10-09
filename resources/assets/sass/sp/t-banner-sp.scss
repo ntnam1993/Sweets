@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.top-banner{
+  max-width:640px;
+  height:auto;
+}
+
+ul.top-banner li img{
+  max-width: 100%;
+  height:auto;
+}
+.slick-list {
+  overflow: hidden;
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+  width: 0;
+}
+
+
+@media screen and (max-width:414px) {
+  ul.top-banner{
+    max-width: 414px;
+    height:auto;
+  }
+
+  ul.top-banner li img{
+    max-width: 414px;
+    height:auto;
+  }
+  .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 414px !important;
+  }
+}
+
+@media screen and (max-width:375px) {
+  ul.top-banner{
+    max-width: 375px;
+    height:auto;
+  }
+
+  ul.top-banner li img{
+    max-width: 375px;
+    height:auto;
+  }
+  .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 375px !important;
+  }
+}
+@media screen and (max-width:360px) {
+  ul.top-banner{
+    max-width: 360px;
+    height:auto;
+  }
+
+  ul.top-banner li img{
+    max-width: 360px;
+    height:auto;
+  }
+  .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 360px !important;
+  }
+}
+
+@media screen and (max-width:320px) {
+  ul.top-banner{
+    max-width: 320px;
+    height:auto;
+  }
+
+  ul.top-banner li img{
+    max-width: 320px;
+    height:auto;
+  }
+}
+
+
